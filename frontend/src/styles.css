@@ -65,12 +65,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .compact-hero .hero h1 { font-size: clamp(24px, 2vw, 30px); word-break: keep-all; }
 .compact-hero .hero > p:not(.eyebrow) { display: none; }
 .readme-panel { overflow: auto; max-height: calc(100vh - 82px); background: var(--paper); scroll-behavior: smooth; }
-.chapter-tabs { position: sticky; top: 0; z-index: 5; display: grid; grid-template-columns: repeat(4, 1fr); padding: 18px 5vw 0; background: rgba(251, 252, 249, .94); border-bottom: 1px solid var(--line); backdrop-filter: blur(14px); }
-.chapter-tabs button { min-width: 0; border: 0; border-bottom: 3px solid transparent; background: transparent; color: #798596; padding: 15px 12px 17px; text-align: left; cursor: pointer; font-size: 12px; transition: color .2s, border-color .2s, background .2s; }
-.chapter-tabs button span { display: block; margin-bottom: 7px; color: #a1aab6; font: 10px 'IBM Plex Mono'; letter-spacing: .1em; }
-.chapter-tabs button:hover { background: #f0f3ee; color: var(--ink); }
-.chapter-tabs button.selected { color: var(--ink); border-bottom-color: var(--blue); }
-.chapter-tabs button.selected span { color: var(--blue); }
+.chapter-tabs-bar { position: sticky; top: 0; z-index: 5; padding: 12px 5vw; background: rgba(251, 252, 249, .94); border-bottom: 1px solid var(--line); backdrop-filter: blur(14px); }
+.chapter-tabs { width: min(100%, 720px); margin-left: auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; padding: 5px; border: 1px solid rgba(7, 17, 31, .1); border-radius: 999px; background: rgba(255, 255, 255, .86); box-shadow: 0 10px 32px rgba(18, 35, 49, .07); }
+.chapter-tabs button { min-width: 0; min-height: 40px; display: flex; align-items: center; justify-content: center; gap: 8px; border: 0; border-radius: 999px; background: transparent; color: #687586; padding: 0 14px; cursor: pointer; font-size: 11px; white-space: nowrap; transition: background .2s, color .2s, transform .2s; }
+.chapter-tabs button span { color: #9aa5b2; font: 9px 'IBM Plex Mono'; }
+.chapter-tabs button:hover { background: #edf1ec; color: var(--ink); transform: translateY(-1px); }
+.chapter-tabs button.selected { color: white; background: var(--ink); box-shadow: 0 6px 18px rgba(7, 17, 31, .18); }
+.chapter-tabs button.selected span { color: var(--acid); }
 .chapter-content { min-height: 70vh; padding: 5vw; }
 .chapter-footer { padding: 0 5vw 5vw; }
 .chapter-next { width: 100%; display: flex; align-items: center; justify-content: space-between; border: 0; border-top: 1px solid var(--line); background: transparent; color: var(--ink); padding: 25px 4px 8px; text-align: left; cursor: pointer; font-size: 19px; font-weight: 700; }
@@ -201,8 +202,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .compact-hero .hero { padding: 34px 26px; }
   .compact-hero .hero h1 { font-size: 30px; margin: 16px 0 0; }
   .readme-panel { max-height: none; }
-  .chapter-tabs { padding: 10px 12px 0; overflow-x: auto; }
-  .chapter-tabs button { padding: 12px 8px 14px; font-size: 10px; }
+  .chapter-tabs-bar { padding: 10px 12px; }
+  .chapter-tabs { width: 100%; padding: 3px; }
+  .chapter-tabs button { min-height: 36px; gap: 5px; padding: 0 6px; font-size: 9px; }
+  .chapter-tabs button span { font-size: 8px; }
   .chapter-content { padding: 36px 22px; }
   .chapter-footer { padding: 0 22px 40px; }
   .profile-cover { min-height: 0; grid-template-columns: minmax(130px, 210px) 1fr; gap: 30px; border-radius: 24px; }

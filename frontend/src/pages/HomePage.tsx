@@ -76,20 +76,22 @@ export function HomePage() {
         </p>
       </section>
       <section className="readme-panel" ref={panelRef}>
-        <div className="chapter-tabs" role="tablist" aria-label="프로젝트 문서 읽기 순서">
-          {chapters.map((item, index) => (
-            <button
-              key={item.id}
-              type="button"
-              role="tab"
-              aria-selected={activeChapter === index}
-              className={activeChapter === index ? 'selected' : ''}
-              onClick={() => selectChapter(index)}
-            >
-              <span>{item.number}</span>
-              {item.label}
-            </button>
-          ))}
+        <div className="chapter-tabs-bar">
+          <div className="chapter-tabs" role="tablist" aria-label="프로젝트 문서 읽기 순서">
+            {chapters.map((item, index) => (
+              <button
+                key={item.id}
+                type="button"
+                role="tab"
+                aria-selected={activeChapter === index}
+                className={activeChapter === index ? 'selected' : ''}
+                onClick={() => selectChapter(index)}
+              >
+                <span>{item.number}</span>
+                {item.label}
+              </button>
+            ))}
+          </div>
         </div>
         <div className="chapter-content">
           {error ? (
