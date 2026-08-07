@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "설치 방법",
+      "raw_status": "간단함",
+      "excerpt": "기계치인데 설치방법 어렵지 않고 간단해서 좋았어요.",
+      "opinion": "기계치도 설치 방법이 어렵지 않고 간단해서 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤 두께",
+      "raw_status": "얇음",
+      "excerpt": "베젤 사이즈가 기가막히게 얇아서 좋구요.",
+      "opinion": "베젤 사이즈가 매우 얇아서 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질도 선명하고 고해상도라 더 맘에 드네요.",
+      "opinion": "화질이 선명해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "해상도",
+      "raw_status": "고해상도",
+      "excerpt": "화질도 선명하고 고해상도라 더 맘에 드네요.",
+      "opinion": "해상도가 높아서 더 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

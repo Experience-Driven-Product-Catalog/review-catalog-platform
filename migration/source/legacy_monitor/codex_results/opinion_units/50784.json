@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "합리적",
+      "excerpt": "가격이 합리적인 것 같아요.",
+      "opinion": "가격이 합리적인 것 같음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깔끔하고 선명함",
+      "excerpt": "모니터 화질도 깔끔하고 선명하지만, 모니터는 조금 작은 느낌은 드네요.",
+      "opinion": "모니터 화질이 깔끔하고 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "작게 느껴짐",
+      "excerpt": "모니터 화질도 깔끔하고 선명하지만, 모니터는 조금 작은 느낌은 드네요.",
+      "opinion": "모니터가 조금 작게 느껴짐",
+      "sentiment": "negative"
+    }
+  ]
+}

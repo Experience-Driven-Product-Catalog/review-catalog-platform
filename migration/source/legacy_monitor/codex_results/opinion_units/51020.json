@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비가 좋아서 저번에 사고 추가로 구매했습니다.",
+      "opinion": "가성비가 좋아 이전 구매 후 추가로 구매함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "재구매",
+      "raw_status": "추가 구매",
+      "excerpt": "가성비가 좋아서 저번에 사고 추가로 구매했습니다.",
+      "opinion": "이전에 구매한 뒤 추가로 구매함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "깔끔함",
+      "excerpt": "게이밍 컴퓨터치고 디자인도 깔끔합니다.",
+      "opinion": "게이밍 컴퓨터치고 디자인이 깔끔함",
+      "sentiment": "positive"
+    }
+  ]
+}

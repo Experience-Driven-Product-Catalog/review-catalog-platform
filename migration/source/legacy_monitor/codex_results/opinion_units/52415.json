@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "설치",
+      "raw_status": "용이함",
+      "excerpt": "우선 설치도 용이해서 잘 쓰고 있어요.",
+      "opinion": "설치가 용이해서 잘 사용하고 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "영상·영화 감상 기능",
+      "raw_status": "아쉬움",
+      "excerpt": "영상 혹은 영화 보기 용이나 디자인 작업용으로는 기능이 좀 아쉽긴 해요.",
+      "opinion": "영상이나 영화 감상용으로는 기능이 좀 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "디자인 작업 기능",
+      "raw_status": "아쉬움",
+      "excerpt": "영상 혹은 영화 보기 용이나 디자인 작업용으로는 기능이 좀 아쉽긴 해요.",
+      "opinion": "디자인 작업용으로는 기능이 좀 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

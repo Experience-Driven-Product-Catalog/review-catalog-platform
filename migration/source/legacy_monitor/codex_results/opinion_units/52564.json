@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "브랜드 신뢰도",
+      "raw_status": "믿을 만함",
+      "excerpt": "000 모니터라 믿고 구입했어요",
+      "opinion": "삼성 모니터라 믿고 구입함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "구매 가격",
+      "raw_status": "저렴함",
+      "excerpt": "매우 저렴하게 구매해서 좋아요",
+      "opinion": "매우 저렴하게 구매해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 상태",
+      "raw_status": "문제없음",
+      "excerpt": "문제없는 양품으로 와서 잘 사용하고 있어요",
+      "opinion": "문제없는 양품으로 받아 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용 경험",
+      "raw_status": "원활함",
+      "excerpt": "문제없는 양품으로 와서 잘 사용하고 있어요",
+      "opinion": "문제없이 잘 사용하고 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

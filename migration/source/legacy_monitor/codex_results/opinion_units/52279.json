@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "OTT 시청",
+      "raw_status": "편리함",
+      "excerpt": "케이블만 연결하면 바로 OTT 볼 수 있어서 편합니다",
+      "opinion": "케이블만 연결하면 바로 OTT를 볼 수 있어 편리함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "버퍼링",
+      "raw_status": "심함",
+      "excerpt": "버퍼링이 좀 심해서 답답한 적이 좀 많이 있었어요.",
+      "opinion": "버퍼링이 꽤 심해 답답했던 적이 많았음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "재방송 프로그램 선택권",
+      "raw_status": "부족함",
+      "excerpt": "재방송 프로그램 선택권이 별로 없어서 볼 게 없네요.",
+      "opinion": "재방송 프로그램 선택권이 부족함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "볼거리",
+      "raw_status": "부족함",
+      "excerpt": "재방송 프로그램 선택권이 별로 없어서 볼 게 없네요.",
+      "opinion": "볼 수 있는 콘텐츠가 부족해 볼 것이 없음",
+      "sentiment": "negative"
+    }
+  ]
+}

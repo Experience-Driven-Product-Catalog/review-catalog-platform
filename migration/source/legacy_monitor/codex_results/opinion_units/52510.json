@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비 좋은 제품으로 선택 잘 했어요",
+      "opinion": "가성비가 좋아 제품을 잘 선택했다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "메뉴버튼 위치",
+      "raw_status": "뒤쪽에 있음",
+      "excerpt": "메뉴버튼이 모니터 앞쪽에 없고 뒤쪽에 둬서 조작하기 불편하네요",
+      "opinion": "메뉴버튼이 모니터 앞쪽이 아니라 뒤쪽에 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "조작 편의성",
+      "raw_status": "불편함",
+      "excerpt": "메뉴버튼이 모니터 앞쪽에 없고 뒤쪽에 둬서 조작하기 불편하네요",
+      "opinion": "메뉴버튼이 뒤쪽에 있어 조작하기 불편함",
+      "sentiment": "negative"
+    }
+  ]
+}

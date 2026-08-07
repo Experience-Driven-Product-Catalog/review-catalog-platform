@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 외관",
+      "raw_status": "잔기스 없음",
+      "excerpt": "잔기스도 없이 마감 깔끔하게 받아보니 품질이 정말좋아요.",
+      "opinion": "잔기스 없이 제품을 받음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "마감",
+      "raw_status": "깔끔함",
+      "excerpt": "잔기스도 없이 마감 깔끔하게 받아보니 품질이 정말좋아요.",
+      "opinion": "제품 마감이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 품질",
+      "raw_status": "우수함",
+      "excerpt": "잔기스도 없이 마감 깔끔하게 받아보니 품질이 정말좋아요.",
+      "opinion": "제품 품질이 정말 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전환속도",
+      "raw_status": "매우 빠름",
+      "excerpt": "게이밍이라서  전환속도 엄청 빨라서 깜짝 놀랐어요^0^",
+      "opinion": "게이밍 모니터답게 전환속도가 매우 빨라서 놀람",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질 완전 선명해서 감동했어요.",
+      "opinion": "화질이 매우 선명해서 감동함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "피벗 기능",
+      "raw_status": "편리함",
+      "excerpt": "또한  피벗 기능으로 모니터 각도 바꾸는 것도 훨씬 편해요!",
+      "opinion": "피벗 기능으로 모니터 각도를 바꾸기 훨씬 편함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 사용",
+      "raw_status": "불편함 없음",
+      "excerpt": "불편함 없이 사용중입니다.",
+      "opinion": "현재 모니터를 불편함 없이 사용 중임",
+      "sentiment": "positive"
+    }
+  ]
+}

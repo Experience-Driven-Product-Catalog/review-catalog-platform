@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질 선명함",
+      "raw_status": "좋음",
+      "excerpt": "와 모니터  화질 선명함이 대박 좋네요~",
+      "opinion": "모니터 화질의 선명함이 대단히 좋아 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "마감처리",
+      "raw_status": "좋음",
+      "excerpt": "마감처리며 이음새며 상태가 아주 좋아서 1개 더 주문했어요^^",
+      "opinion": "마감처리가 아주 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "이음새",
+      "raw_status": "좋음",
+      "excerpt": "마감처리며 이음새며 상태가 아주 좋아서 1개 더 주문했어요^^",
+      "opinion": "이음새가 아주 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 상태",
+      "raw_status": "좋음",
+      "excerpt": "마감처리며 이음새며 상태가 아주 좋아서 1개 더 주문했어요^^",
+      "opinion": "제품 상태가 아주 좋아 모니터를 한 개 더 주문함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "추가 주문",
+      "raw_status": "발생",
+      "excerpt": "상태가 아주 좋아서 1개 더 주문했어요^^",
+      "opinion": "제품 상태가 아주 좋아 한 개를 추가로 주문함",
+      "sentiment": "positive"
+    }
+  ]
+}

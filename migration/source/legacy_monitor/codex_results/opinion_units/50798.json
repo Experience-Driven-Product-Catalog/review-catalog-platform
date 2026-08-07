@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "조립",
+      "raw_status": "쉬움",
+      "excerpt": "그리고 이전 모델에 비해 조립은 정말 쉽게 할 수 있었답니다.",
+      "opinion": "이전 모델에 비해 조립을 정말 쉽게 할 수 있었음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈의 피로감",
+      "raw_status": "덜 느껴짐",
+      "excerpt": "눈부심 방지를 위한 패널사용으로 눈의 피로감이 덜 느껴져서 맘에 들었습니다.",
+      "opinion": "눈부심 방지 패널 사용으로 눈의 피로감이 덜 느껴져 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

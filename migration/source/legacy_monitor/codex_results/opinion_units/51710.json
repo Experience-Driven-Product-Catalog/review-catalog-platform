@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "품질",
+      "raw_status": "하자 없음",
+      "excerpt": "하자없는 품질이라 좋습니다.",
+      "opinion": "하자 없는 품질이라 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "블랙 색상",
+      "raw_status": "깨끗해 보임",
+      "excerpt": "블랙색상이 전체적으로 깨끗해보이고",
+      "opinion": "블랙 색상이 전체적으로 깨끗해 보임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "고급스러움",
+      "excerpt": "고급스러운 디자인도 맘에 들고",
+      "opinion": "고급스러운 디자인이 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "견고함",
+      "raw_status": "단단함",
+      "excerpt": "충격에도 버텨줄 단단한 견고함까지",
+      "opinion": "충격에도 버틸 만큼 단단하고 견고해 보임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "넘 잘 산거같아요!!",
+      "opinion": "제품을 잘 구매했다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "AS",
+      "raw_status": "확실함",
+      "excerpt": "AS까지 확실해서 넘 만족입니다!",
+      "opinion": "AS가 확실해서 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "디스플레이 패널이 좋아서 선명한 화질이 놀랍네요.",
+      "opinion": "디스플레이 패널이 좋아 선명한 화질이 놀라움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 사이즈",
+      "raw_status": "더 큼이 바람직함",
+      "excerpt": "모니터 사이즈가 좀 더 크면 좋겠다 하는 아쉬움이 있네요.",
+      "opinion": "모니터 사이즈가 좀 더 크면 좋겠다고 느껴 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

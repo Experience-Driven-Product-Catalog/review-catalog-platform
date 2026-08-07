@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "전부 마음에 듭니다.",
+      "opinion": "배송 지연을 제외하면 제품 전반이 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "조립",
+      "raw_status": "간편함",
+      "excerpt": "조립도 간편하고 품질도 나름 괜찮습니다.",
+      "opinion": "조립이 간편함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "품질",
+      "raw_status": "괜찮음",
+      "excerpt": "조립도 간편하고 품질도 나름 괜찮습니다.",
+      "opinion": "품질이 나름 괜찮음",
+      "sentiment": "positive"
+    }
+  ]
+}

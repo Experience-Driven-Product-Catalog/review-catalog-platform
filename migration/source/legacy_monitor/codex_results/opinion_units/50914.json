@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "품질",
+      "raw_status": "만족스러움",
+      "excerpt": "품질 퀄리티 만족스러워서",
+      "opinion": "업무용으로 사용해 보니 품질이 만족스러워 부모님용으로 추가 주문함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "쨍하고 선명하며 밝음",
+      "excerpt": "화질도 타제품 모니터들보다 쨍하니 선명하고 밝고",
+      "opinion": "화질이 타제품 모니터들보다 쨍하고 선명하며 밝음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "일단 화면이 커서 보기 시원하다고 좋아하십니다.",
+      "opinion": "화면이 커서 보기 시원함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가정용 사용",
+      "raw_status": "추천",
+      "excerpt": "가정용으로도 강추합니다.",
+      "opinion": "가정용으로도 강력히 추천함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 설치",
+      "raw_status": "쉬움",
+      "excerpt": "모니터 설치가 너무 쉬워서 좋았어요.",
+      "opinion": "모니터 설치가 너무 쉬워서 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하고 깔끔함",
+      "excerpt": "화질도 선명하고 깔끔해서 만족하며 잘 쓰고 있어요.",
+      "opinion": "화질이 선명하고 깔끔해서 만족하며 잘 사용하고 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

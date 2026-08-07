@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 주사율",
+      "raw_status": "144HZ",
+      "excerpt": "이 가격에 144HZ와 27인치의 게이밍 모니터를 쓰니",
+      "opinion": "144HZ 모니터를 사용함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "27인치",
+      "excerpt": "이 가격에 144HZ와 27인치의 게이밍 모니터를 쓰니",
+      "opinion": "27인치 모니터를 사용함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "몰입감",
+      "raw_status": "높음",
+      "excerpt": "정말 쓸 데마다 몰입이 잘되고",
+      "opinion": "모니터를 사용할 때마다 몰입이 잘됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용 즐거움",
+      "raw_status": "높음",
+      "excerpt": "신이 납니다.",
+      "opinion": "모니터를 사용하면서 매우 즐거움",
+      "sentiment": "positive"
+    }
+  ]
+}

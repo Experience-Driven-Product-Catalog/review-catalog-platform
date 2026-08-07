@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "사용해보고 좋아서",
+      "opinion": "제품을 사용해보니 좋아서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "다중 모니터 사용",
+      "raw_status": "편리함",
+      "excerpt": "모니터 두개 같이 쓰니 편하고 좋아요",
+      "opinion": "모니터 두 개를 함께 사용하니 편리하고 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 연결",
+      "raw_status": "수월함",
+      "excerpt": "pc에 모니터 2개 같이 연결하고 설치 하는데 수월하니 괜찮았어요",
+      "opinion": "PC에 모니터 두 개를 함께 연결하는 과정이 수월함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치",
+      "raw_status": "수월함",
+      "excerpt": "pc에 모니터 2개 같이 연결하고 설치 하는데 수월하니 괜찮았어요",
+      "opinion": "모니터 설치 과정이 수월함",
+      "sentiment": "positive"
+    }
+  ]
+}

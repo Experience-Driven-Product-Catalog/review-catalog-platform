@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "색재현율",
+      "raw_status": "높음",
+      "excerpt": "색재현율이 높아서 컬럼감이 풍부한 패널의 품질은 대만족이에요.",
+      "opinion": "색재현율이 높음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "컬럼감",
+      "raw_status": "풍부함",
+      "excerpt": "색재현율이 높아서 컬럼감이 풍부한 패널의 품질은 대만족이에요.",
+      "opinion": "색재현율이 높아 컬럼감이 풍부함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "패널 품질",
+      "raw_status": "대만족",
+      "excerpt": "색재현율이 높아서 컬럼감이 풍부한 패널의 품질은 대만족이에요.",
+      "opinion": "색재현율이 높고 컬럼감이 풍부한 패널의 품질에 대만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "매달 비싸짐",
+      "excerpt": "가격이 매달 비싸져서 불만 이네요 ㅜㅜ",
+      "opinion": "가격이 매달 비싸져서 불만임",
+      "sentiment": "negative"
+    }
+  ]
+}

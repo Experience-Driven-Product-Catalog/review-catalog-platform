@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "최고",
+      "excerpt": "20만원대에 최고급 사양의 제품이라니... 진짜 가성비 최고네요..",
+      "opinion": "20만원대 가격에 최고급 사양이라 가성비가 최고라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 사양",
+      "raw_status": "최고급",
+      "excerpt": "20만원대에 최고급 사양의 제품이라니...",
+      "opinion": "20만원대 가격대의 제품 사양이 최고급이라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "대만족",
+      "excerpt": "대만족입니다.",
+      "opinion": "제품 전반에 대해 대만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 화질",
+      "raw_status": "매우 선명함",
+      "excerpt": "화면 화질이 매우 선명하고 결점이 보이지 않아 마음에 들어요..",
+      "opinion": "화면 화질이 매우 선명해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 결점",
+      "raw_status": "보이지 않음",
+      "excerpt": "화면 화질이 매우 선명하고 결점이 보이지 않아 마음에 들어요..",
+      "opinion": "화면에서 결점이 보이지 않아 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

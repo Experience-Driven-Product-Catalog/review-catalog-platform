@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "작은 크기의 모니터 사용하다가 바꾸니 시원시원해서 넘 좋아요!!",
+      "opinion": "작은 크기의 모니터를 사용하다가 바꾸니 화면이 시원시원해서 매우 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스피커",
+      "raw_status": "내장되지 않음",
+      "excerpt": "스피커 내장형이 아닌 점은 별로네요 ㅠㅠ",
+      "opinion": "스피커가 내장형이 아닌 점이 별로임",
+      "sentiment": "negative"
+    }
+  ]
+}

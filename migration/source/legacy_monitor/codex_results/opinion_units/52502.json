@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "넓음",
+      "excerpt": "24인치 쓰다가 27인치로 커지니 화면이 확실히 넓고 신세계네요",
+      "opinion": "24인치에서 27인치로 커지니 화면이 확실히 넓어 신세계처럼 느껴짐",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "거의 없음",
+      "excerpt": "베젤이 거의 없어 화면 볼때 몰입감이 뛰어나요",
+      "opinion": "베젤이 거의 없어 화면을 볼 때 몰입감이 뛰어남",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화면 몰입감",
+      "raw_status": "뛰어남",
+      "excerpt": "베젤이 거의 없어 화면 볼때 몰입감이 뛰어나요",
+      "opinion": "베젤이 거의 없어 화면을 볼 때 몰입감이 뛰어남",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깨끗하고 선명함",
+      "excerpt": "화질이 깨끗하고 선명하니 영화볼때 좋아요",
+      "opinion": "화질이 깨끗하고 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "영화 감상",
+      "raw_status": "좋음",
+      "excerpt": "화질이 깨끗하고 선명하니 영화볼때 좋아요",
+      "opinion": "깨끗하고 선명한 화질 덕분에 영화 볼 때 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "제품 가성비가 좋아 강력 추천해요",
+      "opinion": "제품 가성비가 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "강력 추천",
+      "excerpt": "제품 가성비가 좋아 강력 추천해요",
+      "opinion": "제품을 강력히 추천함",
+      "sentiment": "positive"
+    }
+  ]
+}

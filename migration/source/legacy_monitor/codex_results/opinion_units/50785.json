@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격 대비 품질",
+      "raw_status": "우수함",
+      "excerpt": "가성비 갑인 제품입니다! 이 가격에 이 퀄리티라니!!",
+      "opinion": "이 가격에 비해 제품 품질이 매우 우수하다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 크기",
+      "raw_status": "적합함",
+      "excerpt": "서브모니터로 사용하는데 크기도 적합합니다.",
+      "opinion": "서브모니터로 사용하기에 크기가 적합함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 색감",
+      "raw_status": "선명함",
+      "excerpt": "화면 색감도 선명해서 넘 좋고요.",
+      "opinion": "화면 색감이 선명해서 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

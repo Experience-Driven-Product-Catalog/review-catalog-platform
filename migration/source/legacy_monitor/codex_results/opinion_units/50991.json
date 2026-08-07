@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족함",
+      "excerpt": "역시 OOO제품은 실망시키는 법이 없네요 아주 만족합니다~",
+      "opinion": "제품이 실망스럽지 않고 매우 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "불량화소도 하나도 없는 좋은 품질의 제품이 와서 기분도 좋았어요",
+      "opinion": "불량화소가 하나도 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "품질",
+      "raw_status": "좋음",
+      "excerpt": "불량화소도 하나도 없는 좋은 품질의 제품이 와서 기분도 좋았어요",
+      "opinion": "불량화소가 없는 좋은 품질의 제품을 받음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 수령 후 기분",
+      "raw_status": "좋음",
+      "excerpt": "불량화소도 하나도 없는 좋은 품질의 제품이 와서 기분도 좋았어요",
+      "opinion": "불량화소가 없는 좋은 품질의 제품이 와서 기분이 좋았음",
+      "sentiment": "positive"
+    }
+  ]
+}

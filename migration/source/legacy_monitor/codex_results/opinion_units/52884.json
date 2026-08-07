@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "부품",
+      "raw_status": "불량",
+      "excerpt": "새제품이 부품블량이라서 굉장히 불쾌해요ㅠㅠ",
+      "opinion": "새제품의 부품이 불량이라서 굉장히 불쾌함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "스탠드 높이 조절",
+      "raw_status": "잘 안 됨",
+      "excerpt": "스탠드가 놓이 조절은 잘 안되서  많이 아쉽네요",
+      "opinion": "스탠드의 높이 조절이 잘 안 돼서 많이 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

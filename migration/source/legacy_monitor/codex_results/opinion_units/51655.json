@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "훌륭함",
+      "excerpt": "역시 소문대로 가성비가 훌륭합니다.",
+      "opinion": "소문대로 가성비가 훌륭하다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "예상보다 큼",
+      "excerpt": "사이즈결정을 잘못했네요ㅠ 예상했던 것보다 화면이 많이 커요ㅠ 24를 살걸 그랬어요",
+      "opinion": "예상했던 것보다 화면이 많이 커서 사이즈 선택을 잘못했다고 후회함",
+      "sentiment": "negative"
+    }
+  ]
+}

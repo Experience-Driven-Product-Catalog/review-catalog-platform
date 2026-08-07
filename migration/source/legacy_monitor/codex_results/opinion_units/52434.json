@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "날씬함",
+      "excerpt": "모양도 날씬하니 아주 좋아요",
+      "opinion": "모니터 모양이 날씬해서 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격도 저렴하여 굿!!",
+      "opinion": "가격이 저렴해서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

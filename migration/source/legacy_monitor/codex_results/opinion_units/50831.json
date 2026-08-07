@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "사용 용도",
+      "raw_status": "보조 모니터",
+      "excerpt": "보조 모니터로 사용 중인데 크기가 넉넉해서 넘 좋아요^^",
+      "opinion": "보조 모니터로 사용 중임",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "넉넉함",
+      "excerpt": "보조 모니터로 사용 중인데 크기가 넉넉해서 넘 좋아요^^",
+      "opinion": "보조 모니터로 사용하기에 크기가 넉넉해서 매우 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "장시간 사용 시 눈 피로",
+      "raw_status": "없음",
+      "excerpt": "장시간 사용해도 눈도 피로하지 않고 만족합니다!!",
+      "opinion": "장시간 사용해도 눈이 피로하지 않음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "장시간 사용해도 눈도 피로하지 않고 만족합니다!!",
+      "opinion": "제품 사용 경험에 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

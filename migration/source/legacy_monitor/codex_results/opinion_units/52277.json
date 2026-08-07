@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "OTT 시청",
+      "raw_status": "적합함",
+      "excerpt": "방에서 책상용으로 ott용 모니터로 최고네요",
+      "opinion": "방에서 책상용 OTT 시청 모니터로 매우 적합하다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스마트 기능",
+      "raw_status": "즉시 OTT 시청 가능",
+      "excerpt": "스마트 모니터라 버튼 누르면 바로 ott 볼수 있어 편리해요",
+      "opinion": "스마트 모니터 기능으로 버튼을 누르면 바로 OTT를 볼 수 있어 편리함",
+      "sentiment": "positive"
+    }
+  ]
+}

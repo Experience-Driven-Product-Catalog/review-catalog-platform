@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 저렴해서 좋구요.",
+      "opinion": "가격이 저렴해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 흠",
+      "raw_status": "별다른 흠 없음",
+      "excerpt": "별다른 흠이 없는 제품을 구입해서 더 기분 좋아요.",
+      "opinion": "제품에 별다른 흠이 없어 기분이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 신뢰도",
+      "raw_status": "믿음이 생김",
+      "excerpt": "OOO제품하면 믿음이 저절로 생기는 힘이 있답니다!",
+      "opinion": "OOO 제품이라 믿음이 저절로 생김",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가정용 활용",
+      "raw_status": "적합함",
+      "excerpt": "가정용으로나 사무용도로 활용하기에 딱 들어맞는 제품이네요^^",
+      "opinion": "가정용으로 활용하기에 딱 들어맞음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사무용 활용",
+      "raw_status": "적합함",
+      "excerpt": "가정용으로나 사무용도로 활용하기에 딱 들어맞는 제품이네요^^",
+      "opinion": "사무용도로 활용하기에 딱 들어맞음",
+      "sentiment": "positive"
+    }
+  ]
+}

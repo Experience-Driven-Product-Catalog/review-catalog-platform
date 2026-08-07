@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "발생",
+      "excerpt": "요즘도 불량화소가 있네요ㅠ. 그것도 유명브랜드 제품에서요.",
+      "opinion": "유명 브랜드 제품인데도 불량화소가 발생함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "실망스러움",
+      "excerpt": "굉장히 실망스럽습니다.",
+      "opinion": "제품 사용 경험에 굉장히 실망함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "브랜드 이미지",
+      "raw_status": "저하됨",
+      "excerpt": "OOO도 이제 한물 가는건가요. 예전 OOO가 아니네요 이제.",
+      "opinion": "브랜드가 예전 같지 않고 이제는 한물간 것 같다고 평가함",
+      "sentiment": "negative"
+    }
+  ]
+}

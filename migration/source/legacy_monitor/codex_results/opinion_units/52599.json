@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "1개 발견",
+      "excerpt": "불량 화소 하나 발견했는데, 아랫쪽 이라 그냥 쓸 건데...좀 아쉽네요.",
+      "opinion": "아랫쪽에서 불량 화소 하나를 발견했으며, 그냥 사용하겠지만 조금 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "산뜻함",
+      "excerpt": "디자인도 산뜻해서 좋아요~",
+      "opinion": "디자인이 산뜻해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "보급형에 맞는 저렴함",
+      "excerpt": "가격도 보급형에 맞는 착한 가격이라 맘에 들어요.",
+      "opinion": "가격이 보급형에 맞는 착한 가격이라 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

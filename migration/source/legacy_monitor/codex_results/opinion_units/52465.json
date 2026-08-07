@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "구매 가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 상승하고 있는 상황인데 저렴하게 잘 구입해서 기분 좋아요",
+      "opinion": "가격이 상승하고 있는 상황에서 저렴하게 구입해서 기분이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "동봉 케이블",
+      "raw_status": "지저분함",
+      "excerpt": "같이 온 케이블이 지저분해서 기분이 상했어요",
+      "opinion": "같이 온 케이블이 지저분해서 기분이 상함",
+      "sentiment": "negative"
+    }
+  ]
+}

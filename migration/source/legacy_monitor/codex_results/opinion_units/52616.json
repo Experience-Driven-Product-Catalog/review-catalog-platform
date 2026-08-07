@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "연결 케이블",
+      "raw_status": "맞지 않음",
+      "excerpt": "연결케이블 이상이 있어 잘 맞지 않아서 추가로 구입했네요ㅠ",
+      "opinion": "연결 케이블에 이상이 있어 잘 맞지 않아 추가로 구입함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "생각보다 큼",
+      "excerpt": "화면도 생각보다 큰편이이어서 좀 그렇네요ㅠ",
+      "opinion": "화면이 생각보다 커서 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

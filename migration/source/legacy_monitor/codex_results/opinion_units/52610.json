@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 하자",
+      "raw_status": "특별한 하자 없음",
+      "excerpt": "특별한 하자도 없는 제품이어서 만족도는 좋습니다.",
+      "opinion": "제품에 특별한 하자가 없어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족스러움",
+      "excerpt": "특별한 하자도 없는 제품이어서 만족도는 좋습니다.",
+      "opinion": "제품 전반에 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "문서작업용도",
+      "raw_status": "부적합",
+      "excerpt": "단지 문서작업용도로는 와이드 스타일의 모니터가 적합하지는 않네요ㅠ",
+      "opinion": "와이드 스타일의 모니터는 문서작업용도로 적합하지 않다고 느낌",
+      "sentiment": "negative"
+    }
+  ]
+}

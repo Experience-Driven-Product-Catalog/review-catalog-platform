@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "세련되고 고급스러움",
+      "excerpt": "디자인도 세련되고 고급지네요.",
+      "opinion": "디자인이 세련되고 고급스러워 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색상",
+      "raw_status": "선명함",
+      "excerpt": "색상도 애매하지않고 선명해서 맘에 듭니다.",
+      "opinion": "색상이 애매하지 않고 선명해서 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

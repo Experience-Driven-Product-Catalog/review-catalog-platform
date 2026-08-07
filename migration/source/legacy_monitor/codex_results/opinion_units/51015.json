@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "부품 상태",
+      "raw_status": "불량 없음",
+      "excerpt": "불량인 부품도 없고",
+      "opinion": "불량인 부품이 없어서 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "상품 상태",
+      "raw_status": "좋음",
+      "excerpt": "넘 좋은 상태의 상품을 받아서 좋았습니당~~",
+      "opinion": "상품 상태가 매우 좋아서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

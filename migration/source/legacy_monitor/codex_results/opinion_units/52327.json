@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "활용도",
+      "raw_status": "높음",
+      "excerpt": "컴퓨터 모니터, 게임용, 영상 시청용 등 활용도가 높아 편리해요~~",
+      "opinion": "컴퓨터 모니터, 게임용, 영상 시청용 등으로 활용도가 높아 편리함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격 대비 해상도 구성",
+      "raw_status": "4K",
+      "excerpt": "가격대비 4K 해상도라는 구성이 만족이고~",
+      "opinion": "가격 대비 4K 해상도라는 구성이 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "실제 사용해보니 화질 선명하고  만족합니다~",
+      "opinion": "실제 사용해 보니 화질이 선명하고 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

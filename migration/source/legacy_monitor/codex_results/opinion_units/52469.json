@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "거의 없음",
+      "excerpt": "베젤이 거의 없고",
+      "opinion": "베젤이 거의 없어 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "깔끔함",
+      "excerpt": "디자인도 깔끔하고",
+      "opinion": "디자인이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "괜찮음",
+      "excerpt": "화질도 정말 괜찮아요.",
+      "opinion": "화질이 정말 괜찮음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "무겁지 않음",
+      "excerpt": "무게도 무겁지 않고",
+      "opinion": "무게가 무겁지 않아 부담이 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "조립",
+      "raw_status": "쉬움",
+      "excerpt": "조립도 쉽고",
+      "opinion": "조립이 쉬움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "각도 조절",
+      "raw_status": "가능함",
+      "excerpt": "각도조절도 돼서 편하고",
+      "opinion": "각도 조절이 가능해서 편리함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "모두 만족합니다.",
+      "opinion": "제품 전반에 모두 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

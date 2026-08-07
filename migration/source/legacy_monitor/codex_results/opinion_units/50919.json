@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "업무효율",
+      "raw_status": "향상",
+      "excerpt": "업무효율을 위해 노트북과 듀얼모니터로 연결하여 쓰니 좋으네요 만족합니다.",
+      "opinion": "노트북과 듀얼모니터로 연결해 사용하니 업무효율이 향상되어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "듀얼모니터 연결 사용",
+      "raw_status": "만족스러움",
+      "excerpt": "업무효율을 위해 노트북과 듀얼모니터로 연결하여 쓰니 좋으네요 만족합니다.",
+      "opinion": "노트북과 듀얼모니터로 연결하여 사용하는 경험이 좋고 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "가장 저렴함",
+      "excerpt": "가격도 찾아보던 것 중에 제일 저렴해서 좋아요",
+      "opinion": "가격이 찾아보던 제품 중 가장 저렴해서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

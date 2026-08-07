@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 저렴하고",
+      "opinion": "가격이 저렴해서 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질도 선명하고",
+      "opinion": "화질이 선명해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "몰입감",
+      "raw_status": "뛰어남",
+      "excerpt": "몰입감이 뛰어나서 만족해요",
+      "opinion": "몰입감이 뛰어나서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

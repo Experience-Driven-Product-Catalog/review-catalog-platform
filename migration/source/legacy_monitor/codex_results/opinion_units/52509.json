@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "모니터 평균무게에 비교하면 가벼운 편이라 이동하기 좋네요",
+      "opinion": "모니터 평균 무게와 비교하면 가벼워서 이동하기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비 좋은 제품으로 쓰기는 좋아요",
+      "opinion": "가성비가 좋아 사용하기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전원 메뉴 버튼 조작",
+      "raw_status": "번거로움",
+      "excerpt": "전원 메뉴 버튼을 조작하기 번거롭게 한점은 마음에 안드네요",
+      "opinion": "전원 메뉴 버튼 조작이 번거로워 마음에 들지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

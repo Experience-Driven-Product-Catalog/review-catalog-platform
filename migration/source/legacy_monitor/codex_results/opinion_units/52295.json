@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "블루투스 제어",
+      "raw_status": "가능",
+      "excerpt": "스마트모니터라 블루투스 제어도 되고",
+      "opinion": "블루투스 제어가 가능해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "티비·OTT 재생",
+      "raw_status": "원활함",
+      "excerpt": "티비나 ott 잘 나와서 좋아요",
+      "opinion": "티비나 OTT가 잘 재생되어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "반응속도",
+      "raw_status": "느림",
+      "excerpt": "반응속도가 느리지만 게임하는데에는 큰 문제는 없어요",
+      "opinion": "반응속도는 느리지만 게임하는 데 큰 문제는 없음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "게임 사용",
+      "raw_status": "큰 문제 없음",
+      "excerpt": "반응속도가 느리지만 게임하는데에는 큰 문제는 없어요",
+      "opinion": "반응속도가 느려도 게임하는 데에는 큰 문제가 없음",
+      "sentiment": "positive"
+    }
+  ]
+}

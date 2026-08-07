@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "스탠드 높이",
+      "raw_status": "만족스러움",
+      "excerpt": "스탠드 이 정도 높이면 만족스럽고요~",
+      "opinion": "스탠드 높이가 이 정도면 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤 두께",
+      "raw_status": "얇음",
+      "excerpt": "베젤도 얇아서 몰입하기 좋고 깔끔하네요ㅎㅎ",
+      "opinion": "베젤이 얇아 몰입하기 좋고 화면이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "몰입감",
+      "raw_status": "좋음",
+      "excerpt": "베젤도 얇아서 몰입하기 좋고 깔끔하네요ㅎㅎ",
+      "opinion": "얇은 베젤 덕분에 몰입하기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "외관",
+      "raw_status": "깔끔함",
+      "excerpt": "베젤도 얇아서 몰입하기 좋고 깔끔하네요ㅎㅎ",
+      "opinion": "외관이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "적당함",
+      "excerpt": "보조 모니터로 쓰는데 사이즈도 적당해서 만족스러워요!",
+      "opinion": "보조 모니터로 사용하기에 화면 크기가 적당해서 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

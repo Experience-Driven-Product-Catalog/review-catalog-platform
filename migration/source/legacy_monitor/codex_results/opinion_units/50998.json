@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 하자",
+      "raw_status": "없음",
+      "excerpt": "하자 없고",
+      "opinion": "제품에 하자가 없어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "마감",
+      "raw_status": "깔끔함",
+      "excerpt": "마감도 깔끔한 제품",
+      "opinion": "제품 마감이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색감",
+      "raw_status": "화려함",
+      "excerpt": "색감이 어찌나 화려한지 눈이 즐겁네요.",
+      "opinion": "색감이 매우 화려해서 보는 즐거움이 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색상",
+      "raw_status": "아름다움",
+      "excerpt": "색상이 너무 이뻐요.",
+      "opinion": "색상이 매우 예쁨",
+      "sentiment": "positive"
+    }
+  ]
+}

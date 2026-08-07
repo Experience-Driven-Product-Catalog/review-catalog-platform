@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "정상 출력",
+      "excerpt": "제 컴퓨터에는 따로 케이블연결하고 나니 정상적으로 주사율 나오네요^^",
+      "opinion": "본인 컴퓨터에서는 케이블을 따로 연결한 후 정상적인 주사율이 나옴",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임 화면",
+      "raw_status": "부드러움",
+      "excerpt": "부드러운 게임 화면 좋아요.",
+      "opinion": "게임 화면이 부드러워서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "받침대 내구성",
+      "raw_status": "약해 보임",
+      "excerpt": "받침대 내구성이 약해보여요ㅠ조심해야될것 같습니다.",
+      "opinion": "받침대 내구성이 약해 보여 조심해서 사용해야 할 것 같음",
+      "sentiment": "negative"
+    }
+  ]
+}

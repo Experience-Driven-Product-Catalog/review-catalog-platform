@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "화질이 선명하고 깨끗해서 보기 좋아요",
+      "opinion": "화질이 선명하고 깨끗해서 보기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "이름값 미충족",
+      "excerpt": "000제품이 모니터로 유명한데 그 이름값 만큼 못하네요",
+      "opinion": "모니터로 유명한 제품이지만 기대한 이름값만큼 하지 못함",
+      "sentiment": "negative"
+    }
+  ]
+}

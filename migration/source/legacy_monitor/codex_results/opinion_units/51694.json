@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "아쉬움",
+      "excerpt": "OOO 제품에 대한 기대가 컸는지...여러 부분이 좀 아쉬워요.",
+      "opinion": "제품에 대한 기대가 컸던 탓인지 여러 부분이 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 저렴하니",
+      "opinion": "가격이 저렴함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용 용도",
+      "raw_status": "보조용 사용",
+      "excerpt": "보조용으로 그냥 쓰렵니다.",
+      "opinion": "제품을 보조용으로 사용하려 함",
+      "sentiment": "neutral"
+    }
+  ]
+}

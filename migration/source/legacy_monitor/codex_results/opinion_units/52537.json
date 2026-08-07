@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "패널 상단",
+      "raw_status": "벌어짐",
+      "excerpt": "제품 패널 상단이 벌어져 있었어요",
+      "opinion": "제품 패널 상단이 벌어져 있었음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "제품 검수",
+      "raw_status": "미흡함",
+      "excerpt": "검수가 잘 안되서 불량품 받으니 불쾌해요",
+      "opinion": "검수가 잘 되지 않아 불량품을 받아 불쾌함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "실망스러움",
+      "excerpt": "000 제품인데 이런경우 처음이네요 실망스러워요",
+      "opinion": "000 제품에서 이런 경우는 처음이라 실망스러움",
+      "sentiment": "negative"
+    }
+  ]
+}

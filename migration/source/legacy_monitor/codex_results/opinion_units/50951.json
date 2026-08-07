@@ -1,0 +1,60 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격 대비 가치",
+      "raw_status": "높음",
+      "excerpt": "비싼 값어치 합니다!!",
+      "opinion": "가격이 비싸지만 그만큼의 값어치를 함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족스러움",
+      "excerpt": "그이상으로 만족스럽네요.",
+      "opinion": "기대 이상으로 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 품질",
+      "raw_status": "정상",
+      "excerpt": "정상품질에 하자없는 제품이라 좋고.",
+      "opinion": "제품 품질이 정상이고 하자가 없어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "빛샘",
+      "raw_status": "없음",
+      "excerpt": "빛샘 없고",
+      "opinion": "빛샘이 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "불량화소 없고",
+      "opinion": "불량화소가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "선명하고",
+      "opinion": "화면이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 표시",
+      "raw_status": "매끄러움",
+      "excerpt": "매끄럽고",
+      "opinion": "화면 표시가 매끄러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "매우 만족스러움",
+      "excerpt": "화질도 대만족입니다!!",
+      "opinion": "화질에 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

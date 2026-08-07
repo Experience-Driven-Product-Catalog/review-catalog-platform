@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "별로임",
+      "excerpt": "노트북 화면과 비교되게 화질이 별로네요...",
+      "opinion": "노트북 화면과 비교하면 화질이 별로임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "스피커 내장 여부",
+      "raw_status": "내장되지 않음",
+      "excerpt": "스피커가 내장되지 않아서 그것도 별로...",
+      "opinion": "스피커가 내장되지 않아 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

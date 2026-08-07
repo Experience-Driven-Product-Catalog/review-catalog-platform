@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "사무용으로 편하게 쓸 만함",
+      "excerpt": "사무용으로 편하게 쓸 만한 화질이라 만족합니다",
+      "opinion": "화질이 사무용으로 편하게 사용할 만해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "있음",
+      "excerpt": "가성비 있는 제품이라 만족하고요~",
+      "opinion": "가성비가 있어서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

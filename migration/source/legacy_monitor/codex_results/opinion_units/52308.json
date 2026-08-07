@@ -1,0 +1,67 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "스마트 모니터 기능",
+      "raw_status": "지원",
+      "excerpt": "스마트 모니터인데다가",
+      "opinion": "스마트 모니터 기능을 지원함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임기 충전",
+      "raw_status": "가능",
+      "excerpt": "게임기충전",
+      "opinion": "게임기 충전이 가능함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "OOO 연결",
+      "raw_status": "가능",
+      "excerpt": "OOO연결이 가능하고",
+      "opinion": "OOO 연결이 가능함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "대만족",
+      "excerpt": "스마트 모니터인데다가 게임기충전, OOO연결이 가능하고, 듀얼모니터 용도로 2대를, 인터넷 영상용으로 한대를 사용하니 정말 진심 대만족입니다.",
+      "opinion": "여러 용도로 사용해 보니 전반적으로 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "파격적",
+      "excerpt": "가격 또한 파격적이구요.",
+      "opinion": "가격이 파격적으로 저렴하다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "PC 연결",
+      "raw_status": "다른 케이블로 가능",
+      "excerpt": "다른 케이블로는 PC연결이 되지만 HDMI 케이블로는 연결이 잘 안되네요ㅠ",
+      "opinion": "다른 케이블을 사용하면 PC 연결이 가능함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "HDMI 케이블 PC 연결",
+      "raw_status": "불량",
+      "excerpt": "다른 케이블로는 PC연결이 되지만 HDMI 케이블로는 연결이 잘 안되네요ㅠ",
+      "opinion": "HDMI 케이블로는 PC 연결이 잘 되지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "무엇보다 32인치의 화면크기로 큰 화면을 볼 수 있어 시원시원하구요.",
+      "opinion": "32인치의 큰 화면을 볼 수 있어 시원시원함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "높고 선명함",
+      "excerpt": "UHD 4K의 해상도로 높은 화질의 선명한 화면을 볼 수 있어 좋답니다.",
+      "opinion": "UHD 4K 해상도로 높은 화질의 선명한 화면을 볼 수 있어 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

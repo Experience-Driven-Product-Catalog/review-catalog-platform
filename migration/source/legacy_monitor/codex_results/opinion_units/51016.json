@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "완전 만족합니다.",
+      "opinion": "제품 전반에 완전히 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 화질",
+      "raw_status": "깔끔함",
+      "excerpt": "QHD 깔끔하고 진짜 좋습니다.",
+      "opinion": "QHD 화면이 깔끔하고 정말 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "조립",
+      "raw_status": "쉬움",
+      "excerpt": "무엇보다 조립이 정말 쉽고 편해요.",
+      "opinion": "조립이 정말 쉽고 편함",
+      "sentiment": "positive"
+    }
+  ]
+}

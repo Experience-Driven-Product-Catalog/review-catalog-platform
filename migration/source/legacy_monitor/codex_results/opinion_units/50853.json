@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "노트북 연결 시 글씨 선명도",
+      "raw_status": "떨어짐",
+      "excerpt": "노트북으로 연결하면 글씨 선명도가 떨어지네요ㅠ",
+      "opinion": "노트북으로 연결하면 글씨 선명도가 떨어짐",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "괜찮음",
+      "excerpt": "그 외 다른 품질은 좋은 편이라 괜찮았어요",
+      "opinion": "글씨 선명도 외 다른 품질은 좋은 편이라 전반적으로 괜찮았음",
+      "sentiment": "positive"
+    }
+  ]
+}

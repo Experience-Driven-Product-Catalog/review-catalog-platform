@@ -1,0 +1,198 @@
+x-catalog-environment: &catalog-environment
+  REVIEW_CATALOG_DATABASE_URL: postgresql+psycopg://airflow:${POSTGRES_PASSWORD:-airflow}@postgres:5432/review_catalog
+  REVIEW_CATALOG_CATALOG_DATA_ROOT: /data/catalog
+  REVIEW_CATALOG_TAXONOMY_MANIFEST_PATH: /opt/project/config/taxonomy/20260803-213339.json
+  REVIEW_CATALOG_NORMALIZATION_CONFIG_PATH: /opt/project/config/normalization/20260803-213339.yaml
+  REVIEW_CATALOG_LEGACY_MIGRATION_ROOT: /opt/project/migration/source
+  REVIEW_CATALOG_INGESTION_INBOX_PATH: /opt/project/ingestion/inbox_reviews.json
+  REVIEW_CATALOG_EXTRACTION_BACKEND: ${EXTRACTION_BACKEND:-codex_cli}
+  REVIEW_CATALOG_EXTRACTION_MODEL: ${EXTRACTION_MODEL:-gpt-5.6-luna}
+  REVIEW_CATALOG_EXTRACTION_REASONING_EFFORT: ${EXTRACTION_REASONING_EFFORT:-high}
+  REVIEW_CATALOG_DEPLOYMENT_REVISION: ${DEPLOYMENT_REVISION:-local}
+  REVIEW_CATALOG_OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+  CODEX_HOME: /home/airflow/.codex
+  REVIEW_CATALOG_EMBEDDING_BACKEND: sentence_transformer
+  REVIEW_CATALOG_EMBEDDING_MODEL_PATH: /opt/project/models/snunlp--KR-SBERT-Medium-extended-klueNLItriplet_PARpair_QApair-klueSTS
+  REVIEW_CATALOG_EMBEDDING_DEVICE: cpu
+  REVIEW_CATALOG_EMBEDDING_LOCAL_FILES_ONLY: "true"
+
+x-airflow-common: &airflow-common
+  image: review-catalog-platform-airflow:${REVIEW_CATALOG_VERSION:-0.4.0}
+  build:
+    context: .
+    dockerfile: docker/airflow.Dockerfile
+    args:
+      REVIEW_CATALOG_EXTRAS: ${REVIEW_CATALOG_EXTRAS:-[embedding,reclustering]}
+      CODEX_CLI_VERSION: ${CODEX_CLI_VERSION:-0.146.0}
+  environment: &airflow-environment
+    <<: *catalog-environment
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__PARALLELISM: "8"
+    AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${POSTGRES_PASSWORD:-airflow}@postgres:5432/airflow
+    AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY:-MDEyMzQ1Njc4OWFiY2RlZjAxMjM0NTY3ODlhYmNkZWY=}
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__CORE__EXECUTION_API_SERVER_URL: http://airflow-apiserver:8080/execution/
+    AIRFLOW__API_AUTH__JWT_SECRET: ${AIRFLOW_JWT_SECRET:-local-review-catalog-jwt-secret-change-before-production-0123456789-abcdef}
+    AIRFLOW__API_AUTH__JWT_ISSUER: airflow
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: "true"
+  user: "${AIRFLOW_UID:-50000}:0"
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags:ro
+    - ./migration:/opt/project/migration:ro
+    - ./models:/opt/project/models:ro
+    - ./ingestion:/opt/project/ingestion:ro
+    - airflow_logs:/opt/airflow/logs
+    - catalog_data:/data/catalog
+    - codex_auth:/home/airflow/.codex
+  depends_on:
+    postgres:
+      condition: service_healthy
+    catalog-init:
+      condition: service_completed_successfully
+
+services:
+  postgres:
+    image: postgres:16.9-alpine
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-airflow}
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  catalog-init:
+    image: alpine:3.22
+    user: "0:0"
+    command: ["sh", "-c", "mkdir -p /data/catalog && chown -R ${AIRFLOW_UID:-50000}:0 /data/catalog && chmod -R g+rwX /data/catalog && find /data/catalog -type d -exec chmod g+s {} +"]
+    volumes:
+      - catalog_data:/data/catalog
+
+  airflow-init:
+    <<: *airflow-common
+    user: "0:0"
+    environment:
+      <<: *airflow-environment
+      _AIRFLOW_DB_MIGRATE: "true"
+      _AIRFLOW_WWW_USER_CREATE: "true"
+      _AIRFLOW_WWW_USER_USERNAME: ${AIRFLOW_USERNAME:-airflow}
+      _AIRFLOW_WWW_USER_PASSWORD: ${AIRFLOW_PASSWORD:-airflow}
+    command: version
+    restart: "no"
+
+  airflow-apiserver:
+    <<: *airflow-common
+    command: api-server
+    ports:
+      - "${AIRFLOW_BIND_ADDRESS:-127.0.0.1}:8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/api/v2/monitor/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+    depends_on:
+      postgres:
+        condition: service_healthy
+      catalog-init:
+        condition: service_completed_successfully
+      airflow-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  airflow-pool-init:
+    <<: *airflow-common
+    command: python /opt/project/scripts/init_airflow_pool.py
+    environment:
+      <<: *airflow-environment
+      AIRFLOW_BASE_URL: http://airflow-apiserver:8080
+      AIRFLOW_USERNAME: ${AIRFLOW_USERNAME:-airflow}
+      AIRFLOW_PASSWORD: ${AIRFLOW_PASSWORD:-airflow}
+    depends_on:
+      airflow-apiserver:
+        condition: service_healthy
+    restart: "no"
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$${HOSTNAME}\""]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+    depends_on:
+      airflow-pool-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  airflow-dag-processor:
+    <<: *airflow-common
+    command: dag-processor
+    depends_on:
+      airflow-pool-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  airflow-triggerer:
+    <<: *airflow-common
+    command: triggerer
+    depends_on:
+      airflow-pool-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    environment:
+      <<: *catalog-environment
+      REVIEW_CATALOG_AIRFLOW_BASE_URL: http://airflow-apiserver:8080
+      REVIEW_CATALOG_AIRFLOW_USERNAME: ${AIRFLOW_USERNAME:-airflow}
+      REVIEW_CATALOG_AIRFLOW_PASSWORD: ${AIRFLOW_PASSWORD:-airflow}
+      REVIEW_CATALOG_PROJECT_README_PATH: /opt/project/README.md
+    volumes:
+      - catalog_data:/data/catalog
+    user: "${AIRFLOW_UID:-50000}:0"
+    ports:
+      - "${API_BIND_ADDRESS:-127.0.0.1}:8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      catalog-init:
+        condition: service_completed_successfully
+      airflow-pool-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    ports:
+      - "${WEB_BIND_ADDRESS:-0.0.0.0}:${WEB_PORT:-3000}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  airflow_logs:
+  catalog_data:
+  codex_auth:

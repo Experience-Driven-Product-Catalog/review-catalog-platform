@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 정말 싸서 가성비 이야기가 절로 나오네요.",
+      "opinion": "가격이 정말 저렴해 가성비가 좋다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "가격 대비 만족스러움",
+      "excerpt": "가격이 정말 싸서 가성비 이야기가 절로 나오네요.",
+      "opinion": "가격 대비 가성비가 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤 두께",
+      "raw_status": "얇음",
+      "excerpt": "베젤이 얇은거 신의 한수인듯 해요.",
+      "opinion": "베젤이 얇은 점을 매우 좋은 선택이라고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

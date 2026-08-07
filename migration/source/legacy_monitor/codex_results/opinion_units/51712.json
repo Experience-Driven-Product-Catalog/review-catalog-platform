@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "상품 선호도",
+      "raw_status": "갖고 싶음",
+      "excerpt": "갖고싶던 모니터라 조금 비싸도 주문했습니다 ㅠ",
+      "opinion": "갖고 싶던 모니터라서 구매함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "비쌈",
+      "excerpt": "갖고싶던 모니터라 조금 비싸도 주문했습니다 ㅠ",
+      "opinion": "가격이 조금 비싸지만 갖고 싶어서 주문함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "생각보다 작게 느껴짐",
+      "excerpt": "화면크기가 많이 클줄 알았는데 설치하고 보니 생각보다 작게 느껴집니다 ㅠ",
+      "opinion": "화면이 많이 클 것으로 기대했지만 설치 후 생각보다 작게 느껴짐",
+      "sentiment": "negative"
+    }
+  ]
+}

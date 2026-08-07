@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "높음",
+      "excerpt": "주사율이 높아서 화면이 부드럽게 보이는 점이 최고입니다!",
+      "opinion": "주사율이 높아 화면이 부드럽게 보여 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 표시",
+      "raw_status": "부드러움",
+      "excerpt": "주사율이 높아서 화면이 부드럽게 보이는 점이 최고입니다!",
+      "opinion": "화면이 부드럽게 보여 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "빛샘 현상",
+      "raw_status": "없음",
+      "excerpt": "빛샘 현상도 없고 화면 색감도 선명해요~~",
+      "opinion": "빛샘 현상이 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 색감",
+      "raw_status": "선명함",
+      "excerpt": "빛샘 현상도 없고 화면 색감도 선명해요~~",
+      "opinion": "화면 색감이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 하자",
+      "raw_status": "없음",
+      "excerpt": "제품에 하자도 없어서 만족하고요ㅎㅎ",
+      "opinion": "제품에 하자가 없어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족함",
+      "excerpt": "제품에 하자도 없어서 만족하고요ㅎㅎ",
+      "opinion": "제품에 하자가 없어 전반적으로 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

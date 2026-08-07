@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "외관",
+      "raw_status": "생활 기스 있음",
+      "excerpt": "외관에 생활 기스가 있지만 깨끗한 편이네요.",
+      "opinion": "외관에 생활 기스가 있음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "외관",
+      "raw_status": "깨끗함",
+      "excerpt": "외관에 생활 기스가 있지만 깨끗한 편이네요.",
+      "opinion": "외관은 생활 기스가 있지만 깨끗한 편임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족함",
+      "excerpt": "그럭 저럭 만족합니다.",
+      "opinion": "제품 전반에 그럭저럭 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "장시간 화면 시청",
+      "raw_status": "눈 아픔",
+      "excerpt": "화면 오래 볼때 눈 아팠는데 눈 건강을 위한 시력 보호기능 들이 있어 너무 좋네요.",
+      "opinion": "화면을 오래 볼 때 눈이 아팠음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "시력 보호 기능",
+      "raw_status": "있음",
+      "excerpt": "화면 오래 볼때 눈 아팠는데 눈 건강을 위한 시력 보호기능 들이 있어 너무 좋네요.",
+      "opinion": "눈 건강을 위한 시력 보호 기능들이 있어 매우 좋다고 느낌",
+      "sentiment": "positive"
+    }
+  ]
+}

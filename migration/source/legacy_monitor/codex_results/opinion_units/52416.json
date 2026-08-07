@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "생생함",
+      "excerpt": "예상보다 화질이 생생하니 좋았어요.",
+      "opinion": "예상보다 화질이 생생해서 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "받침대 소재",
+      "raw_status": "약함",
+      "excerpt": "하지만 모니터에 비해 받침대 소재가 너무 약하고 허접해 보여서 좀 아쉬웠어요.",
+      "opinion": "모니터에 비해 받침대 소재가 너무 약해서 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "받침대 외관",
+      "raw_status": "허접해 보임",
+      "excerpt": "하지만 모니터에 비해 받침대 소재가 너무 약하고 허접해 보여서 좀 아쉬웠어요.",
+      "opinion": "받침대가 허접해 보여서 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

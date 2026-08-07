@@ -1,0 +1,55 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "UploadVersionedSourceArtifact",
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject",
+        "s3:GetObject",
+        "s3:AbortMultipartUpload",
+        "s3:ListMultipartUploadParts"
+      ],
+      "Resource": "arn:aws:s3:::review-catalog-platform-deploy-161088569936-20260805/ci/*"
+    },
+    {
+      "Sid": "ListDeploymentPrefix",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket",
+        "s3:ListBucketMultipartUploads"
+      ],
+      "Resource": "arn:aws:s3:::review-catalog-platform-deploy-161088569936-20260805",
+      "Condition": {
+        "StringLike": {
+          "s3:prefix": "ci/*"
+        }
+      }
+    },
+    {
+      "Sid": "DeployRegisteredApplicationRevision",
+      "Effect": "Allow",
+      "Action": [
+        "codedeploy:CreateDeployment",
+        "codedeploy:GetDeployment",
+        "codedeploy:GetDeploymentConfig",
+        "codedeploy:GetApplicationRevision",
+        "codedeploy:RegisterApplicationRevision"
+      ],
+      "Resource": [
+        "arn:aws:codedeploy:ap-northeast-2:161088569936:application:review-catalog-platform",
+        "arn:aws:codedeploy:ap-northeast-2:161088569936:deploymentgroup:review-catalog-platform/review-catalog-platform-production",
+        "arn:aws:codedeploy:ap-northeast-2:161088569936:deploymentconfig:CodeDeployDefault.OneAtATime"
+      ]
+    },
+    {
+      "Sid": "InvalidatePublishedFrontend",
+      "Effect": "Allow",
+      "Action": [
+        "cloudfront:CreateInvalidation",
+        "cloudfront:GetInvalidation"
+      ],
+      "Resource": "arn:aws:cloudfront::161088569936:distribution/E22S4ED9XEUTWO"
+    }
+  ]
+}

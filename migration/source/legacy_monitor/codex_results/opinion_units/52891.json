@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질이 선명해서 마음에 들어요~반짝반짝!",
+      "opinion": "화질이 선명하고 반짝반짝해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈높이 조절",
+      "raw_status": "가능",
+      "excerpt": "눈높이을 맞출수 있는 디지인이라 만족합니다.",
+      "opinion": "눈높이를 맞출 수 있는 디자인이라 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "이 제품 선택하길 잘했네요 만족해요~",
+      "opinion": "이 제품을 선택한 것이 잘한 일이라고 느끼며 전반적으로 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "연결성",
+      "raw_status": "직접 연동 가능",
+      "excerpt": "연결성도 좋아 직접 연동 시킬수 있어 좋습니다.",
+      "opinion": "연결성이 좋아 직접 연동할 수 있어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하지 못함",
+      "excerpt": "화질은 생각보다 선명하지 못해 아쉽네요.",
+      "opinion": "화질이 생각보다 선명하지 못해 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

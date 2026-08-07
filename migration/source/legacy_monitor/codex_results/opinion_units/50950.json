@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "불량화소 없고",
+      "opinion": "불량화소가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색감",
+      "raw_status": "선명함",
+      "excerpt": "색감이 정말 선명합니다.",
+      "opinion": "색감이 정말 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "할인됨",
+      "excerpt": "할인된 가격으로 잘산거같아요",
+      "opinion": "할인된 가격으로 구매해 잘 샀다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격 대비 제품 가치",
+      "raw_status": "우수함",
+      "excerpt": "할인된가격이라면 이만한 제품 없을것같습니다",
+      "opinion": "할인된 가격이라면 이만한 제품이 없을 것 같다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

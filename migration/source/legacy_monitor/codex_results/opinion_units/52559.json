@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "작은 모니터 사용하다가 27인치의 큰 화면을 보니 탁 트여서 시원시원스럽네요^^",
+      "opinion": "작은 모니터를 사용하다가 보니 27인치의 큰 화면이 탁 트이고 시원시원하게 느껴짐",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 스탠드 받침대 디자인",
+      "raw_status": "심플함",
+      "excerpt": "모니터 스탠드 받침대 디자인이 너무 심플해서 아쉽긴 하네요~",
+      "opinion": "모니터 스탠드 받침대 디자인이 너무 심플해서 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

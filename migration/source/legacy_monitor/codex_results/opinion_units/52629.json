@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "흑점",
+      "raw_status": "있음",
+      "excerpt": "흑점이 있어 교체 요청하였네요",
+      "opinion": "흑점이 있어 교체를 요청함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화면 사이즈",
+      "raw_status": "큼",
+      "excerpt": "화면 사이즈 커서 시원한 화면이라 좋습니다",
+      "opinion": "화면 사이즈가 커서 시원한 화면으로 느껴져 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

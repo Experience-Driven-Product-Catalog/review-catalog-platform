@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량",
+      "raw_status": "없음",
+      "excerpt": "일단 불량없고 품질 좋고요.",
+      "opinion": "제품에 불량이 없어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "품질",
+      "raw_status": "좋음",
+      "excerpt": "일단 불량없고 품질 좋고요.",
+      "opinion": "제품 품질이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "우수함",
+      "excerpt": "이거 보다가 전에 쓰던 거 보면 화질이 구려서 눈이 썩을 것 같네요",
+      "opinion": "이 제품을 본 뒤 이전에 사용하던 모니터의 화질이 구리게 느껴질 정도로 이 제품의 화질을 높게 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "서브모니터 사용",
+      "raw_status": "교체 의향",
+      "excerpt": "서브모니터도 이거로 바꿔야겠어요",
+      "opinion": "서브모니터도 이 제품으로 교체하고 싶어 함",
+      "sentiment": "positive"
+    }
+  ]
+}

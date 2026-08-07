@@ -1,0 +1,67 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 워낙 저렴해서 기대 없었는데",
+      "opinion": "가격이 매우 저렴해 기대하지 않았음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "제품 품질",
+      "raw_status": "깔끔함",
+      "excerpt": "깔끔한 퀄리티를 보유하고 있네요!",
+      "opinion": "제품 품질이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "밝기 균일도",
+      "raw_status": "아쉬움",
+      "excerpt": "밝기 균일도는 약간 아쉽지만",
+      "opinion": "밝기 균일도가 약간 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "쓸 만함",
+      "excerpt": "밝기 균일도는 약간 아쉽지만 쓸만하네요~",
+      "opinion": "밝기 균일도는 약간 아쉽지만 전반적으로 쓸 만함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색 표현",
+      "raw_status": "선명함",
+      "excerpt": "ips패널 특유의 선명한 색 표현 덕에",
+      "opinion": "IPS 패널 특유의 선명한 색 표현이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "만족스러움",
+      "excerpt": "화질도 만족스럽고요~",
+      "opinion": "화질에 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "외부 어댑터",
+      "raw_status": "불편함 감소",
+      "excerpt": "외부어댑터 덕분에 불편함도 많이 덜어낸 것 같고요~",
+      "opinion": "외부 어댑터 덕분에 사용상의 불편함이 많이 줄어든 것 같음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "이 제품은 가성비 사무용 모니터로 딱인 것 같습니다~",
+      "opinion": "가성비가 좋은 제품이라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사무용 적합성",
+      "raw_status": "적합함",
+      "excerpt": "이 제품은 가성비 사무용 모니터로 딱인 것 같습니다~",
+      "opinion": "사무용 모니터로 적합하다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "브랜드 신뢰도",
+      "raw_status": "신뢰감",
+      "excerpt": "000 브랜드 제품이라 신뢰가서 좋아요",
+      "opinion": "000 브랜드 제품이라 신뢰가 가서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "표면 상태",
+      "raw_status": "기스 없음",
+      "excerpt": "품질은 기스도 없고",
+      "opinion": "제품 표면에 기스가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "품질",
+      "raw_status": "양호함",
+      "excerpt": "품질은 기스도 없고 당연히 좋네요",
+      "opinion": "기스도 없고 품질이 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

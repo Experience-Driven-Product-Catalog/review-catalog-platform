@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "넉넉함",
+      "excerpt": "사이즈가 넉넉한 것 같아서 잘 산 것 같아요.",
+      "opinion": "사이즈가 넉넉한 것 같아 잘 샀다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격 또한 저렴해서 진짜 맘에 들어요.",
+      "opinion": "가격이 저렴해서 매우 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

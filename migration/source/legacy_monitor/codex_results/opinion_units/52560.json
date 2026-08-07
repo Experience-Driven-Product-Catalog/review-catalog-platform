@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "스피커",
+      "raw_status": "없음",
+      "excerpt": "스피커가 없는 점이 아쉽구요...",
+      "opinion": "스피커가 없어서 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비 너무 좋아서 만족하며 쓰고 있어요~",
+      "opinion": "가성비가 매우 좋아 만족하며 사용 중임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사무실 사용",
+      "raw_status": "사용 중",
+      "excerpt": "사무실에서 사용하고 있어요~",
+      "opinion": "사무실에서 사용하고 있음",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 불량",
+      "raw_status": "없음",
+      "excerpt": "제품에 불량없이 좋은 품질이어서 넘 만족스럽네요.",
+      "opinion": "제품에 불량이 없음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "제품 품질",
+      "raw_status": "양호함",
+      "excerpt": "제품에 불량없이 좋은 품질이어서 넘 만족스럽네요.",
+      "opinion": "제품 품질이 좋아 매우 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 색감",
+      "raw_status": "어두움",
+      "excerpt": "하지만 화면의 색감이 어두운 편이어서 조금은 아쉬웠네요~",
+      "opinion": "화면 색감이 어두운 편이라 조금 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

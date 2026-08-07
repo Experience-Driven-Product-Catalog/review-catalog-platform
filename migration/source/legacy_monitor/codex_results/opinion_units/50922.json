@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤 두께",
+      "raw_status": "얇음",
+      "excerpt": "베젤이 얇으니 모니터도 더 가벼운 것 같아서 전 맘에 드네요.",
+      "opinion": "베젤이 얇아서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 무게",
+      "raw_status": "가벼운 것 같음",
+      "excerpt": "베젤이 얇으니 모니터도 더 가벼운 것 같아서 전 맘에 드네요.",
+      "opinion": "베젤이 얇아 모니터도 더 가벼운 것처럼 느껴져 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "이상 없음",
+      "excerpt": "불량 화소 확인하는 사이트에서 이상 없음을 확인하니 화질에 대한 신뢰도 높아져 좋네요.",
+      "opinion": "불량 화소 확인 사이트에서 이상 없음을 확인함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화질 신뢰도",
+      "raw_status": "높아짐",
+      "excerpt": "불량 화소 확인하는 사이트에서 이상 없음을 확인하니 화질에 대한 신뢰도 높아져 좋네요.",
+      "opinion": "불량 화소 이상 없음을 확인한 뒤 화질에 대한 신뢰도가 높아져 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

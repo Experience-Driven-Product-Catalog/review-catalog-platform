@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 조립",
+      "raw_status": "간단함",
+      "excerpt": "모니터 조립도  간단해서 좋았습니다.",
+      "opinion": "모니터 조립이 간단해서 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질 선명도",
+      "raw_status": "많이 떨어짐",
+      "excerpt": "모니터 화질 선명도가 많이 떨어지네요ㅜㅜ",
+      "opinion": "모니터 화질의 선명도가 많이 떨어짐",
+      "sentiment": "negative"
+    }
+  ]
+}

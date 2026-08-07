@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "생동감 있음",
+      "excerpt": "영화볼때 화질도 생동감있어서 만족스럽고.",
+      "opinion": "영화볼 때 화질이 생동감 있어 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "음질",
+      "raw_status": "깨끗함",
+      "excerpt": "음질도 깨끗하고 발란스도 굉장히 좋아서 잘 사용중입니다^^",
+      "opinion": "음질이 깨끗해서 만족스럽게 사용 중임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "음질 밸런스",
+      "raw_status": "좋음",
+      "excerpt": "음질도 깨끗하고 발란스도 굉장히 좋아서 잘 사용중입니다^^",
+      "opinion": "음질 밸런스가 굉장히 좋아 만족스럽게 사용 중임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "잘 사용 중",
+      "excerpt": "음질도 깨끗하고 발란스도 굉장히 좋아서 잘 사용중입니다^^",
+      "opinion": "제품을 전반적으로 잘 사용 중임",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깨끗함",
+      "excerpt": "화질은 불량 화소도 없이 깨끗해서 괜찮았어요.",
+      "opinion": "화질이 불량 화소 없이 깨끗해서 괜찮았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "없음",
+      "excerpt": "화질은 불량 화소도 없이 깨끗해서 괜찮았어요.",
+      "opinion": "불량 화소가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "빛샘",
+      "raw_status": "있음",
+      "excerpt": "하지만 모니터 아래쪽에 빛샘이 좀 신경이 쓰였어요.",
+      "opinion": "모니터 아래쪽에 빛샘이 있어 신경 쓰임",
+      "sentiment": "negative"
+    }
+  ]
+}

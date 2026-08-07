@@ -1,0 +1,11 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "24인치보다 큼",
+      "excerpt": "모니터가 24인치보다 훨씬커서 만족하며 쓰고 있어요",
+      "opinion": "모니터가 24인치보다 훨씬 커서 만족하며 사용하고 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "반응 속도",
+      "raw_status": "매우 빠름",
+      "excerpt": "게임용으로 구입했는데 반응 속도가 매우 빨라서 만족해요.",
+      "opinion": "게임용으로 사용하기에 반응 속도가 매우 빨라 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "성능",
+      "raw_status": "좋음",
+      "excerpt": "성능 좋네요.",
+      "opinion": "성능이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "매우 깨끗하고 선명함",
+      "excerpt": "예상보다 화질이 매우 깨끗하고 선명해서 기분 좋네요..",
+      "opinion": "예상보다 화질이 매우 깨끗하고 선명해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격 경쟁력",
+      "raw_status": "메리트 있음",
+      "excerpt": "타사 비슷한 사양의 제품 중에서는 가격면에서도 메리트가 있어서 마음에 들어요..",
+      "opinion": "타사의 비슷한 사양 제품과 비교해 가격 면에서 메리트가 있어 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "DP 케이블 구성품",
+      "raw_status": "불포함",
+      "excerpt": "구성품으로 DP 케이블이 불포함이라 아쉬워요. ㅜ",
+      "opinion": "구성품에 DP 케이블이 포함되지 않아 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "베젤 품질",
+      "raw_status": "별로임",
+      "excerpt": "또 배젤과 기기 거치대 품질이 별로네요. ㅜ 실망입니다.",
+      "opinion": "베젤 품질이 별로라 실망함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "기기 거치대 품질",
+      "raw_status": "별로임",
+      "excerpt": "또 배젤과 기기 거치대 품질이 별로네요. ㅜ 실망입니다.",
+      "opinion": "기기 거치대 품질이 별로라 실망함",
+      "sentiment": "negative"
+    }
+  ]
+}

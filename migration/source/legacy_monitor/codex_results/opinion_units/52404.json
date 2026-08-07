@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "모니터가 가벼워 깜놀~~ 들고 다닐건 아니지만 가벼운게 좋네요~~",
+      "opinion": "들고 다닐 일은 없지만 모니터가 가벼운 점을 좋게 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "적당함",
+      "excerpt": "사이즈도 적당하고 맘에 들어요~~",
+      "opinion": "사이즈가 적당해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "부담 적음",
+      "excerpt": "가격도 맘을 가볍게 해주어 만족했어요~^^",
+      "opinion": "가격 부담이 적어 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

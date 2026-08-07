@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "몹시 좋음",
+      "excerpt": "가성비가 몹시 좋은 제품이라 만족",
+      "opinion": "가성비가 몹시 좋아 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "게임에 부족함 없음",
+      "excerpt": "게임하기에 절대 부족함 없는 화질이라 너무 좋네요.",
+      "opinion": "게임하기에 화질이 전혀 부족하지 않아 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

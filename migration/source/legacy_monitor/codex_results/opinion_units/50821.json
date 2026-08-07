@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "마음에 듦",
+      "excerpt": "가격이 딱 맘에 들어서 샀어요.",
+      "opinion": "가격이 마음에 들어 구매함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색상",
+      "raw_status": "깔끔함",
+      "excerpt": "색상도 깔끔한 느낌이라 좋고",
+      "opinion": "색상이 깔끔한 느낌이라 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "부담스럽지 않은 고급스러움",
+      "excerpt": "디자인도 부담스럽지 않은 고급스러움이 있어 만족합니다.",
+      "opinion": "디자인이 부담스럽지 않으면서 고급스러워 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "고급스러움",
+      "excerpt": "디자인이 절제감이 느껴지는 고급스러움이 느껴져서 좋아요.",
+      "opinion": "디자인에서 절제감이 느껴지는 고급스러움이 있어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 무게",
+      "raw_status": "가벼움",
+      "excerpt": "모니터 무게도 적당히 가벼워서 맘에 들어요.",
+      "opinion": "모니터 무게가 적당히 가벼워서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈 부담",
+      "raw_status": "없음",
+      "excerpt": "사용시에 눈에도 부담 없어 편하게 잘 쓰고 있습니다.",
+      "opinion": "사용할 때 눈에 부담이 없어 편하게 사용하고 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용 편안함",
+      "raw_status": "편안함",
+      "excerpt": "사용시에 눈에도 부담 없어 편하게 잘 쓰고 있습니다.",
+      "opinion": "눈에 부담이 없어 편하게 잘 사용하고 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

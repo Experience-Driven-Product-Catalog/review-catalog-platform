@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 베젤",
+      "raw_status": "아주 얇음",
+      "excerpt": "모니터 베젤이 아주 얇고 가벼워 맘에 들었지만,",
+      "opinion": "모니터 베젤이 아주 얇아 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "모니터 베젤이 아주 얇고 가벼워 맘에 들었지만,",
+      "opinion": "모니터가 가벼워 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "2개 발견",
+      "excerpt": "무결점 제품인데, 불량 화소를 2개나 발견해서 실망이 큽니다.",
+      "opinion": "무결점 제품임에도 불량 화소를 2개나 발견해 크게 실망함",
+      "sentiment": "negative"
+    }
+  ]
+}

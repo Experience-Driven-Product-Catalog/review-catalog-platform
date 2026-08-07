@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 깔끔함",
+      "raw_status": "깔끔함",
+      "excerpt": "화면이 정말 깔끔하고 선명하니 꽤 만족스러워요.",
+      "opinion": "화면이 정말 깔끔해서 꽤 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "화면이 정말 깔끔하고 선명하니 꽤 만족스러워요.",
+      "opinion": "화면이 선명해서 꽤 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 사이즈",
+      "raw_status": "큼",
+      "excerpt": "모니터 사이즈도 큰 걸로 바꾸니 시야가 확 트여서 시원한 느낌이라 좋네요.",
+      "opinion": "모니터 사이즈를 큰 것으로 바꾸니 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시야",
+      "raw_status": "확 트임",
+      "excerpt": "모니터 사이즈도 큰 걸로 바꾸니 시야가 확 트여서 시원한 느낌이라 좋네요.",
+      "opinion": "큰 모니터로 바꾸니 시야가 확 트여 시원한 느낌이라 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

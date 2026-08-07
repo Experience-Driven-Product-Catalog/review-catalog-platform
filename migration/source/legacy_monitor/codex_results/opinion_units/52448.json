@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "내장 스피커",
+      "raw_status": "없음",
+      "excerpt": "내장 스피커가 없는지 몰라서 오랫동안 찾았습니다.",
+      "opinion": "내장 스피커가 없다는 사실을 몰라 오랫동안 찾음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "내장 스피커 확인",
+      "raw_status": "오래 걸림",
+      "excerpt": "내장 스피커가 없는지 몰라서 오랫동안 찾았습니다.",
+      "opinion": "내장 스피커가 없는지 확인하는 데 오랫동안 찾는 불편을 겪음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "제품 신뢰도",
+      "raw_status": "믿고 사용 가능",
+      "excerpt": "OOO 제품이라서 믿고 써도 됩니다.",
+      "opinion": "OOO 제품이라 믿고 사용해도 된다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "고급스러움",
+      "excerpt": "고급스러운 디자인도 정말 마음에 듭니다.",
+      "opinion": "고급스러운 디자인이 정말 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

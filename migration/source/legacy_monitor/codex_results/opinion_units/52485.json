@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 크기",
+      "raw_status": "적당함",
+      "excerpt": "원하는 적당한 크기의 모니터라 만족해요",
+      "opinion": "원하는 정도의 적당한 크기라 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "거치대 장착",
+      "raw_status": "쉬움",
+      "excerpt": "베사홀이 있어 거치대에 쉽게 장착할 수 있으니 좋아요",
+      "opinion": "베사홀이 있어 거치대에 쉽게 장착할 수 있어서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질이 나쁘지않고 선명하게 잘 보여서 괜찮아요",
+      "opinion": "화질이 나쁘지 않고 화면이 선명하게 잘 보여 괜찮음",
+      "sentiment": "positive"
+    }
+  ]
+}

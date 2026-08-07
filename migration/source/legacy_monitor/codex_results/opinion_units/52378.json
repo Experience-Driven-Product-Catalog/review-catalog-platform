@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "작아 보임",
+      "excerpt": "24인치... 많이 작아 보이긴 합니다만 그냥저냥 쓸만하고요.",
+      "opinion": "24인치라 많이 작아 보임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "사용성",
+      "raw_status": "쓸 만함",
+      "excerpt": "24인치... 많이 작아 보이긴 합니다만 그냥저냥 쓸만하고요.",
+      "opinion": "화면이 많이 작아 보이지만 그냥저냥 사용할 만함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "리모콘",
+      "raw_status": "부재",
+      "excerpt": "리모콘이 있었다면 더 좋았을 것 같아요(ㅜㅜ)",
+      "opinion": "리모콘이 있었다면 더 좋았을 것 같음",
+      "sentiment": "negative"
+    }
+  ]
+}

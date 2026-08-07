@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "서브모니터 사용",
+      "raw_status": "만족스러움",
+      "excerpt": "서브모니터 용도로 구입해서 굉장히 잘 사용하고 있어요.",
+      "opinion": "서브모니터 용도로 구입해 매우 만족스럽게 사용하고 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 밝기",
+      "raw_status": "적당함",
+      "excerpt": "화면 밝기도 딱 좋구요.",
+      "opinion": "화면 밝기가 딱 적당해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "동영상 재생",
+      "raw_status": "컴퓨터 전원 없이 앱만으로 가능",
+      "excerpt": "컴퓨터 전원을 켜지 않고도 앱만으로 동영상 지원이 가능해서 대만족입니다.",
+      "opinion": "컴퓨터 전원을 켜지 않고도 앱만으로 동영상을 재생할 수 있어 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

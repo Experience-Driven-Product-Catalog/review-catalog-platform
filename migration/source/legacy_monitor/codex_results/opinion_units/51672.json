@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "브랜드 신뢰",
+      "raw_status": "높음",
+      "excerpt": "역시 OOO이라 믿음이 제일 가네요.",
+      "opinion": "OOO 제품이라 믿음이 가장 감",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "전보다 좀 더 큰 사이즈로 주문했더니 시야가 확 트여 완전 만족합니다.",
+      "opinion": "이전보다 더 큰 화면 크기로 주문해 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시야",
+      "raw_status": "확 트임",
+      "excerpt": "전보다 좀 더 큰 사이즈로 주문했더니 시야가 확 트여 완전 만족합니다.",
+      "opinion": "이전보다 큰 사이즈 덕분에 시야가 확 트여 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

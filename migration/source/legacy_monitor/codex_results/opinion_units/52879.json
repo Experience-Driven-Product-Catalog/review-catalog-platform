@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "스탠드",
+      "raw_status": "견고함",
+      "excerpt": "스텐드가 상당히 견고하니 퀄리티가 너무 좋네요",
+      "opinion": "스탠드가 상당히 견고하고 품질이 매우 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 회전 기능",
+      "raw_status": "제공됨",
+      "excerpt": "타사대비 유일하게 모니터 돌아가는 기능이 있어서 아주 좋습니다",
+      "opinion": "타사 대비 유일하게 모니터를 회전할 수 있는 기능이 있어 매우 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

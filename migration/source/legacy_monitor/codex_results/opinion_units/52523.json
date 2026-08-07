@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "깔끔함",
+      "excerpt": "깔끔한 디자인 훌륭합니다.",
+      "opinion": "디자인이 깔끔해서 훌륭하다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "고화질 영상 시청에 만족스러움",
+      "excerpt": "고화질 영상 많이 보는 편인데 아주 좋습니다",
+      "opinion": "고화질 영상을 많이 시청하는데 화질이 아주 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "마음에 듦",
+      "excerpt": "넘 맘에 들어요",
+      "opinion": "제품이 전반적으로 매우 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

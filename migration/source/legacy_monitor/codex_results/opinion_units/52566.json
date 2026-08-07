@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 신뢰도",
+      "raw_status": "신뢰함",
+      "excerpt": "모니터는 000모니터를 믿고 주로 사용해요",
+      "opinion": "000모니터를 신뢰하여 주로 사용함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 형태",
+      "raw_status": "일자형도 괜찮음",
+      "excerpt": "커브형이 한눈에 다 들어와서 좋던데 일자형도 괜찮아요",
+      "opinion": "커브형이 한눈에 들어와 좋지만 일자형도 괜찮다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

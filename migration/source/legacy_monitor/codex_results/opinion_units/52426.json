@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족스러움",
+      "excerpt": "4대 구입할 정도로 만족스런 OOO 모니터~~",
+      "opinion": "4대를 구입할 정도로 모니터에 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "구성품",
+      "raw_status": "HDMI만 포함",
+      "excerpt": "HDMI만 들어 있었던 것이 아쉬웠어요...",
+      "opinion": "구성품으로 HDMI만 들어 있어 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

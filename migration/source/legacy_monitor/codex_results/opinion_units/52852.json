@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "다 좋은데 리모컨이 없는 점이 아쉽군요...",
+      "opinion": "전반적으로 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "리모컨",
+      "raw_status": "없음",
+      "excerpt": "다 좋은데 리모컨이 없는 점이 아쉽군요...",
+      "opinion": "리모컨이 없어 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

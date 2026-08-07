@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "없음",
+      "excerpt": "불량 화소를 찾아 볼 수 가 없어 만족스럽네요.",
+      "opinion": "불량 화소를 찾아볼 수 없어 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "아주 착한 가격에 살 수 있어 맘에 들었어요.",
+      "opinion": "아주 저렴한 가격에 구매할 수 있어 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

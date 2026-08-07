@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "저렴한 가격인데 성능도 좋아요^^",
+      "opinion": "가격이 저렴함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "성능",
+      "raw_status": "좋음",
+      "excerpt": "저렴한 가격인데 성능도 좋아요^^",
+      "opinion": "성능이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "노트북 모니터 사용",
+      "raw_status": "사용 목적",
+      "excerpt": "노트북 모니터로 사용하려고 구입했는데",
+      "opinion": "노트북 모니터로 사용하려고 구입함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "연결 방법",
+      "raw_status": "쉬움",
+      "excerpt": "연결 하는 방법이 쉽고  사용이 간단해서 정말 좋네요!",
+      "opinion": "연결하는 방법이 쉬워서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용",
+      "raw_status": "간단함",
+      "excerpt": "연결 하는 방법이 쉽고  사용이 간단해서 정말 좋네요!",
+      "opinion": "사용이 간단해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "재구매 의사",
+      "raw_status": "조건부 의향",
+      "excerpt": "이 브랜드 처음써봐서 좋다면 재구매 의사있어요",
+      "opinion": "처음 사용하는 브랜드지만 제품이 좋다면 재구매할 의사가 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

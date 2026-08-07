@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "영상 출력",
+      "raw_status": "끊김 없음",
+      "excerpt": "영상을 끊김없이 출력해서",
+      "opinion": "영상이 끊김 없이 출력됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임 사용",
+      "raw_status": "최적화",
+      "excerpt": "게임에 최적화된 모니터로",
+      "opinion": "게임에 최적화된 모니터라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "144Hz",
+      "excerpt": "144hz라",
+      "opinion": "주사율이 144Hz임",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화면 움직임",
+      "raw_status": "부드러움",
+      "excerpt": "화면이 부드럽게 잘 연결되고",
+      "opinion": "화면이 부드럽게 잘 연결됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질도 선명하고",
+      "opinion": "화질이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "문자 가독성",
+      "raw_status": "좋음",
+      "excerpt": "문자 가독성도 좋아요",
+      "opinion": "문자 가독성이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 신뢰도",
+      "raw_status": "믿음이 감",
+      "excerpt": "000제품이라 믿음이 가요",
+      "opinion": "제품에 대한 믿음이 감",
+      "sentiment": "positive"
+    }
+  ]
+}

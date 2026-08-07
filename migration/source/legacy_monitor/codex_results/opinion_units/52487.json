@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 상태",
+      "raw_status": "파손",
+      "excerpt": "파손 제품이 왔지만",
+      "opinion": "처음에는 파손된 제품이 도착함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "재발송 제품 상태",
+      "raw_status": "이상 없음",
+      "excerpt": "재발송된 제품은 이상이 없어서 좋아요",
+      "opinion": "재발송된 제품은 이상이 없어서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "화질도 선명하고 깨끗해서",
+      "opinion": "화질이 선명하고 깨끗함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용성",
+      "raw_status": "사용하기 좋음",
+      "excerpt": "화질도 선명하고 깨끗해서 사용하기 좋네요",
+      "opinion": "화질이 선명하고 깨끗해서 사용하기 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

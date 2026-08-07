@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "생생함",
+      "excerpt": "화질이 생생해서 만족스럽고",
+      "opinion": "화질이 생생해서 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "블루라이트 차단 기능",
+      "raw_status": "있음",
+      "excerpt": "블루라이트 차단 기능이 있어 눈도 덜 피로 한 것 같아요.",
+      "opinion": "블루라이트 차단 기능이 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "눈의 피로",
+      "raw_status": "덜함",
+      "excerpt": "블루라이트 차단 기능이 있어 눈도 덜 피로 한 것 같아요.",
+      "opinion": "블루라이트 차단 기능 덕분에 눈이 덜 피로한 것 같음",
+      "sentiment": "positive"
+    }
+  ]
+}

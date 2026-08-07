@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 퀄리티",
+      "raw_status": "우수함",
+      "excerpt": "퀄리티가 너무 좋네요~~",
+      "opinion": "첫 모니터로 구매했는데 제품 퀄리티가 매우 우수함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "적당함",
+      "excerpt": "사이즈도 적당해서 맘에 쏙 들어요ㅎㅎ",
+      "opinion": "모니터 사이즈가 적당해서 매우 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

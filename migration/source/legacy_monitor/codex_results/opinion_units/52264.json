@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "리모콘 반응 속도",
+      "raw_status": "버퍼링 있음",
+      "excerpt": "리모콘의 반응 속도가 좀 버퍼링 있는 느낌이라 별로입니다.",
+      "opinion": "리모콘의 반응 속도에 버퍼링이 있는 느낌이라 별로임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "스피커 성능",
+      "raw_status": "보통",
+      "excerpt": "스피커는 내장이다 보니 성능은 보통정도라 고 퀄리티를 원하면 실망하실 수 있어요.",
+      "opinion": "내장 스피커 성능은 보통 정도라 고퀄리티를 원하면 실망할 수 있음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화질 선명도",
+      "raw_status": "매우 좋음",
+      "excerpt": "화질은 선명도가 정말 좋아서 대 만족입니다.",
+      "opinion": "화질의 선명도가 정말 좋아서 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

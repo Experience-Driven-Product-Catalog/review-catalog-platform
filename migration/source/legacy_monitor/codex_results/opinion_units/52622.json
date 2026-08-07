@@ -1,0 +1,60 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "적당함",
+      "excerpt": "영화보기에 크기에 작지 않고 적당해서 좋은데",
+      "opinion": "영화 보기에 화면 크기가 작지 않고 적당해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "무게도 가벼워서 설치가 어렵지 않아서 좋네요.",
+      "opinion": "무게가 가벼워 설치가 어렵지 않아 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치 난이도",
+      "raw_status": "어렵지 않음",
+      "excerpt": "무게도 가벼워서 설치가 어렵지 않아서 좋네요.",
+      "opinion": "설치가 어렵지 않음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "연결선",
+      "raw_status": "적음",
+      "excerpt": "패널뒤에 연결선이 적은거보니",
+      "opinion": "패널 뒤 연결선이 적음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "기능",
+      "raw_status": "적음",
+      "excerpt": "패널뒤에 연결선이 적은거보니 기능도 적지만",
+      "opinion": "연결선이 적은 만큼 기능도 적음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "본래 목적 적합성",
+      "raw_status": "적합함",
+      "excerpt": "본래의 목적에 맞게 사용해보니",
+      "opinion": "본래의 목적에 맞게 사용할 수 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비 좋아서 만족합니다.",
+      "opinion": "가성비가 좋아 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족함",
+      "excerpt": "가성비 좋아서 만족합니다.",
+      "opinion": "제품 사용 전반에 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

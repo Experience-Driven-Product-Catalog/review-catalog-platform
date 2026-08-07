@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 사이즈",
+      "raw_status": "예상보다 큼",
+      "excerpt": "생각했던 것보다 모니터 사이즈가 크게 나와서 맘에 들었어요.",
+      "opinion": "모니터 사이즈가 생각했던 것보다 크게 나와서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "품질",
+      "raw_status": "좋음",
+      "excerpt": "무결점 모니터에 맞게 품질이 참 좋아요~",
+      "opinion": "무결점 모니터에 맞게 품질이 참 좋다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

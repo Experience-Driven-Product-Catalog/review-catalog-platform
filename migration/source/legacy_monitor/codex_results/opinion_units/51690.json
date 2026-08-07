@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "기능",
+      "raw_status": "만족스러움",
+      "excerpt": "홈 오피스용으로 기능이 아주 만족스럽습니다.",
+      "opinion": "홈 오피스용으로 기능이 아주 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "연결성",
+      "raw_status": "좋음",
+      "excerpt": "역시 연결성도 좋아서 잘 쓰고 있어요.",
+      "opinion": "듀얼로 사용하면서 연결성이 좋아 잘 사용하고 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

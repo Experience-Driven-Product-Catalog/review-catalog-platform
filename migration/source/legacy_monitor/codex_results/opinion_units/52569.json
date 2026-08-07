@@ -1,0 +1,60 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤 디자인",
+      "raw_status": "베젤리스",
+      "excerpt": "베젤리스, 27인치, LED, 75Hz 스펙 좋고!!",
+      "opinion": "베젤리스 디자인의 스펙이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "27인치",
+      "excerpt": "베젤리스, 27인치, LED, 75Hz 스펙 좋고!!",
+      "opinion": "27인치 화면 크기의 스펙이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "LED",
+      "raw_status": "적용",
+      "excerpt": "베젤리스, 27인치, LED, 75Hz 스펙 좋고!!",
+      "opinion": "LED 사양이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "75Hz",
+      "excerpt": "베젤리스, 27인치, LED, 75Hz 스펙 좋고!!",
+      "opinion": "75Hz 주사율의 스펙이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "생각보다 큼",
+      "excerpt": "화면이 생각보다 커서 깜놀!~",
+      "opinion": "화면이 생각보다 커서 놀람",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색상",
+      "raw_status": "그레이",
+      "excerpt": "색상 그레이~ 그레잇!!",
+      "opinion": "그레이 색상이 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 밝기",
+      "raw_status": "눈 편안함",
+      "excerpt": "화면 밝기도 눈 편안하여 오래 봐도  좋고 마음에 드네요~",
+      "opinion": "화면 밝기가 눈을 편안하게 해 오래 봐도 좋고 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "장시간 시청",
+      "raw_status": "편안함",
+      "excerpt": "화면 밝기도 눈 편안하여 오래 봐도  좋고 마음에 드네요~",
+      "opinion": "화면을 오래 봐도 눈이 편안함",
+      "sentiment": "positive"
+    }
+  ]
+}

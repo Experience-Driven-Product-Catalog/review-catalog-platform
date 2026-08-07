@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "다른곳보다 저렴하게 잘 샀어요 기분 좋네요",
+      "opinion": "다른 곳보다 저렴하게 구매해서 기분이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치",
+      "raw_status": "간편하고 수월함",
+      "excerpt": "설치가 간편하고 수월해서 좋아요",
+      "opinion": "설치가 간편하고 수월해서 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시력보호모드",
+      "raw_status": "눈 보호",
+      "excerpt": "재택근무용으로 사용하는데 시력보호모드로 해두니 눈도 보호되고 좋아요",
+      "opinion": "재택근무 중 시력보호모드를 사용하니 눈이 보호되어 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

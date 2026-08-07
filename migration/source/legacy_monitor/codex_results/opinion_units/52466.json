@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "받침대 높이 조절",
+      "raw_status": "불가",
+      "excerpt": "받침대가 높이 조절이 안되서 눈높이에 안맞는데 그냥 써야하니 안좋아요",
+      "opinion": "받침대 높이 조절이 되지 않아 눈높이에 맞출 수 없고 그대로 사용해야 해서 좋지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "모니터 눈높이 맞춤",
+      "raw_status": "불일치",
+      "excerpt": "받침대가 높이 조절이 안되서 눈높이에 안맞는데 그냥 써야하니 안좋아요",
+      "opinion": "모니터가 눈높이에 맞지 않지만 그대로 사용해야 함",
+      "sentiment": "negative"
+    }
+  ]
+}

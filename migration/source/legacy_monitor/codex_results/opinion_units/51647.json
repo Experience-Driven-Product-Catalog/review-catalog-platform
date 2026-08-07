@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "본체와 잭 호환성",
+      "raw_status": "맞지 않음",
+      "excerpt": "한대가 본체와 짹이 안맞아요 ㅠ",
+      "opinion": "한 대는 본체와 잭이 맞지 않아 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화면",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "나머지 한대는 사용중인데 화면 선명하고 깨끗해서 넘 좋으네요",
+      "opinion": "나머지 한 대는 화면이 선명하고 깨끗해서 매우 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

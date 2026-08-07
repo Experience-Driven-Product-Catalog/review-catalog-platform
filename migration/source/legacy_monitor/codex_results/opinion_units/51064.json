@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "기대보다 화질이 선명해서 만족하고 있어요.",
+      "opinion": "기대보다 화질이 선명해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "반응 속도",
+      "raw_status": "느림",
+      "excerpt": "반응 속도가 좀 걸리는데,  아직까지는 쓸 만 합니다.",
+      "opinion": "반응 속도가 좀 걸리지만 아직까지는 쓸 만함",
+      "sentiment": "mixed"
+    }
+  ]
+}

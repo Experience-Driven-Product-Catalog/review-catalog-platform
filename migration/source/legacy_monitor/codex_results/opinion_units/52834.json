@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 하자",
+      "raw_status": "없음",
+      "excerpt": "제품은 하자 없고",
+      "opinion": "제품에 하자가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "마감",
+      "raw_status": "깔끔함",
+      "excerpt": "마감도 깔끔합니다.",
+      "opinion": "제품 마감이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "거치대 외관",
+      "raw_status": "메탈릭 터치",
+      "excerpt": "거치대도 메탈릭 터치로 튼튼하여 만족스러워요.",
+      "opinion": "거치대에 메탈릭 터치가 적용됨",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "거치대 내구성",
+      "raw_status": "튼튼함",
+      "excerpt": "거치대도 메탈릭 터치로 튼튼하여 만족스러워요.",
+      "opinion": "거치대가 튼튼하여 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "덜 선명함",
+      "excerpt": "vs패널이라 ips패널 만큼 선명하진 않네요..",
+      "opinion": "VA 패널이라 IPS 패널만큼 선명하지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

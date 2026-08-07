@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 무게",
+      "raw_status": "가벼움",
+      "excerpt": "전에 쓰던것도 같은 27인데 이 제품이 훨씬 가벼워요.",
+      "opinion": "전에 쓰던 같은 27인치 제품보다 훨씬 가벼움",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "설치 난이도",
+      "raw_status": "어렵지 않음",
+      "excerpt": "설치도 어렵지 않게 잘 했는데^^",
+      "opinion": "설치를 어렵지 않게 완료함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 출력",
+      "raw_status": "중단",
+      "excerpt": "케이블선 살짝 건드리기만 해도 화면이 안나와요ㅠ",
+      "opinion": "케이블선을 살짝 건드리기만 해도 화면이 나오지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "연결 안정성",
+      "raw_status": "불안정함",
+      "excerpt": "케이블선 살짝 건드리기만 해도 화면이 안나와요ㅠ 뭔가 불안정합니다",
+      "opinion": "케이블선을 살짝 건드리면 화면이 나오지 않고 연결 상태가 불안정함",
+      "sentiment": "negative"
+    }
+  ]
+}

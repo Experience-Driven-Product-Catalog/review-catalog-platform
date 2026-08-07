@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "높음",
+      "excerpt": "주사율이 높아서 모니터 화질이 만족스럽네요.",
+      "opinion": "주사율이 높아 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 화질",
+      "raw_status": "만족스러움",
+      "excerpt": "주사율이 높아서 모니터 화질이 만족스럽네요.",
+      "opinion": "모니터 화질이 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

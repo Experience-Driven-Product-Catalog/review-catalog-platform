@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "외관 상태",
+      "raw_status": "지문자국 및 긁힘",
+      "excerpt": "그리고 지문자국에 몇군데 긁힘까지 ㅠ 후.. 중고품같았습니다 ㅠ",
+      "opinion": "제품에 지문자국과 몇 군데 긁힘이 있어 중고품처럼 느껴짐",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "제품 상태",
+      "raw_status": "중고품 같음",
+      "excerpt": "지문자국에 몇군데 긁힘까지 ㅠ 후.. 중고품같았습니다 ㅠ",
+      "opinion": "지문자국과 긁힘 때문에 제품이 중고품처럼 느껴짐",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "밝지 않음",
+      "excerpt": "화질도 생각보다 밝은것 같지도 않고 ㅠ 실망이 큽니다.",
+      "opinion": "화질이 기대보다 밝지 않아 크게 실망함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "실망",
+      "excerpt": "포장을 뜯어보고 실망스러웠습니다.",
+      "opinion": "제품을 개봉한 뒤 전반적으로 실망함",
+      "sentiment": "negative"
+    }
+  ]
+}

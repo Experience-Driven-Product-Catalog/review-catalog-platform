@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "어디서 봐도 선명한 화면이 맘에 들어요~",
+      "opinion": "어디서 봐도 화면이 선명해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스탠드 조립",
+      "raw_status": "어려움",
+      "excerpt": "처음 받았을 때, 스탠드 조립이 어렵고",
+      "opinion": "처음 받았을 때 스탠드 조립이 어려웠음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "스탠드 조임감",
+      "raw_status": "부족함",
+      "excerpt": "스탠드 조립이 어렵고 꽉 조여지는 느낌이 좀 덜해서 불안 했었어요.",
+      "opinion": "스탠드가 꽉 조여지는 느낌이 덜해 불안했음",
+      "sentiment": "negative"
+    }
+  ]
+}

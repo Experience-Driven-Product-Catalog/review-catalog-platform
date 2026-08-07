@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "없음",
+      "excerpt": "불량 화소는 없지만",
+      "opinion": "불량 화소가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "빛샘",
+      "raw_status": "약간 있음",
+      "excerpt": "빛샘이 약간 있긴 해서 아쉬운 부분이 있네요.",
+      "opinion": "빛샘이 약간 있어 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "가격 대비 기능",
+      "raw_status": "많은 기능 제공",
+      "excerpt": "하지만 이 많은 기능들을 이 가격대에 만날 수 있음은 감사하다고 생각해요.",
+      "opinion": "이 가격대에 많은 기능을 이용할 수 있어 감사하게 생각함",
+      "sentiment": "positive"
+    }
+  ]
+}

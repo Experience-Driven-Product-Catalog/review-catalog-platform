@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "스탠드 외관",
+      "raw_status": "찍힘",
+      "excerpt": "제품에는 하자가 없지만 스텐드에 찍힘이 있어서 별로였죠..",
+      "opinion": "제품 자체에는 하자가 없지만 스탠드에 찍힘이 있어 별로였음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "사운드 출력",
+      "raw_status": "찢어지는 소리 발생",
+      "excerpt": "사운드가 커질때 찢어지는 소리가 들리네요 ㅜ",
+      "opinion": "사운드가 커질 때 찢어지는 소리가 들림",
+      "sentiment": "negative"
+    }
+  ]
+}

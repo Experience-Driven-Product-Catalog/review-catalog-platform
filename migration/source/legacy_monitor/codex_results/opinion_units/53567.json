@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "패널 상태",
+      "raw_status": "무결점 양품",
+      "excerpt": "이 제품 수령 후 확인하니 무결점의 양품으로 받아 좋아요.",
+      "opinion": "제품을 무결점 양품으로 받아 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 색감",
+      "raw_status": "누런 빛",
+      "excerpt": "그런데 화면이 전체적으로 누런 빛이 있는 것 같아요. 불만입니다.",
+      "opinion": "화면이 전체적으로 누런 빛이 도는 것 같아 불만임",
+      "sentiment": "negative"
+    }
+  ]
+}

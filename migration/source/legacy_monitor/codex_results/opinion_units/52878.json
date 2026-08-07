@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 너무 저렴해서 좋아요~^^",
+      "opinion": "가격이 너무 저렴해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "내구성",
+      "raw_status": "오래 쓸 것 같음",
+      "excerpt": "○○○ 제품이라 확실히 오래 쓸거 같고 믿음이가서 만족합니다",
+      "opinion": "○○○ 제품이라 확실히 오래 사용할 수 있을 것 같음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 신뢰도",
+      "raw_status": "믿음이 감",
+      "excerpt": "○○○ 제품이라 확실히 오래 쓸거 같고 믿음이가서 만족합니다",
+      "opinion": "제품에 믿음이 가서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

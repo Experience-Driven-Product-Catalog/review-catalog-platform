@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "외관",
+      "raw_status": "조잡해 보임",
+      "excerpt": "000제품이라 믿고샀는데 조잡 해보이고 별로네요",
+      "opinion": "제품이 조잡해 보인다고 느낌",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "별로임",
+      "excerpt": "000제품이라 믿고샀는데 조잡 해보이고 별로네요",
+      "opinion": "제품 전반이 별로라고 평가함",
+      "sentiment": "negative"
+    }
+  ]
+}

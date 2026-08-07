@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "노트북 화면이 작아서 모니터 연결했는데, 화면이 크니 글자가 큼지막하게 보이니 속이 다 시원하네요.",
+      "opinion": "노트북 화면이 작아 모니터를 연결했는데 화면이 커서 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "글자 크기",
+      "raw_status": "큼지막함",
+      "excerpt": "화면이 크니 글자가 큼지막하게 보이니 속이 다 시원하네요.",
+      "opinion": "화면이 커서 글자가 큼지막하게 보여 속이 시원함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하지 않음",
+      "excerpt": "하지만 화질은 아주 선명하단 느낌은 좀 떨어지는 것 같아요.",
+      "opinion": "화질이 아주 선명하다는 느낌은 다소 부족함",
+      "sentiment": "negative"
+    }
+  ]
+}

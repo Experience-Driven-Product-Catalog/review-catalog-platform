@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 화질",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "선명하고 깨끗한 모니터 화질이 맘에 들었고",
+      "opinion": "모니터 화질이 선명하고 깨끗해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "훌륭함",
+      "excerpt": "가성비가 이렇게 훌륭한 제품은 없는 것 같아요",
+      "opinion": "가성비가 매우 훌륭하다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": null,
+      "excerpt": "역시 OOO 제품이라 좋습니다.",
+      "opinion": "OOO 제품이라 전반적으로 좋다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "화질이 굉장히 선명하면서 깨끗해요^^",
+      "opinion": "화질이 굉장히 선명하고 깨끗함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "주변 가구와 잘 매치됨",
+      "excerpt": "디자인도 주변 가구와 잘 매치되는것같아 좋구요.",
+      "opinion": "디자인이 주변 가구와 잘 어울리는 것 같아 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "조립설치",
+      "raw_status": "간단함",
+      "excerpt": "살짝 걱정했는데 생각보다 조립설치도 간단했어요^^",
+      "opinion": "조립설치가 걱정했던 것보다 간단함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "무게도 전에 쓰던것보다 훨씬 가벼워서 좋아요.",
+      "opinion": "무게가 전에 쓰던 제품보다 훨씬 가벼워서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "만족스러움",
+      "excerpt": "가성비까지 만족스럽습니다",
+      "opinion": "가성비까지 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

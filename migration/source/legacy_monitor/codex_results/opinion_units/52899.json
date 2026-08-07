@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "깔끔함",
+      "excerpt": "디자인은 아주 깔끔해서 만족스럽구요.",
+      "opinion": "디자인이 아주 깔끔해서 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "27인치 모니터는 집에서 사용하기에 꽤 큰편이라 괜찮았어요.",
+      "opinion": "27인치 화면이 집에서 사용하기에 꽤 크지만 괜찮음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하고 밝음",
+      "excerpt": "게임할 때 선명한 밝기의 화질이 정말 딱이랍니다.",
+      "opinion": "게임할 때 화질이 선명하고 밝아서 잘 맞음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 조절 기능",
+      "raw_status": "사방 조절 가능",
+      "excerpt": "또한 모니터를 사방으로 조절이 가능해서 맘대로 움직이니 무척 만족스럽습니다.",
+      "opinion": "모니터를 사방으로 조절해 원하는 대로 움직일 수 있어 무척 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

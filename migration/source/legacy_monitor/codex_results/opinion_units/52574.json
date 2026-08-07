@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "마음에 듦",
+      "excerpt": "OOO 모니터가 개인적으로 마음에 듭니다.",
+      "opinion": "모니터가 개인적으로 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈 보호 기능",
+      "raw_status": "눈이 편안함",
+      "excerpt": "눈 보호 기능도 눈이 편하고 가독성이 높아져서 좋습니다.",
+      "opinion": "눈 보호 기능으로 눈이 편안해짐",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가독성",
+      "raw_status": "높아짐",
+      "excerpt": "눈 보호 기능도 눈이 편하고 가독성이 높아져서 좋습니다.",
+      "opinion": "눈 보호 기능으로 가독성이 높아져서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

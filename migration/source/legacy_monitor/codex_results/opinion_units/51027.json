@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "마음에 듦",
+      "excerpt": "오늘 설치했는데 마음에 쏙 들어요",
+      "opinion": "오늘 설치한 후 제품 전반이 마음에 쏙 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "게이밍에 최적화됨",
+      "excerpt": "게이밍에 최적화된 사이즈네요!!",
+      "opinion": "화면 크기가 게이밍에 최적화되어 있다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "사용해보니 가성비도 정말 짱이고요!!",
+      "opinion": "사용해보니 가성비가 정말 좋다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

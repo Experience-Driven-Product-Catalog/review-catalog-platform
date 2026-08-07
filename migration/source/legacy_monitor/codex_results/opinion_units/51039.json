@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격 최고라 말하겠습니다. 좋은가격으로 잘 사서 기뻐요.",
+      "opinion": "가격이 매우 좋고 좋은 가격에 구매해 기뻐함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "매우 만족입니다.",
+      "opinion": "제품에 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임용 모니터 성능",
+      "raw_status": "좋음",
+      "excerpt": "게임용 모니터로서의 성능이 좋아 또 사서 쓰고 싶어요.",
+      "opinion": "게임용 모니터로서 성능이 좋아 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "재구매 의향",
+      "raw_status": "있음",
+      "excerpt": "게임용 모니터로서의 성능이 좋아 또 사서 쓰고 싶어요.",
+      "opinion": "게임용 모니터 성능이 좋아 다시 구매해 사용하고 싶어 함",
+      "sentiment": "positive"
+    }
+  ]
+}

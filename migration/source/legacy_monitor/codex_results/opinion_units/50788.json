@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "매우 우수함",
+      "excerpt": "타사 제품만 쓰다가 구매해봤는데 가성비 갑인 제품이었네요!",
+      "opinion": "타사 제품과 비교해 가성비가 매우 뛰어나다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "깔끔함",
+      "excerpt": "디자인도 깔끔해서 눈이 즐거워요ㅎㅎ",
+      "opinion": "디자인이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시각적 만족감",
+      "raw_status": "즐거움",
+      "excerpt": "디자인도 깔끔해서 눈이 즐거워요ㅎㅎ",
+      "opinion": "깔끔한 디자인 덕분에 보는 것이 즐거움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "연결케이블 선택",
+      "raw_status": "종류별 선택 불가",
+      "excerpt": "그런데 연결케이블을 종류별로 고를 수 없다는 점이 아쉬웠어요.",
+      "opinion": "연결케이블을 종류별로 선택할 수 없어 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

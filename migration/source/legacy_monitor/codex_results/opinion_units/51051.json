@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "많은 모니터를 써본건 아니지만 가성비 진짜 좋습니다.",
+      "opinion": "많은 모니터를 사용해 본 것은 아니지만 가성비가 진짜 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깔끔하고 선명함",
+      "excerpt": "이미지를 깔끔하고 선명하게 구현해 주는 화질은 엄지척입니다.",
+      "opinion": "이미지를 깔끔하고 선명하게 구현해 주는 화질을 매우 높게 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

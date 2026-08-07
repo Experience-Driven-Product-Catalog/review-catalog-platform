@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "만족",
+      "excerpt": "다시는 못살것 같은 가격 넘 만족해요.",
+      "opinion": "다시는 못 살 것 같은 가격에 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 상태",
+      "raw_status": "양품",
+      "excerpt": "양품이라 너무 좋아서 또 살것 같아요.",
+      "opinion": "제품 상태가 양품이라 매우 좋아함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "재구매 의향",
+      "raw_status": "있음",
+      "excerpt": "양품이라 너무 좋아서 또 살것 같아요.",
+      "opinion": "제품 상태가 좋아서 다시 구매할 것 같음",
+      "sentiment": "positive"
+    }
+  ]
+}

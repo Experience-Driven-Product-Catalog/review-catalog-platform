@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "넓고 큼",
+      "excerpt": "화면크기는 27인치로 넓고 커서 시원스럽게 화면을 볼 수 있어서 좋으네요~",
+      "opinion": "화면 크기가 27인치로 넓고 커서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 보기",
+      "raw_status": "시원스러움",
+      "excerpt": "화면크기는 27인치로 넓고 커서 시원스럽게 화면을 볼 수 있어서 좋으네요~",
+      "opinion": "넓은 화면으로 시원스럽게 화면을 볼 수 있어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 명암 조절",
+      "raw_status": "가능",
+      "excerpt": "그리고 홈페이지에서 소프트웨어를 다운받아 화면 명암조절이 가능하나",
+      "opinion": "홈페이지에서 소프트웨어를 다운받으면 화면 명암 조절이 가능함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "전원버튼 위치",
+      "raw_status": "화면 중간 밑부분",
+      "excerpt": "전원버튼 위치가 화면중간 밑부분에 위치해서 사용하기가 좀 불편하네요ㅠ",
+      "opinion": "전원버튼이 화면 중간 밑부분에 위치함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "전원버튼 사용",
+      "raw_status": "불편함",
+      "excerpt": "전원버튼 위치가 화면중간 밑부분에 위치해서 사용하기가 좀 불편하네요ㅠ",
+      "opinion": "전원버튼 위치 때문에 사용하기가 좀 불편함",
+      "sentiment": "negative"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "사용 용도",
+      "raw_status": "CCTV 모니터용",
+      "excerpt": "cctv 모니터용으로 샀어요~~",
+      "opinion": "CCTV 모니터용으로 구입함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "인지도",
+      "raw_status": "유명함",
+      "excerpt": "유명한 OOO 모니터인데다가~~^^",
+      "opinion": "유명한 모니터라는 점을 긍정적으로 봄",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "적당함",
+      "excerpt": "적당한 가격이 좋아서 구입했죠~~",
+      "opinion": "가격이 적당해서 마음에 들어 구입함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "설치 후 화면이 선명하고 만족합니다",
+      "opinion": "설치 후 화면이 선명해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "설치 후 화면이 선명하고 만족합니다",
+      "opinion": "설치 후 제품 사용에 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

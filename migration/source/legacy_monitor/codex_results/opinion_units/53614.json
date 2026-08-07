@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "색상",
+      "raw_status": "화려함",
+      "excerpt": "144Hz 모니터를 써보니까 화려한 색상이 바로 체감할 수있어서 좋았어요",
+      "opinion": "화려한 색상이 바로 체감되어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "단 생각보다 가벼워서 장난감 같은 느낌은 별로입니다.",
+      "opinion": "생각보다 가벼워 장난감 같은 느낌이 들어 별로임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "제품 느낌",
+      "raw_status": "장난감 같음",
+      "excerpt": "단 생각보다 가벼워서 장난감 같은 느낌은 별로입니다.",
+      "opinion": "제품에서 장난감 같은 느낌이 들어 별로임",
+      "sentiment": "negative"
+    }
+  ]
+}

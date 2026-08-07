@@ -1,0 +1,11 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "더 선명함",
+      "excerpt": "기존에 사용하던 모니터보다 더 선명해서 좋아요.",
+      "opinion": "기존에 사용하던 모니터보다 화면이 더 선명해서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

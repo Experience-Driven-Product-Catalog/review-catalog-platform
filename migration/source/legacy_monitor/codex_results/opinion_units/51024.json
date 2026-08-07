@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "뛰어남",
+      "excerpt": "전에 쓰던 제품보다 화질이 뛰어나게 좋은게 느껴집니다ㅎㅎ",
+      "opinion": "전에 쓰던 제품보다 화질이 뛰어나게 좋아 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "세련됨 부족",
+      "excerpt": "그런데 디자인이 더 세련됐으면 어땠을까..하는 아쉬움이 있네요ㅎ",
+      "opinion": "디자인이 더 세련됐으면 좋았을 것 같아 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

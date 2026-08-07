@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "뛰어남",
+      "excerpt": "가격에 비해 제품이 뛰어나 만족해요",
+      "opinion": "가격에 비해 제품이 뛰어나 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "노트북 없이 동영상·OTT 시청 기능",
+      "raw_status": "바로 시청 가능",
+      "excerpt": "노트북 없이 켜서 바로 동영상보고 ott 볼 수 있는 기능 만족해요",
+      "opinion": "노트북 없이 켜서 바로 동영상과 ott를 볼 수 있어 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

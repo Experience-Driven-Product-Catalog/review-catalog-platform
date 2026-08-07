@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "블루투스 연결성",
+      "raw_status": "페어링 및 등록 가능",
+      "excerpt": "스마트 손목시계와도 페어링되어 블루투스에도 등록이되니 스마트해서 좋아요",
+      "opinion": "스마트 손목시계와 페어링되고 블루투스에도 등록되어 스마트해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "OTT 반응 속도",
+      "raw_status": "느림",
+      "excerpt": "ott가 반응이 느릿것은 맞으나 무리는 없어 잘 사용하고 있어요",
+      "opinion": "OTT 반응이 느리기는 하지만 사용하는 데 무리는 없음",
+      "sentiment": "mixed"
+    },
+    {
+      "raw_aspect": "OTT 사용",
+      "raw_status": "무리 없음",
+      "excerpt": "ott가 반응이 느릿것은 맞으나 무리는 없어 잘 사용하고 있어요",
+      "opinion": "OTT 반응이 느리지만 무리 없이 잘 사용하고 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

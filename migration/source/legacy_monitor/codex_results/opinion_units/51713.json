@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "평소 원했던 모니터를 이렇게 착한 가격으로 살수있어서 넘 좋았어요.",
+      "opinion": "평소 원했던 모니터를 착한 가격에 살 수 있어 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "크기",
+      "raw_status": "맞춤",
+      "excerpt": "제책상에 놓으니 사이즈가 아주 맞춤이네요.",
+      "opinion": "책상에 놓으니 모니터 사이즈가 아주 잘 맞음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈부심 방지 기능",
+      "raw_status": "만족스러움",
+      "excerpt": "눈부심방지 기능도 맘에 듭니다",
+      "opinion": "눈부심 방지 기능이 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

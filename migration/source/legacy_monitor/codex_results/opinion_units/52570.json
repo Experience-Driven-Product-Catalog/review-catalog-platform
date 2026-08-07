@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "출력",
+      "raw_status": "잘됨",
+      "excerpt": "출력이 잘되서 듀얼 모니터로 이용하기에 딱 좋은 모니터네요",
+      "opinion": "출력이 잘됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "듀얼 모니터 사용",
+      "raw_status": "적합함",
+      "excerpt": "출력이 잘되서 듀얼 모니터로 이용하기에 딱 좋은 모니터네요",
+      "opinion": "듀얼 모니터로 이용하기에 적합함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "잘 산 것 같음",
+      "excerpt": "오래고민하고 결정했는데 잘산거같아요.",
+      "opinion": "오래 고민한 끝에 구매했지만 잘 산 것 같음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈의 피로",
+      "raw_status": "훨씬 덜함",
+      "excerpt": "직업상 컴퓨터 오래사용하는데 눈의 피로가 훨씬 덜해서 좋으네요.",
+      "opinion": "직업상 컴퓨터를 오래 사용해도 눈의 피로가 훨씬 덜해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "오디오 출력단자",
+      "raw_status": "이어폰 직접 연결 가능",
+      "excerpt": "모니터에 이어폰 직접 연결할수있는 오디오 출력단자가 있어 좋은거 같아요.",
+      "opinion": "모니터의 오디오 출력단자로 이어폰을 직접 연결할 수 있어 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

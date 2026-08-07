@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 색감",
+      "raw_status": "좋음",
+      "excerpt": "화면 색감도 좋고 반응속도도 빠릿합니다",
+      "opinion": "화면 색감이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "반응속도",
+      "raw_status": "빠름",
+      "excerpt": "화면 색감도 좋고 반응속도도 빠릿합니다",
+      "opinion": "반응속도가 빠릿함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "크... 역시 좋네요",
+      "opinion": "제품 전반적으로 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "추가 구매 의향",
+      "raw_status": "있음",
+      "excerpt": "하나 더 사서 두개 놓고 쓰고 싶습니다.",
+      "opinion": "하나 더 구매해 두 개 놓고 사용하고 싶어 함",
+      "sentiment": "positive"
+    }
+  ]
+}

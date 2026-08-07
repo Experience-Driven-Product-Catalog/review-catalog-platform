@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "선명도",
+      "raw_status": "낮음",
+      "excerpt": "생각했던 것보다 선명함이 덜한거 같아요.",
+      "opinion": "생각했던 것보다 선명도가 낮다고 느낌",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "기대 미달",
+      "excerpt": "화질이 기대에 못미치네요.",
+      "opinion": "화질이 기대에 못 미침",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "두께",
+      "raw_status": "두꺼움",
+      "excerpt": "두께도 이전 쓰던 모니터보다는 두꺼워보여요ㅠ",
+      "opinion": "이전에 사용하던 모니터보다 두꺼워 보임",
+      "sentiment": "negative"
+    }
+  ]
+}

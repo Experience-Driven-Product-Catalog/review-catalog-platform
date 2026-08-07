@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "성능",
+      "raw_status": "만족",
+      "excerpt": "성능도 만족하고",
+      "opinion": "성능에 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "외관",
+      "raw_status": "고유한 매력",
+      "excerpt": "외관도 이 제품만의 고유한 매력이 있어서 좋아요.",
+      "opinion": "외관에 이 제품만의 고유한 매력이 있어 좋아함",
+      "sentiment": "positive"
+    }
+  ]
+}

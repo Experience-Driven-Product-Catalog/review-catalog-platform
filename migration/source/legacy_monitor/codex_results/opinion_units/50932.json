@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "크게 보임",
+      "excerpt": "작은 사이즈만 쓰다가 27인치 모니터를 보니 엄청 크게 보입니다",
+      "opinion": "작은 사이즈 모니터를 사용하다 보니 27인치 화면이 엄청 크게 보임",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "매우 얇음",
+      "excerpt": "베젤도 완전 얇네요 거의 없다 봐야돼요!! 굿~",
+      "opinion": "베젤이 완전히 얇아 거의 없는 것처럼 보여 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깨끗함",
+      "excerpt": "화질도 깨끗하고",
+      "opinion": "화질이 깨끗함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "불량화소도 없어서 좋구요.",
+      "opinion": "불량화소가 없어서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치",
+      "raw_status": "쉬움",
+      "excerpt": "설치도 혼자서 어렵지 않게 했어요^^.",
+      "opinion": "혼자서도 설치를 어렵지 않게 할 수 있었음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "만족스러움",
+      "excerpt": "가격대비 너무 만족스러운 제품이에요",
+      "opinion": "가격 대비 제품에 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "추천 의향",
+      "excerpt": "가격대비 너무 만족스러운 제품이에요 강추합니다.",
+      "opinion": "가격 대비 매우 만족스러워 강력히 추천함",
+      "sentiment": "positive"
+    }
+  ]
+}

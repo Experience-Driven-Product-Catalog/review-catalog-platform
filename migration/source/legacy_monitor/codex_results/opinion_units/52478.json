@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "해상도",
+      "raw_status": "맞지 않음",
+      "excerpt": "해상도가 맞지않아 불편했는데",
+      "opinion": "해상도가 맞지 않아 사용이 불편했음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "해상도 조정",
+      "raw_status": "괜찮음",
+      "excerpt": "조정하니 괜찮아요",
+      "opinion": "해상도를 조정한 후에는 괜찮았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 사이즈",
+      "raw_status": "작음",
+      "excerpt": "생각보다 사이즈가 작아서 실망 스러워요",
+      "opinion": "생각보다 모니터 사이즈가 작아 실망스러움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "사이즈 선택",
+      "raw_status": "후회",
+      "excerpt": "더큰 사이즈로 할걸 후회되네요",
+      "opinion": "더 큰 사이즈를 선택하지 않은 것을 후회함",
+      "sentiment": "negative"
+    }
+  ]
+}

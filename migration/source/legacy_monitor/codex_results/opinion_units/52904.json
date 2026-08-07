@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "하자",
+      "raw_status": "없음",
+      "excerpt": "하자도 없고 품질이 뛰어나서 좋습니다만 생각보다 베젤이 넓어서 눈이 불편해서 아쉽네요",
+      "opinion": "사용 중 하자가 없어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "품질",
+      "raw_status": "뛰어남",
+      "excerpt": "하자도 없고 품질이 뛰어나서 좋습니다만 생각보다 베젤이 넓어서 눈이 불편해서 아쉽네요",
+      "opinion": "품질이 뛰어나서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "넓음",
+      "excerpt": "하자도 없고 품질이 뛰어나서 좋습니다만 생각보다 베젤이 넓어서 눈이 불편해서 아쉽네요",
+      "opinion": "베젤이 생각보다 넓음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "눈의 편안함",
+      "raw_status": "불편함",
+      "excerpt": "하자도 없고 품질이 뛰어나서 좋습니다만 생각보다 베젤이 넓어서 눈이 불편해서 아쉽네요",
+      "opinion": "베젤이 넓어 눈이 불편해서 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

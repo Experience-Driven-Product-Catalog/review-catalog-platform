@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명하고 또렷함",
+      "excerpt": "모니터 화면이 더 선명하고 또렷해서 만족스럽네요~",
+      "opinion": "모니터 화면이 더 선명하고 또렷해서 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제조사",
+      "raw_status": "호감",
+      "excerpt": "뭐니뭐니해도 OOO제조사를 좋아하지 않을수가 없답니다^^",
+      "opinion": "뭐니뭐니해도 OOO제조사를 좋아하지 않을 수 없을 만큼 호감이 있음",
+      "sentiment": "positive"
+    }
+  ]
+}

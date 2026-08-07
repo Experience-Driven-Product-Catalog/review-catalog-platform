@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "TV 기능",
+      "raw_status": "충실함",
+      "excerpt": "스마트 모니터가 TV기능을 톡톡히 하네요~",
+      "opinion": "스마트 모니터가 TV 기능을 충실히 수행함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "이동성",
+      "raw_status": "좋음",
+      "excerpt": "거치대만 따로 구입하니 이동성도 좋아서 편해요.",
+      "opinion": "거치대를 별도로 구입하면 이동성이 좋아 편리함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "럭셔리해 보임",
+      "excerpt": "디자인도 럭셔리해보여 좋네요^^",
+      "opinion": "디자인이 럭셔리해 보여 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

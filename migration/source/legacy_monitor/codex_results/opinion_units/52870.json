@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "선명함",
+      "raw_status": "높음",
+      "excerpt": "선명함도 아주 좋고 해상도도 좋아서 마음에 들어요",
+      "opinion": "화면 선명함이 아주 좋아서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "해상도",
+      "raw_status": "좋음",
+      "excerpt": "선명함도 아주 좋고 해상도도 좋아서 마음에 들어요",
+      "opinion": "해상도가 좋아서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "예상보다 큼",
+      "excerpt": "사이즈가 생각보다 더 커서 아주 만족합니다~",
+      "opinion": "사이즈가 생각보다 더 커서 아주 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "PD 충전기 연결",
+      "raw_status": "가능",
+      "excerpt": "65w pd 충전기에  연결이 가능한 모니터라 좋아요",
+      "opinion": "65W PD 충전기에 연결할 수 있어 좋아함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "OTT 기능",
+      "raw_status": "기본 내장",
+      "excerpt": "ott가 기본 내장이라 켜면 바로 볼수 있어 너무 좋아요",
+      "opinion": "OTT가 기본 내장되어 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "OTT 시청 시작",
+      "raw_status": "즉시 시청 가능",
+      "excerpt": "ott가 기본 내장이라 켜면 바로 볼수 있어 너무 좋아요",
+      "opinion": "모니터를 켜면 OTT를 바로 볼 수 있어 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "최고",
+      "excerpt": "누가뭐라해도 OOO제품을 능가할 수가 없네요~짱입니다요!!!",
+      "opinion": "OOO제품을 능가할 수 없을 정도로 제품을 최고라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전원 스위치 위치",
+      "raw_status": "모니터 뒤편",
+      "excerpt": "단지 전원 스위치가 모니터 뒤편에 위치해 있어서 사용하기가 번거러웠어요ㅠ",
+      "opinion": "전원 스위치가 모니터 뒤편에 위치해 있어 사용하기 번거로움",
+      "sentiment": "negative"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 저렴해서 우선 맘에 들었고",
+      "opinion": "가격이 저렴해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "성능",
+      "raw_status": "매우 좋음",
+      "excerpt": "이 가격대의 성능이라고 믿을 수 없을 정도로 좋네요.",
+      "opinion": "이 가격대의 성능이라고 믿기 어려울 정도로 성능이 매우 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

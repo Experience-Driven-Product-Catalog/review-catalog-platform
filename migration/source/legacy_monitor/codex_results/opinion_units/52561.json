@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "출력 왜곡",
+      "raw_status": "없음",
+      "excerpt": "사무용으로 업무 작업시 왜곡없이 출력되니 일하기 좋아요",
+      "opinion": "사무용으로 업무 작업을 할 때 화면이 왜곡 없이 출력됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사무용 업무 적합성",
+      "raw_status": "좋음",
+      "excerpt": "사무용으로 업무 작업시 왜곡없이 출력되니 일하기 좋아요",
+      "opinion": "왜곡 없이 출력되어 사무용 업무 작업을 하기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "브랜드 제품중 20만원 대로 가격이 착한편이라 좋아요",
+      "opinion": "브랜드 제품 중 20만 원대로 가격이 저렴한 편이라 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "없음",
+      "excerpt": "배젤이 없어 화면을 넓게 사용할 수 있어 좋아요",
+      "opinion": "베젤이 없어 화면을 넓게 사용할 수 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 사용 범위",
+      "raw_status": "넓음",
+      "excerpt": "배젤이 없어 화면을 넓게 사용할 수 있어 좋아요",
+      "opinion": "베젤이 없어 화면을 넓게 사용할 수 있어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "HDMI 케이블",
+      "raw_status": "포함됨",
+      "excerpt": "hdmi 선까지 포함되어 마음에 들어요",
+      "opinion": "HDMI 케이블까지 포함되어 있어 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

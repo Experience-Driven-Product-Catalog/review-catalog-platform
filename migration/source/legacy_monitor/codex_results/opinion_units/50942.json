@@ -1,0 +1,11 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "높음",
+      "excerpt": "사무용으로 구매한 건데.. 정말 가성비가 좋네요~",
+      "opinion": "사무용으로 구매했으며 가성비가 정말 좋다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

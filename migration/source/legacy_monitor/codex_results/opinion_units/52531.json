@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "깔끔함",
+      "excerpt": "깔끔한 디자인이 우선 맘에 들었습니다.",
+      "opinion": "깔끔한 디자인이 우선 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "훌륭함",
+      "excerpt": "화질도 훌륭해서 좋아요.",
+      "opinion": "화질이 훌륭해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치",
+      "raw_status": "깔끔함",
+      "excerpt": "모니터 암을 더하니 깔끔하게 설치되네요",
+      "opinion": "모니터 암을 추가하니 깔끔하게 설치됨",
+      "sentiment": "positive"
+    }
+  ]
+}

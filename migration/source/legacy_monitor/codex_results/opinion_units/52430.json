@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "가벼워 조절하고 움직이기 좋네요~",
+      "opinion": "모니터가 가벼워 조절하고 움직이기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "조절 편의성",
+      "raw_status": "좋음",
+      "excerpt": "가벼워 조절하고 움직이기 좋네요~",
+      "opinion": "가벼워서 조절하기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "이동 편의성",
+      "raw_status": "좋음",
+      "excerpt": "가벼워 조절하고 움직이기 좋네요~",
+      "opinion": "가벼워서 움직이기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "편안하고 좋음",
+      "excerpt": "화질도 편안하게 좋고~~",
+      "opinion": "화질이 편안하고 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

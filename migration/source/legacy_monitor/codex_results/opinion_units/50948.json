@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "쓰던모니터에 비해 사이즈도 커서 볼때 시원한게 넘 맘에 들고",
+      "opinion": "쓰던 모니터보다 화면 크기가 커서 볼 때 시원한 느낌이 들어 매우 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "장시간 시청",
+      "raw_status": "편안함",
+      "excerpt": "오래보고있어도 편하고",
+      "opinion": "오래 보고 있어도 편안함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈 피로",
+      "raw_status": "적음",
+      "excerpt": "눈도 덜피곤하네요.",
+      "opinion": "오래 사용해도 눈이 덜 피곤함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "사용하면서 제 결정에 아주 만족하고 있습니다!!",
+      "opinion": "사용하면서 이 모니터를 선택한 결정에 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

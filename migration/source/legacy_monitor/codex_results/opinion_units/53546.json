@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "초당 이미지 표시",
+      "raw_status": "144개",
+      "excerpt": "일반 제품과 달리 초당 144개의 이미지를 보여주는 제품이라",
+      "opinion": "일반 제품과 달리 초당 144개의 이미지를 보여줌",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "게임 화면 화질",
+      "raw_status": "입체감 있음",
+      "excerpt": "초당 144개의 이미지를 보여주는 제품이라 게임할때 화질이 입체감 있어 좋네요 ^^ 굿~",
+      "opinion": "게임할 때 화질에 입체감이 있어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 깜빡임",
+      "raw_status": "발생",
+      "excerpt": "다만 지싱크의 문제인지 사용하는 도중 깜빡이는 현상이 발생해서 불편하고 불만족스럽네요ㅜ",
+      "opinion": "지싱크 문제인지는 확실하지 않지만 사용하는 도중 화면 깜빡임이 발생해 불편하고 불만족스러움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "품질 낮음",
+      "excerpt": "품질 나빠요",
+      "opinion": "제품 품질이 나쁘다고 평가함",
+      "sentiment": "negative"
+    }
+  ]
+}

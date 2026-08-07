@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 불량",
+      "raw_status": "없음",
+      "excerpt": "불량없는 제품이라 만족스럽습니다.",
+      "opinion": "불량이 없는 제품이라 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "작아 보임",
+      "excerpt": "더 큰사이즈를 썼던탓인지 화면크기가 작아보이네요 ㅠ",
+      "opinion": "더 큰 사이즈의 제품을 사용했던 탓에 화면 크기가 작아 보임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화면 크기 적응",
+      "raw_status": "필요함",
+      "excerpt": "화면크기가 작아보이네요 ㅠ 적응이 필요하겠어요.",
+      "opinion": "작아 보이는 화면 크기에 적응이 필요함",
+      "sentiment": "negative"
+    }
+  ]
+}

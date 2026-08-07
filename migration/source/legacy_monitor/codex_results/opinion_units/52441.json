@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제조사",
+      "raw_status": "신뢰감",
+      "excerpt": "제조사가 OOO제품이어서 믿음이 가네요.",
+      "opinion": "제조사가 OOO제품이어서 믿음이 감",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "견고함",
+      "raw_status": "낮음",
+      "excerpt": "그럼에도 불구하고 견고함은 그리 좋지는 않아요ㅠ",
+      "opinion": "견고함이 그리 좋지는 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "모니터 패널 각도 조절",
+      "raw_status": "가능",
+      "excerpt": "모니터 패널의 각도 조절은 가능한데 높이 조절은 불가능해서 안타까워요~",
+      "opinion": "모니터 패널의 각도 조절이 가능함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "모니터 패널 높이 조절",
+      "raw_status": "불가능",
+      "excerpt": "모니터 패널의 각도 조절은 가능한데 높이 조절은 불가능해서 안타까워요~",
+      "opinion": "모니터 패널의 높이 조절이 불가능해서 안타까움",
+      "sentiment": "negative"
+    }
+  ]
+}

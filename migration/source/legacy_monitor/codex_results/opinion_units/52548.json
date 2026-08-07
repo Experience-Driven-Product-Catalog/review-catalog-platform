@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "화면이 선명하고",
+      "opinion": "화면이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색감",
+      "raw_status": "마음에 듦",
+      "excerpt": "색감이 마음에 들어요",
+      "opinion": "색감이 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 두께",
+      "raw_status": "얇음",
+      "excerpt": "모니터가 얇아서 자리를 덜 차지하고 좋고",
+      "opinion": "모니터가 얇아 자리를 덜 차지해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "가벼움",
+      "excerpt": "무게가 가벼워서 이동시 편하고 좋아요",
+      "opinion": "무게가 가벼움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "이동 편의성",
+      "raw_status": "편함",
+      "excerpt": "무게가 가벼워서 이동시 편하고 좋아요",
+      "opinion": "가벼운 무게 덕분에 이동이 편해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "브랜드제품인데 가격이 저렴해서 좋아요",
+      "opinion": "브랜드 제품인데 가격이 저렴해서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

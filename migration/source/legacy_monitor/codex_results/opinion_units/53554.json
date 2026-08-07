@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "좋음",
+      "excerpt": "화질도 좋고 가성비가 좋은데 저렴하게 구입해서 너무 좋아요",
+      "opinion": "화질이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "화질도 좋고 가성비가 좋은데 저렴하게 구입해서 너무 좋아요",
+      "opinion": "가성비가 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "구매 가격",
+      "raw_status": "저렴함",
+      "excerpt": "저렴하게 구입해서 너무 좋아요",
+      "opinion": "저렴하게 구입해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "화면이 선명하기도 하고 렉도 없이 부드럽게 장면이 넘어가니 아주 만족해요",
+      "opinion": "화면이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "렉",
+      "raw_status": "없음",
+      "excerpt": "화면이 선명하기도 하고 렉도 없이 부드럽게 장면이 넘어가니 아주 만족해요",
+      "opinion": "렉 없이 화면이 재생됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "장면 전환",
+      "raw_status": "부드러움",
+      "excerpt": "화면이 선명하기도 하고 렉도 없이 부드럽게 장면이 넘어가니 아주 만족해요",
+      "opinion": "렉 없이 장면이 부드럽게 넘어감",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "화면이 선명하기도 하고 렉도 없이 부드럽게 장면이 넘어가니 아주 만족해요",
+      "opinion": "화면의 선명도와 부드러운 장면 전환에 아주 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

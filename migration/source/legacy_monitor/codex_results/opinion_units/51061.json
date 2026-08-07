@@ -1,0 +1,60 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "3면 베젤",
+      "raw_status": "얇음",
+      "excerpt": "얇은 3면 베젤로 슬림한 디자인은 심플해서 방 분위기를 망치지 않아 좋네요.",
+      "opinion": "3면 베젤이 얇아 슬림한 디자인을 구성함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "심플함",
+      "excerpt": "얇은 3면 베젤로 슬림한 디자인은 심플해서 방 분위기를 망치지 않아 좋네요.",
+      "opinion": "슬림하고 심플한 디자인이 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "방 분위기",
+      "raw_status": "해치지 않음",
+      "excerpt": "얇은 3면 베젤로 슬림한 디자인은 심플해서 방 분위기를 망치지 않아 좋네요.",
+      "opinion": "심플한 디자인이 방 분위기를 망치지 않음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "IPS패널은 선명하고 색 표현력이 좋아 화질 좋습니다.",
+      "opinion": "IPS 패널 화면이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색 표현력",
+      "raw_status": "좋음",
+      "excerpt": "IPS패널은 선명하고 색 표현력이 좋아 화질 좋습니다.",
+      "opinion": "IPS 패널의 색 표현력이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "좋음",
+      "excerpt": "IPS패널은 선명하고 색 표현력이 좋아 화질 좋습니다.",
+      "opinion": "화질이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스탠드 기능",
+      "raw_status": "다양함",
+      "excerpt": "스탠드는 피벗, 높낮이 조절 등 다양한 기능이 있어 게임할때 좋습니다.",
+      "opinion": "스탠드에 피벗과 높낮이 조절 등 다양한 기능이 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임 사용성",
+      "raw_status": "좋음",
+      "excerpt": "스탠드는 피벗, 높낮이 조절 등 다양한 기능이 있어 게임할때 좋습니다.",
+      "opinion": "다양한 스탠드 기능이 게임할 때 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "불량화소가 전혀 없이 아주 깨끗한 화질을 볼 수 있어서 좋아요.",
+      "opinion": "불량화소가 전혀 없어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깨끗함",
+      "excerpt": "불량화소가 전혀 없이 아주 깨끗한 화질을 볼 수 있어서 좋아요.",
+      "opinion": "아주 깨끗한 화질을 볼 수 있어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 넓이",
+      "raw_status": "넓음",
+      "excerpt": "게다가 화면까지도 넓고 커서 굿이랍니다!!!",
+      "opinion": "화면이 넓어서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "게다가 화면까지도 넓고 커서 굿이랍니다!!!",
+      "opinion": "화면이 커서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

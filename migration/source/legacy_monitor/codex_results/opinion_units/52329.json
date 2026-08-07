@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "대형",
+      "excerpt": "32인치의 화면도 대형이고",
+      "opinion": "32인치 화면이 대형이라 노트북만 사용할 때 느끼던 화면 크기 불편함을 해소함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스마트 TV 기능",
+      "raw_status": "있음",
+      "excerpt": "스마트 TV 기능도 있고 엄청나게 좋네요.",
+      "opinion": "스마트 TV 기능이 있고 매우 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "리모컨",
+      "raw_status": "유용함",
+      "excerpt": "구성품 중 리모컨도 정말 유용합니다.",
+      "opinion": "구성품으로 포함된 리모컨이 정말 유용함",
+      "sentiment": "positive"
+    }
+  ]
+}

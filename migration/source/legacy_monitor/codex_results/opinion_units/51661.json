@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "화면 선명하고 깨끗하게 잘 보인다고 좋아하셔서",
+      "opinion": "아버지가 화면이 선명하고 깨끗하게 잘 보여 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 가시성",
+      "raw_status": "잘 보임",
+      "excerpt": "화면 선명하고 깨끗하게 잘 보인다고 좋아하셔서",
+      "opinion": "아버지가 화면이 잘 보여 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "무거움",
+      "excerpt": "무게가 좀 무거워서 제가 옮겨드려야 할것같아요.",
+      "opinion": "무게가 좀 무거움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "제품 이동",
+      "raw_status": "이동 필요",
+      "excerpt": "무게가 좀 무거워서 제가 옮겨드려야 할것같아요.",
+      "opinion": "무거워서 제품을 직접 옮겨드려야 할 것 같음",
+      "sentiment": "negative"
+    }
+  ]
+}

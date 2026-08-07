@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "착함",
+      "excerpt": "착한 가격에 구매할 수 있어서 너무 좋구요.",
+      "opinion": "착한 가격에 구매할 수 있어서 매우 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면크기",
+      "raw_status": "27인치로 넓고 큼",
+      "excerpt": "화면크기가 27인치로 넓고 커서 시원스럽게 화면 시청이 가능하고요.",
+      "opinion": "화면크기가 27인치로 넓고 커서 시원스럽게 화면을 시청할 수 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 시청",
+      "raw_status": "시원스러움",
+      "excerpt": "화면크기가 27인치로 넓고 커서 시원스럽게 화면 시청이 가능하고요.",
+      "opinion": "넓고 큰 화면 덕분에 시원스럽게 화면 시청이 가능함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시야각",
+      "raw_status": "좋음",
+      "excerpt": "또한 IPS패널 구성으로 시야각이 좋아요^^",
+      "opinion": "IPS 패널 구성으로 시야각이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "무엇보다 불량화소를 전혀 찾아볼 수 없는 점은 더욱 놀랍네요~",
+      "opinion": "불량화소를 전혀 찾아볼 수 없어 놀라움",
+      "sentiment": "positive"
+    }
+  ]
+}

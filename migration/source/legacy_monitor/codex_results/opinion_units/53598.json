@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격 대비 품질",
+      "raw_status": "고품질",
+      "excerpt": "이가격에  고품질이라니 정말 좋아요^^",
+      "opinion": "이 가격에 고품질이라서 정말 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "정말  잘 구입했어요.",
+      "opinion": "제품을 잘 구입했다고 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 받침대 크기",
+      "raw_status": "큼",
+      "excerpt": "모니터 받치대가 많이 커서 자리를  너무  많이 차지해서 완전 불편해요",
+      "opinion": "모니터 받침대가 많이 커서 불편함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "받침대의 공간 점유",
+      "raw_status": "많음",
+      "excerpt": "모니터 받치대가 많이 커서 자리를  너무  많이 차지해서 완전 불편해요",
+      "opinion": "모니터 받침대가 자리를 너무 많이 차지함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "사용 편의성",
+      "raw_status": "불편함",
+      "excerpt": "모니터 받치대가 많이 커서 자리를  너무  많이 차지해서 완전 불편해요",
+      "opinion": "받침대가 공간을 많이 차지해 사용이 매우 불편함",
+      "sentiment": "negative"
+    }
+  ]
+}

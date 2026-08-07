@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "얇음",
+      "excerpt": "베젤이 얇아서 이쁘기도 하고 사이즈까지 커보이니 만족해요~~",
+      "opinion": "베젤이 얇아 제품이 예뻐 보임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "외관",
+      "raw_status": "예쁨",
+      "excerpt": "베젤이 얇아서 이쁘기도 하고 사이즈까지 커보이니 만족해요~~",
+      "opinion": "베젤이 얇아서 외관이 예쁨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기 인상",
+      "raw_status": "커 보임",
+      "excerpt": "베젤이 얇아서 이쁘기도 하고 사이즈까지 커보이니 만족해요~~",
+      "opinion": "사이즈가 커 보여 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "베젤이 얇아서 이쁘기도 하고 사이즈까지 커보이니 만족해요~~",
+      "opinion": "얇은 베젤과 커 보이는 사이즈에 전반적으로 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

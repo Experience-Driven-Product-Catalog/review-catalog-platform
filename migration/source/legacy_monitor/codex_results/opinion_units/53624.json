@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "작동 상태",
+      "raw_status": "정상 작동",
+      "excerpt": "이상 없이 잘 작동되고",
+      "opinion": "제품이 이상 없이 잘 작동됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "괜찮음",
+      "excerpt": "가성비도 괜찮고",
+      "opinion": "가성비가 괜찮다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "조립",
+      "raw_status": "간단함",
+      "excerpt": "조립도 간단하고 좋습니다.",
+      "opinion": "조립이 간단해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "케이블 구성",
+      "raw_status": "DP 케이블 제공",
+      "excerpt": "DP 케이블 말고 HDMI 케이블이었으면 더 좋았을 것 같습니다.",
+      "opinion": "DP 케이블보다 HDMI 케이블이 제공되었으면 더 좋았을 것 같음",
+      "sentiment": "negative"
+    }
+  ]
+}

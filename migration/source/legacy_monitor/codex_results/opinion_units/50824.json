@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "저렴한 가격에 이런 제품을 쓸 수 있어 감사하네요.",
+      "opinion": "저렴한 가격에 이런 제품을 사용할 수 있어 감사함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "기능",
+      "raw_status": "다양함",
+      "excerpt": "다양한 기능을 갖추고 있어서 만족하며 사용 중입니다.",
+      "opinion": "다양한 기능을 갖추고 있어 만족하며 사용 중임",
+      "sentiment": "positive"
+    }
+  ]
+}

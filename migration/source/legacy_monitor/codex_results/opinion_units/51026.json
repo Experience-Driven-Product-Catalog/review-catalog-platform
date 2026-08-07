@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "성능",
+      "raw_status": "훌륭함",
+      "excerpt": "듀얼모니터 용으로 샀는데 생각보다 성능이 훌륭하네요.",
+      "opinion": "듀얼모니터 용도로 사용하기에 생각보다 성능이 훌륭함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "부족한 부분",
+      "raw_status": "없음",
+      "excerpt": "크게 부족하다거나 아쉬운 부분이 없어서 가격값은 충분히 하고도 남는 품질이네요",
+      "opinion": "크게 부족하거나 아쉬운 부분이 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격 대비 품질",
+      "raw_status": "가격값 이상",
+      "excerpt": "크게 부족하다거나 아쉬운 부분이 없어서 가격값은 충분히 하고도 남는 품질이네요",
+      "opinion": "가격값은 충분히 하고도 남는 품질임",
+      "sentiment": "positive"
+    }
+  ]
+}

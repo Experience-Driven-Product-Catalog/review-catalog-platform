@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "품질",
+      "raw_status": "좋음",
+      "excerpt": "품질도 좋고",
+      "opinion": "제품 품질이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "최고",
+      "excerpt": "가성비가 최고인데 저렴하게 잘산것같아요",
+      "opinion": "가성비가 최고여서 저렴하게 잘 샀다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 흑점",
+      "raw_status": "발생",
+      "excerpt": "화면에 흑점하나 있는데 작고 티는 안나지만 좀 아쉽네요 ㅜㅜ",
+      "opinion": "화면에 흑점 하나가 있으며 작고 눈에 띄지는 않지만 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

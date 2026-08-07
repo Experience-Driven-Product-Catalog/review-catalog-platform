@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "회사 제품 사용 경험",
+      "raw_status": "처음 사용",
+      "excerpt": "타사 제품만 쓰다가 처음으로 이 회사 제품을 사봤어요.",
+      "opinion": "타사 제품만 사용하다가 이 회사 제품은 처음 구매해 봄",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화면 결함",
+      "raw_status": "무결점",
+      "excerpt": "화면이 무결점이고, 빛샘도 거의 없어서 너무 만족스럽네요!!",
+      "opinion": "화면이 무결점이라 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "빛샘",
+      "raw_status": "거의 없음",
+      "excerpt": "화면이 무결점이고, 빛샘도 거의 없어서 너무 만족스럽네요!!",
+      "opinion": "빛샘이 거의 없어 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "회사 신뢰도",
+      "raw_status": "믿음이 생김",
+      "excerpt": "OOO에 대한 믿음이 생겨서 앞으로 모니터 살 때 자주 애용하려고 합니다ㅎㅎ",
+      "opinion": "제품 사용 후 회사에 대한 믿음이 생김",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "향후 모니터 구매 의향",
+      "raw_status": "자주 이용할 의향",
+      "excerpt": "OOO에 대한 믿음이 생겨서 앞으로 모니터 살 때 자주 애용하려고 합니다ㅎㅎ",
+      "opinion": "앞으로 모니터를 살 때 이 회사 제품을 자주 이용하려고 함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인 외관",
+      "raw_status": "예쁨",
+      "excerpt": "디자인이 예쁘고 심플하니 좋네요.",
+      "opinion": "디자인이 예뻐서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인 구성",
+      "raw_status": "심플함",
+      "excerpt": "디자인이 예쁘고 심플하니 좋네요.",
+      "opinion": "디자인이 심플해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "노트북 연결 사용성",
+      "raw_status": "편리함",
+      "excerpt": "노트북에 연결해서 쓰는데 편하고 좋아요~",
+      "opinion": "노트북에 연결해서 사용하기 편하고 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

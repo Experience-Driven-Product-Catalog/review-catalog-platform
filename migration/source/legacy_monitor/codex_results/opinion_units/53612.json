@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비 정말 좋아요.",
+      "opinion": "가성비가 정말 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "없음",
+      "excerpt": "불량 화소 하나 찾아 볼 수 없어 믿음이 가네요.",
+      "opinion": "불량 화소를 하나도 찾을 수 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 신뢰감",
+      "raw_status": "높음",
+      "excerpt": "불량 화소 하나 찾아 볼 수 없어 믿음이 가네요.",
+      "opinion": "불량 화소가 없어 제품에 믿음이 감",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "부드러움",
+      "excerpt": "화질 역시 더 부드럽고 쾌적함을 느낄 수 있어서 기존 것과 비교 할 수 없을 정도로 맘에 들어요.",
+      "opinion": "기존 제품과 비교할 수 없을 정도로 화질이 더 부드러워 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "쾌적함",
+      "excerpt": "화질 역시 더 부드럽고 쾌적함을 느낄 수 있어서 기존 것과 비교 할 수 없을 정도로 맘에 들어요.",
+      "opinion": "기존 제품보다 화질에서 더 쾌적함을 느껴 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

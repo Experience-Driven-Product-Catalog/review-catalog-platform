@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "타사 제품보다 더 싸서 맘에 들었고요ㅎㅎ",
+      "opinion": "타사 제품보다 가격이 더 저렴해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "뛰어남",
+      "excerpt": "화질도 비교적 뛰어난 편이네요!~~~",
+      "opinion": "화질이 비교적 뛰어난 편임",
+      "sentiment": "positive"
+    }
+  ]
+}

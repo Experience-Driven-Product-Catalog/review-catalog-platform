@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "슬림함",
+      "excerpt": "슬림한 베젤을 가진 디자인 덕에 몰입도가 정말 높습니다!",
+      "opinion": "슬림한 베젤 디자인임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "몰입도",
+      "raw_status": "높음",
+      "excerpt": "슬림한 베젤을 가진 디자인 덕에 몰입도가 정말 높습니다!",
+      "opinion": "슬림한 베젤 디자인 덕분에 몰입도가 정말 높음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "패널",
+      "raw_status": "IPS",
+      "excerpt": "ips패널이고 눈에 피로감을 덜 주는 모니터를 찾고 있었는데 비슷한 조건 중 가성비가 역대급으로 훌륭한 제품이라 감사하게 구매했습니다~",
+      "opinion": "IPS 패널임",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "역대급으로 훌륭함",
+      "excerpt": "ips패널이고 눈에 피로감을 덜 주는 모니터를 찾고 있었는데 비슷한 조건 중 가성비가 역대급으로 훌륭한 제품이라 감사하게 구매했습니다~",
+      "opinion": "비슷한 조건의 제품 중 가성비가 역대급으로 훌륭함",
+      "sentiment": "positive"
+    }
+  ]
+}

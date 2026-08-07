@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "화질이 선명하고 깨끗해서 눈이 편하고 좋네요",
+      "opinion": "화질이 선명하고 깨끗함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈의 편안함",
+      "raw_status": "편안함",
+      "excerpt": "화질이 선명하고 깨끗해서 눈이 편하고 좋네요",
+      "opinion": "화질이 선명하고 깨끗해서 눈이 편안하고 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "받침대 두께",
+      "raw_status": "너무 두꺼움",
+      "excerpt": "받침대가 너무 두꺼워서 뒷부분 공간을 너무 많이 차지하게 되서 마음에 안들어요",
+      "opinion": "받침대가 너무 두꺼워 마음에 들지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "뒷부분 공간 차지",
+      "raw_status": "많음",
+      "excerpt": "받침대가 너무 두꺼워서 뒷부분 공간을 너무 많이 차지하게 되서 마음에 안들어요",
+      "opinion": "받침대 때문에 뒷부분 공간을 너무 많이 차지함",
+      "sentiment": "negative"
+    }
+  ]
+}

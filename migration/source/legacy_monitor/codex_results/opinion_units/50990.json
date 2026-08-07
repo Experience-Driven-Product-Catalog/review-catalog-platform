@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "요구 조건 충족도",
+      "raw_status": "충족",
+      "excerpt": "원하는 조건을 모두 충족하면서 가격까지 저렴하다니 정말 굿입니다!!",
+      "opinion": "원하는 조건을 모두 충족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "원하는 조건을 모두 충족하면서 가격까지 저렴하다니 정말 굿입니다!!",
+      "opinion": "가격이 저렴해서 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "적절함",
+      "excerpt": "사이즈도 딱이라 2개나 구매했네요^^",
+      "opinion": "사이즈가 딱 맞아 만족스러워 2개를 구매함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족스러움",
+      "excerpt": "정말 굿입니다!!",
+      "opinion": "전반적으로 제품이 매우 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

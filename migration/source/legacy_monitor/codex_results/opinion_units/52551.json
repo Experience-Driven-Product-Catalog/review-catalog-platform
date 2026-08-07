@@ -1,0 +1,53 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "작은사이즈 모니터 사용하다가 27인치 큰 화면 사용하니까 크기가 확 와닿고",
+      "opinion": "작은 사이즈 모니터를 사용하다가 27인치 큰 화면을 사용하니 크기가 확 와닿음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "얇음",
+      "excerpt": "베젤은 얇아서 투박하지 않고 예쁜 엣지를  보여준답니다.",
+      "opinion": "베젤이 얇아 투박하지 않음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "외관",
+      "raw_status": "예쁨",
+      "excerpt": "베젤은 얇아서 투박하지 않고 예쁜 엣지를  보여준답니다.",
+      "opinion": "얇은 베젤 덕분에 예쁜 엣지를 보여줌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "문제 없음",
+      "excerpt": "화질도 불량화소도 없고 화면 밝기 강도도 높아서 좋구요.",
+      "opinion": "화질에 문제가 없다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "화질도 불량화소도 없고 화면 밝기 강도도 높아서 좋구요.",
+      "opinion": "불량화소가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 밝기 강도",
+      "raw_status": "높음",
+      "excerpt": "화질도 불량화소도 없고 화면 밝기 강도도 높아서 좋구요.",
+      "opinion": "화면 밝기 강도가 높아서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시력보호기능",
+      "raw_status": "도움됨",
+      "excerpt": "웹서핑할 때에는 시력보호기능이 있어 완전 도움이 됩니다.",
+      "opinion": "웹서핑할 때 시력보호기능이 있어 완전히 도움이 됨",
+      "sentiment": "positive"
+    }
+  ]
+}

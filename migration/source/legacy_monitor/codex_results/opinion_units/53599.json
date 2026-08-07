@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "뛰어남",
+      "excerpt": "이 정도 스펙을 이 가격에 만나볼 수 없을 정도로 가성비가 좋네요.",
+      "opinion": "이 정도 스펙을 이 가격에 구매할 수 있어 가성비가 매우 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임 성능",
+      "raw_status": "좋음",
+      "excerpt": "게임용으로는 끊김없이 성능이 좋고요.",
+      "opinion": "게임용으로 성능이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 끊김",
+      "raw_status": "없음",
+      "excerpt": "게임용으로는 끊김없이 성능이 좋고요.",
+      "opinion": "게임용으로 사용할 때 화면이 끊기지 않음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "만족도 저하",
+      "excerpt": "하지만 그래픽을 전문으로 하시는 불들은 민감한 부분에서 화질에 대한 만족도가 떨어져 불편합니다.",
+      "opinion": "그래픽을 전문으로 하는 사용자는 민감한 부분에서 화질 만족도가 떨어짐",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "그래픽 전문 작업",
+      "raw_status": "불편함",
+      "excerpt": "하지만 그래픽을 전문으로 하시는 불들은 민감한 부분에서 화질에 대한 만족도가 떨어져 불편합니다.",
+      "opinion": "그래픽을 전문으로 하는 사용자는 민감한 부분에서 사용이 불편함",
+      "sentiment": "negative"
+    }
+  ]
+}

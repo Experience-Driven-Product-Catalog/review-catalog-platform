@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "눈 피로감",
+      "raw_status": "적음",
+      "excerpt": "눈 피로감도 덜하고 좋아요",
+      "opinion": "사용 시 눈 피로감이 덜해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "적합함",
+      "excerpt": "노트북 크기 27인치가 문서작업시 한눈에 딱 들어오는 적합한 크기라 좋아요",
+      "opinion": "27인치 크기가 문서작업 시 한눈에 들어오는 적합한 크기라서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

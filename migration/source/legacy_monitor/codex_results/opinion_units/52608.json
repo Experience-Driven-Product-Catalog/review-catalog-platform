@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "전에 쓰던 것보다 큰 사이즈로 바꿨더니 눈이 다 시원하네요~",
+      "opinion": "전에 쓰던 것보다 화면 크기가 커져 눈이 시원함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "표면 재질",
+      "raw_status": "먼지 잘 묻어남",
+      "excerpt": "글레어로 먼지 잘 묻어나는 재질이 아쉽군요",
+      "opinion": "글레어 재질이라 먼지가 잘 묻어나는 점이 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

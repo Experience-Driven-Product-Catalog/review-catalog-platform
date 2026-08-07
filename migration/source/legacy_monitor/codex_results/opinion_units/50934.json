@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 사이즈",
+      "raw_status": "큼",
+      "excerpt": "생각보다 모니터 사이즈가 커서 좀 버거운 느낌이 있어요.",
+      "opinion": "모니터 사이즈가 생각보다 커서 다소 버거운 느낌이 듦",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "추가 구매",
+      "raw_status": "발생",
+      "excerpt": "OOO 모니터를 쓰다 맘에 들어 추가 구매했어요.",
+      "opinion": "모니터를 사용해 보니 마음에 들어 추가 구매함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 크기",
+      "raw_status": "예상보다 큼",
+      "excerpt": "생각했던 것보다 모니터 크기가 커서 좀 놀랐습니다ㅠ",
+      "opinion": "생각했던 것보다 모니터 크기가 커서 좀 놀람",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "가격대",
+      "raw_status": "적당함",
+      "excerpt": "가격대는 딱 적당한 것 같고요~~",
+      "opinion": "가격대가 딱 적당하다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격 대비 만족도",
+      "raw_status": "만족스러움",
+      "excerpt": "사무용으로 사용할건데 가격대비 만족스러워요!",
+      "opinion": "사무용으로 사용할 예정이며 가격 대비 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "해상도",
+      "raw_status": "선명함",
+      "excerpt": "해상도도 좋아서 선명하니 마음에 들어요",
+      "opinion": "해상도가 좋아 화면이 선명해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "무난함",
+      "excerpt": "27인치로 무난한 크기라 게임하기도 좋고 만족해요",
+      "opinion": "27인치 크기가 무난해서 게임하기 좋고 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

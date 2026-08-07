@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "어둠속에 숨은 적도 단번에 찾아 낼 선명한 화질~~~굿!!",
+      "opinion": "어둠 속에 숨은 적도 단번에 찾아낼 만큼 화질이 선명해 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "그래픽 전환 속도",
+      "raw_status": "빠름",
+      "excerpt": "빠른 그래픽 전환 속도 짜릿하고요~~",
+      "opinion": "그래픽 전환 속도가 빨라 짜릿함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "갓 OOO",
+      "excerpt": "역시 갓 OOO이네요!!!",
+      "opinion": "제품 전반을 ‘갓 OOO’라고 극찬함",
+      "sentiment": "positive"
+    }
+  ]
+}

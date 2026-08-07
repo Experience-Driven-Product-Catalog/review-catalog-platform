@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면",
+      "raw_status": "깨끗함",
+      "excerpt": "화면이 깨끗하고 밝은편인데 밝은걸 선호해서 좋아요",
+      "opinion": "화면이 깨끗함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 밝기",
+      "raw_status": "밝음",
+      "excerpt": "화면이 깨끗하고 밝은편인데 밝은걸 선호해서 좋아요",
+      "opinion": "화면이 밝은 편이라 밝은 화면을 선호하는 reviewer가 좋아함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "다중 모니터 연결",
+      "raw_status": "모니터 2개 연결 사용",
+      "excerpt": "모니터 2개를 연결해서 사용하는데",
+      "opinion": "모니터 2개를 연결해서 사용함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "업무 효율",
+      "raw_status": "높음",
+      "excerpt": "모니터 2개를 연결해서 사용하는데 업무에 효율적이고 편하고 좋네요",
+      "opinion": "모니터 2개를 연결해 사용하니 업무에 효율적임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용 편의성",
+      "raw_status": "편안함",
+      "excerpt": "모니터 2개를 연결해서 사용하는데 업무에 효율적이고 편하고 좋네요",
+      "opinion": "모니터 2개를 연결해 사용하는 것이 편함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "모니터 2개를 연결해서 사용하는데 업무에 효율적이고 편하고 좋네요",
+      "opinion": "모니터 2개를 연결해 사용하는 전반적인 경험이 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

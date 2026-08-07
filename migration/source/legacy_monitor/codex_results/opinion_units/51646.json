@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "좋은제품",
+      "opinion": "제품을 좋은 제품으로 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "작아 보임",
+      "excerpt": "전에쓰던것도 같은 27인치인데 이 모니터가 좀 더 작아보여요ㅠ",
+      "opinion": "전에 사용하던 같은 27인치 모니터보다 이 모니터가 조금 더 작아 보임",
+      "sentiment": "negative"
+    }
+  ]
+}

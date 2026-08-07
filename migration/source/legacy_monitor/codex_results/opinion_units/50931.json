@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "블루 라이트 차단",
+      "raw_status": "차단됨",
+      "excerpt": "블루 라이트를 차단해줘서 시력을 보호 해준다고 해서 아이용으로 구매했는데, 만족스러워요.",
+      "opinion": "블루 라이트를 차단해 시력 보호에 도움이 된다고 하여 아이용으로 구매했으며 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족스러움",
+      "excerpt": "블루 라이트를 차단해줘서 시력을 보호 해준다고 해서 아이용으로 구매했는데, 만족스러워요.",
+      "opinion": "아이용으로 구매한 제품에 전반적으로 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설정 방법",
+      "raw_status": "쉬움",
+      "excerpt": "설정 방법도 쉬워서 금새 설치해서 좋았어요.",
+      "opinion": "설정 방법이 쉬워서 금방 설치할 수 있어 좋았음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치",
+      "raw_status": "빠름",
+      "excerpt": "설정 방법도 쉬워서 금새 설치해서 좋았어요.",
+      "opinion": "제품을 금방 설치할 수 있었음",
+      "sentiment": "positive"
+    }
+  ]
+}

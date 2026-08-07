@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "색감",
+      "raw_status": "별로",
+      "excerpt": "두개 같이 시켰는데 왼쪽에 비해 오른쪽 제품의 색감이 별로입니다.",
+      "opinion": "오른쪽 제품의 색감이 왼쪽 제품에 비해 별로임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "그래도 제대로 온 건 화면 선명하고 깨끗합니다.",
+      "opinion": "제대로 온 제품의 화면이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 상태",
+      "raw_status": "깨끗함",
+      "excerpt": "그래도 제대로 온 건 화면 선명하고 깨끗합니다.",
+      "opinion": "제대로 온 제품의 화면이 깨끗함",
+      "sentiment": "positive"
+    }
+  ]
+}

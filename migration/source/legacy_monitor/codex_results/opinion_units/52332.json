@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면",
+      "raw_status": "실물 같음",
+      "excerpt": "4K UHD의 해상도로 놀라울정도로 실물 같은 화면을 볼 수 있어서 넘 만족합니다.",
+      "opinion": "4K UHD 해상도 덕분에 놀라울 정도로 실물 같은 화면을 볼 수 있어 매우 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "기기 연결",
+      "raw_status": "다양한 기기 연결 가능",
+      "excerpt": "웹상에서 다양한 기기를  연결해 사용할 수 있어 편리합니다.",
+      "opinion": "웹상에서 다양한 기기를 연결해 사용할 수 있어 편리함",
+      "sentiment": "positive"
+    }
+  ]
+}

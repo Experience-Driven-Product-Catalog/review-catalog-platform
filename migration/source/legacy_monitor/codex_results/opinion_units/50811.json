@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 품질",
+      "raw_status": "가격 대비 괜찮음",
+      "excerpt": "가격에 비해 괜찮은 퀄리티의 제품이라 아주 만족했어요~",
+      "opinion": "가격에 비해 제품 품질이 괜찮아 아주 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "고급스럽지 않음",
+      "excerpt": "디자인이 더 고급졌다면 좋았을 것 같긴합니다",
+      "opinion": "디자인이 더 고급스러웠다면 좋았을 것 같음",
+      "sentiment": "negative"
+    }
+  ]
+}

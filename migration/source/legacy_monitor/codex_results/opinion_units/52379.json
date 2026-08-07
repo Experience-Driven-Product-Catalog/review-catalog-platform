@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질이 선명한 모니터로 보니 눈이 호강하네요",
+      "opinion": "화질이 선명해서 화면을 보니 눈이 호강함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스탠드 조립",
+      "raw_status": "어려움",
+      "excerpt": "스탠드조립이 어렵고 나사를 조여도 잘 조여지지 않아 힘들었어요",
+      "opinion": "스탠드 조립이 어려워 힘들었음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "나사 조임",
+      "raw_status": "잘 조여지지 않음",
+      "excerpt": "스탠드조립이 어렵고 나사를 조여도 잘 조여지지 않아 힘들었어요",
+      "opinion": "나사를 조여도 잘 조여지지 않아 힘들었음",
+      "sentiment": "negative"
+    }
+  ]
+}

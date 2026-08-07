@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 생생함",
+      "raw_status": "생생함",
+      "excerpt": "직접 사용해보니 화면이 더 생생하고 선명해서 놀랍네요~",
+      "opinion": "직접 사용해 보니 화면이 더 생생해서 놀라움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "직접 사용해보니 화면이 더 생생하고 선명해서 놀랍네요~",
+      "opinion": "직접 사용해 보니 화면이 더 선명해서 놀라움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "비게임용 사용성",
+      "raw_status": "적합함",
+      "excerpt": "게임용으로 쓸 계획이 아니라면 싼 가격에 사용하기 딱 좋네요~",
+      "opinion": "게임용으로 쓸 계획이 아니라면 싼 가격에 사용하기에 적합함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "게임용으로 쓸 계획이 아니라면 싼 가격에 사용하기 딱 좋네요~",
+      "opinion": "싼 가격에 사용하기 딱 좋다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

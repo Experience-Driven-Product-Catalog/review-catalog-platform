@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "mapping_table_version_id": "mapping-table-20260803-213339",
+  "normalization_version": "2026-08-03",
+  "normalization_run_id": "20260803-213339",
+  "normalization_config_sha256": "d9f2bec666c2691d24b56b0205191396a7da1a63e632ef59c29975230f44f232",
+  "embedding_model_id": "snunlp/KR-SBERT-Medium-extended-klueNLItriplet_PARpair_QApair-klueSTS",
+  "embedding_model_artifact_sha256": "0a32dc2d7b1b5189bf26e97785f1704af70f1fe2c5bdef0478158964c422c2cf",
+  "source_prompt_version_id": "prompt-opinion-units-bdc8ec050cc500c2",
+  "source_prompt_sha256": "bdc8ec050cc500c2fef533e503e0a27f49028e490bc3f1deaf9503c43efd7adb",
+  "source_extraction_model_version_id": "extraction-model-codex-cli-gpt-5.6-luna-high",
+  "source_extraction_backend": "codex_cli",
+  "source_extraction_model": "gpt-5.6-luna",
+  "source_extraction_reasoning_effort": "high",
+  "metric": "cosine",
+  "linkage": "complete",
+  "aspect_distance_threshold": 0.3591,
+  "status_distance_threshold": 0.2,
+  "counts": {
+    "source_reviews": 749,
+    "source_opinion_units": 2583,
+    "taxonomy_eligible_opinion_units": 2401,
+    "excluded_opinion_units": 182,
+    "aspect_mapping_expressions": 870,
+    "aspect_clusters": 408,
+    "aspect_status_mapping_expressions": 1457,
+    "status_clusters": 1320
+  },
+  "artifacts": {
+    "monitor_reviews.parquet": "53626449590d101d63771318848369b6a3a94a667e6fce010b020adba5e0041f",
+    "monitor_opinion_units.parquet": "75eb7e63c8f00714c97c4f497f2058e37b4be0d623df9aa873cb66e0fab71738",
+    "monitor_representative_attributes.parquet": "3882694e3443640d47c37c5daf5f609a778aad31c71c302f3aaea61b0b5adb7e",
+    "experiment_d.parquet": "126c65238f055434541458b1c44f5323707bce16deb1b87581d580550e4d493b",
+    "experiment_d_aspect_nodes.parquet": "8a8411b8e31e1e0eda67ca03a2e3749d7922b3ad82cb9d7b436b0d32c13fd6e0",
+    "experiment_d_aspect_clusters.parquet": "1ddb36e5ffc80814f6a423c2f282578005d6a696dcec6fc60988884f0d50cd1b",
+    "experiment_d_status_nodes.parquet": "557fa5769c5ae5cbbe49617cc0f4d7b803f7e636ec54f0643af3f0d2327d1b66",
+    "experiment_d_status_clusters.parquet": "19b626649e2dccfbe708b1a0fe595bc067c308315cd56c4a54b83c44ce8d4c4a"
+  }
+}

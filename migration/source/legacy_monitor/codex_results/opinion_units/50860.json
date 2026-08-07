@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "성능",
+      "raw_status": "떨어지지 않음",
+      "excerpt": "서브모니터로 구매했는데 메인 모니터에 비해 성능이 전혀 떨어지지 않을 정도로 좋습니다.",
+      "opinion": "서브모니터로 사용해도 메인 모니터에 비해 성능이 전혀 떨어지지 않을 정도로 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "적합함",
+      "excerpt": "사이즈도 서브 모니터로 딱이라 너무 만족합니다.",
+      "opinion": "사이즈가 서브 모니터로 적합해 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

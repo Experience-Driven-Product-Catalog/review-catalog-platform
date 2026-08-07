@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "무게감",
+      "raw_status": "가벼움",
+      "excerpt": "무게감은 아주 가벼워서 좋습니다.",
+      "opinion": "무게감이 아주 가벼워서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 견고함",
+      "raw_status": "단단하고 튼튼함",
+      "excerpt": "품질면에서는 단단하고 튼튼해서 만족스럽구요.",
+      "opinion": "제품이 단단하고 튼튼해서 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "색상",
+      "raw_status": "깔끔함",
+      "excerpt": "깔끔한 컬러도 맘에 들고요.",
+      "opinion": "색상이 깔끔해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "연결 과정",
+      "raw_status": "간단하고 편리함",
+      "excerpt": "연결하기도 아주 간단하고 편하답니다.",
+      "opinion": "연결하기가 아주 간단하고 편함",
+      "sentiment": "positive"
+    }
+  ]
+}

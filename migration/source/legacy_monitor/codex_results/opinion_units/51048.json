@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없어 보임",
+      "excerpt": "불량화소도 없어보입니다.",
+      "opinion": "불량화소가 없어 보임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 선명도",
+      "raw_status": "선명함",
+      "excerpt": "화면 선명하게 잘 나옵니다.",
+      "opinion": "화면이 선명하게 잘 나옴",
+      "sentiment": "positive"
+    }
+  ]
+}

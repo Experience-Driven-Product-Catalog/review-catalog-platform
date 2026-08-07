@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 크기",
+      "raw_status": "큼",
+      "excerpt": "모니터 크기도 크고",
+      "opinion": "모니터 크기가 커서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 시인성",
+      "raw_status": "시원시원하게 잘 보임",
+      "excerpt": "시원시원하게 잘보여서 좋아요",
+      "opinion": "화면이 시원시원하게 잘 보여서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "선명감",
+      "raw_status": "우수함",
+      "excerpt": "선명감도 아주 우수해서",
+      "opinion": "화면 선명감이 매우 우수함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "몰입감",
+      "raw_status": "높음",
+      "excerpt": "몰입감이 아주 좋아요",
+      "opinion": "화면 선명감이 우수해 몰입감이 매우 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

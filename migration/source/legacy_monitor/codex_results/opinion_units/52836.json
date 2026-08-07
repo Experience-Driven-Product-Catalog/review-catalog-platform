@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "정말 좋아요",
+      "opinion": "모니터가 정말 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "144Hz",
+      "excerpt": "주사율이 144hz라 더 좋고",
+      "opinion": "주사율이 144Hz라서 더 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임 화면",
+      "raw_status": "자연스러움",
+      "excerpt": "게임할때 더 자연스러운 화면으로 볼 수 있어 좋아요",
+      "opinion": "게임할 때 더 자연스러운 화면으로 볼 수 있어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 회전 기능",
+      "raw_status": "지원",
+      "excerpt": "모니터를 회전 할 수 있는 기능 좋네요",
+      "opinion": "모니터를 회전할 수 있는 기능이 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

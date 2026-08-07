@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격 착하고 ㅎㅎ",
+      "opinion": "가격이 저렴해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "상품 크기",
+      "raw_status": "큼직함",
+      "excerpt": "상품 사이즈도 큼직하니 맘에 드네요.^^",
+      "opinion": "상품 사이즈가 큼직해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질 선명도",
+      "raw_status": "기대 수준 미달",
+      "excerpt": "화질이 선명함이 없는 건 아닌데 원하던 수준까지는 아니네요..",
+      "opinion": "화질이 선명하지 않은 것은 아니지만 원하던 수준까지는 아님",
+      "sentiment": "negative"
+    }
+  ]
+}

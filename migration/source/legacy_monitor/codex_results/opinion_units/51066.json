@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "모니터 화질이 선명하고 한편으론 부드러워 만족합니다.",
+      "opinion": "모니터 화질이 선명해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "부드러움",
+      "excerpt": "모니터 화질이 선명하고 한편으론 부드러워 만족합니다.",
+      "opinion": "모니터 화질이 부드러워 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "이름 없는 제품 쓰다가 OOO거 쓰니 역시 좋네요!!",
+      "opinion": "이름 없는 제품을 쓰다가 이 제품을 사용하니 좋다고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "적당함",
+      "excerpt": "가격도 적당해서 전체적으로 만족해요~",
+      "opinion": "가격이 적당해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족함",
+      "excerpt": "가격도 적당해서 전체적으로 만족해요~",
+      "opinion": "제품을 전체적으로 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

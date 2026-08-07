@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "발견됨",
+      "excerpt": "불량 화소를 발견했는데 티가 많이 나는 건 아니지만 아쉬움이 크네요.",
+      "opinion": "불량 화소를 발견해 아쉬움이 큼",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "불량 화소 가시성",
+      "raw_status": "낮음",
+      "excerpt": "불량 화소를 발견했는데 티가 많이 나는 건 아니지만 아쉬움이 크네요.",
+      "opinion": "불량 화소가 눈에 많이 띄지는 않음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "색감",
+      "raw_status": "양호함",
+      "excerpt": "색감도 이정도면 잘 나오는 것 같아 만족합니다.",
+      "opinion": "색감이 이 정도면 잘 나오는 것 같아 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "각종 기능",
+      "raw_status": "정상 작동",
+      "excerpt": "각종 기능들 테스트해보니 다 잘되고 좋네요~",
+      "opinion": "각종 기능을 테스트해 보니 모두 잘 작동해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "무난함",
+      "excerpt": "디자인은 무난해서 쓸 만해요.",
+      "opinion": "디자인이 무난해서 쓸 만함",
+      "sentiment": "positive"
+    }
+  ]
+}

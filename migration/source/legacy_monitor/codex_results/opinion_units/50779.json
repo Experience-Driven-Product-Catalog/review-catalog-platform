@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "품질",
+      "raw_status": "결점 및 문제 없음",
+      "excerpt": "결점없고 문제없는제품에 퀄리티 만족합니다.",
+      "opinion": "제품에 결점이나 문제가 없어 품질에 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 받침대 높이",
+      "raw_status": "짧음",
+      "excerpt": "개인적으로 모니터 받침대 높이가 좀더 길었으면 좋겠어요 짧아서 아쉽습니다",
+      "opinion": "모니터 받침대 높이가 짧아 더 길었으면 좋겠고 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

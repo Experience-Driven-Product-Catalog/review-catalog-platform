@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "최고",
+      "excerpt": "별 기대 안했는데 써보니 가성비 최고입니다!!",
+      "opinion": "기대가 크지 않았지만 사용해 보니 가성비가 최고라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "깔끔함",
+      "excerpt": "디자인도 넘 깔끔해서 만족도 최상!!!",
+      "opinion": "디자인이 매우 깔끔해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족도 최상",
+      "excerpt": "디자인도 넘 깔끔해서 만족도 최상!!!",
+      "opinion": "제품 전반에 대한 만족도가 최상임",
+      "sentiment": "positive"
+    }
+  ]
+}

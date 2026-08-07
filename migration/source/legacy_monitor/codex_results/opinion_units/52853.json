@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "노트북 화면에 비해 큰 화면도 맘에 들었고",
+      "opinion": "노트북 화면보다 큰 화면이 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "생동감 있음",
+      "excerpt": "생동감 있는 화질에 신세계를 경험 했어요.",
+      "opinion": "생동감 있는 화질로 인해 새로운 경험을 함",
+      "sentiment": "positive"
+    }
+  ]
+}

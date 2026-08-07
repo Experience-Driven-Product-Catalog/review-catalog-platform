@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "조립",
+      "raw_status": "쉬움",
+      "excerpt": "조립하기도 쉽고",
+      "opinion": "조립하기 쉬움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "소프트웨어 설정",
+      "raw_status": "간편함",
+      "excerpt": "지원해주는 소프트웨어로 설정도 간편하고",
+      "opinion": "지원 소프트웨어를 사용한 설정이 간편함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 바젤",
+      "raw_status": "얇음",
+      "excerpt": "모니터 바젤도 얇고",
+      "opinion": "모니터 바젤이 얇음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면",
+      "raw_status": "넓음",
+      "excerpt": "화면도 넓고",
+      "opinion": "화면이 넓음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깨끗함",
+      "excerpt": "화질 깨끗하고",
+      "opinion": "화질이 깨끗함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "만족해요.",
+      "opinion": "제품 사용 경험에 전반적으로 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

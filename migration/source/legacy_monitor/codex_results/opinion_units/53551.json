@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "좋음",
+      "excerpt": "화질도 좋고",
+      "opinion": "화질이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격도 저렴하니",
+      "opinion": "가격이 저렴함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비가 아주 좋은것같아서 마음에 들어요",
+      "opinion": "가성비가 아주 좋다고 생각해 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "한눈에 들어옴",
+      "excerpt": "27인치가 딱 한눈에 들어와서 마음에 들어요^^",
+      "opinion": "27인치 화면이 한눈에 들어와 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

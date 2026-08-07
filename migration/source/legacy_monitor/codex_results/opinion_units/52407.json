@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 고정 상태",
+      "raw_status": "고정 안 됨",
+      "excerpt": "모니터 받침대가 부실한 건지 모니터가 딱 고정이 안 되어 불편했어요.",
+      "opinion": "모니터가 딱 고정되지 않아 불편했으며, 받침대가 부실한 것인지는 확실하지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "높이 조절",
+      "raw_status": "불가능",
+      "excerpt": "높이 조절은 안되는 것도 마음에 안들어요.",
+      "opinion": "모니터 높이 조절이 되지 않아 마음에 들지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

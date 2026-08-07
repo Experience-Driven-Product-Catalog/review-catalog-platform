@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "색감",
+      "raw_status": "선명함",
+      "excerpt": "만족스런 선명한 색감",
+      "opinion": "선명한 색감에 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "동영상 재생 성능",
+      "raw_status": "빠름",
+      "excerpt": "속도가빠른 동영상 재생 성능",
+      "opinion": "동영상 재생 속도가 빠름",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "조절 기능",
+      "raw_status": "틸트/피봇 지원",
+      "excerpt": "틸트/피봇도 지원되어 활용도가 높아서 좋아요.",
+      "opinion": "틸트와 피봇을 지원함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "활용도",
+      "raw_status": "높음",
+      "excerpt": "틸트/피봇도 지원되어 활용도가 높아서 좋아요.",
+      "opinion": "틸트와 피봇 지원으로 활용도가 높아 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

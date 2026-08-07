@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "놀라움",
+      "excerpt": "무결점의 놀라운 화질을 경험했네요.",
+      "opinion": "무결점 상태의 놀라운 화질을 경험함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면비",
+      "raw_status": "베젤리스 수준",
+      "excerpt": "베젤리스라고 말할수 있을정도 화면비 좋아요",
+      "opinion": "베젤리스라고 말할 수 있을 정도로 화면비가 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "이전 제품보다 두 배 큼",
+      "excerpt": "먼저 쓰던거보다 화면사이즈가 배나 커져서 적응중입니다 ㅎㅎ",
+      "opinion": "이전에 쓰던 제품보다 화면 크기가 두 배나 커져 현재 적응 중임",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화면 크기와 넓이",
+      "raw_status": "큼",
+      "excerpt": "화면 크고 넓으니 보기 좋으네요.",
+      "opinion": "화면이 크고 넓어서 보기 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시력보호 기능",
+      "raw_status": "있음",
+      "excerpt": "확실히 시력보호기능이 있는 모니터라 오래보고 있어도 눈 안아프고 편안해서 좋아요",
+      "opinion": "시력보호 기능이 있다고 느끼며 장시간 봐도 눈이 아프지 않고 편안함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "장시간 시청 시 눈 피로",
+      "raw_status": "없음",
+      "excerpt": "확실히 시력보호기능이 있는 모니터라 오래보고 있어도 눈 안아프고 편안해서 좋아요",
+      "opinion": "오래 보고 있어도 눈이 아프지 않음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "장시간 시청",
+      "raw_status": "편안함",
+      "excerpt": "확실히 시력보호기능이 있는 모니터라 오래보고 있어도 눈 안아프고 편안해서 좋아요",
+      "opinion": "오래 보고 있어도 편안해서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

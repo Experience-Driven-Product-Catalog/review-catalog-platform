@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "생생함",
+      "excerpt": "생생한 화질도 좋고 눈에 피로감도 적은 것 같아 만족스러워요.",
+      "opinion": "화질이 생생해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈 피로감",
+      "raw_status": "적음",
+      "excerpt": "생생한 화질도 좋고 눈에 피로감도 적은 것 같아 만족스러워요.",
+      "opinion": "눈의 피로감이 적은 것 같아 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 질감",
+      "raw_status": "저렴한 플라스틱이 아님",
+      "excerpt": "일단 모니터 질감이 저렴한 플라스틱이 아니라서 맘에 들고",
+      "opinion": "모니터 질감이 저렴한 플라스틱이 아니라서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 마감 처리",
+      "raw_status": "깔끔함",
+      "excerpt": "제품 마감 처리도 깔끔해요.",
+      "opinion": "제품 마감 처리가 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 받침",
+      "raw_status": "탄탄함",
+      "excerpt": "모니터 받침도 탄탄해서 좋고",
+      "opinion": "모니터 받침이 탄탄해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "트렌디함",
+      "excerpt": "트렌디한 디자인도 멋져요~",
+      "opinion": "디자인이 트렌디하고 멋짐",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "피벗 기능",
+      "raw_status": "정상 작동",
+      "excerpt": "피벗 기능도 잘 작동되고,",
+      "opinion": "피벗 기능이 잘 작동함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "최고",
+      "excerpt": "ㅇㅇㅇ제품 역시 최고예요~",
+      "opinion": "제품이 최고라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "높음",
+      "excerpt": "주사율도 높아 눈이 편안해서 굿!",
+      "opinion": "주사율이 높아서 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈의 편안함",
+      "raw_status": "편안함",
+      "excerpt": "주사율도 높아 눈이 편안해서 굿!",
+      "opinion": "높은 주사율 덕분에 눈이 편안함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 받침대 소재",
+      "raw_status": "플라스틱 같음",
+      "excerpt": "모니터 받침대 소재가 플라스틱 같은데",
+      "opinion": "모니터 받침대 소재가 플라스틱처럼 보임",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "모니터 받침대 내구성",
+      "raw_status": "튼튼함",
+      "excerpt": "생각보다 튼튼한 것 같아 맘에 들어요.",
+      "opinion": "모니터 받침대가 생각보다 튼튼해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치용 CD",
+      "raw_status": "포함됨",
+      "excerpt": "설치용 CD도 들어있어",
+      "opinion": "설치용 CD가 포함되어 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "설치 과정",
+      "raw_status": "빠르고 수월함",
+      "excerpt": "설치용 CD도 들어있어 빠르고 수월하게 완료했어요.",
+      "opinion": "설치용 CD 덕분에 설치를 빠르고 수월하게 완료함",
+      "sentiment": "positive"
+    }
+  ]
+}

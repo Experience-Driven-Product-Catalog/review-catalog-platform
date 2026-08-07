@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "OTT 및 동영상 시청",
+      "raw_status": "바로 시청 가능",
+      "excerpt": "스마트 기능이 있어 ott나 동영상 바로 보고",
+      "opinion": "스마트 기능으로 OTT나 동영상을 바로 볼 수 있어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "블루투스 제어",
+      "raw_status": "가능",
+      "excerpt": "블루투스로 제어 되고 좋아요",
+      "opinion": "블루투스로 제어할 수 있어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "리모컨 일체감",
+      "raw_status": "부족",
+      "excerpt": "리모컨 색상이 흰색이라 좀 일체감이 없어 마음에 안들어요",
+      "opinion": "리모컨 색상이 흰색이라 제품과의 일체감이 부족해 마음에 들지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "얇음",
+      "excerpt": "베젤도 정말 얇고",
+      "opinion": "베젤이 정말 얇음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "만족스러움",
+      "excerpt": "화질도 만족합니다.",
+      "opinion": "화질에 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

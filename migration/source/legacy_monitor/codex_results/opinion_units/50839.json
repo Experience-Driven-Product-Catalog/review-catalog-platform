@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 하자",
+      "raw_status": "없음",
+      "excerpt": "제품에 하자도 없고",
+      "opinion": "제품에 하자가 없어 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "품질",
+      "raw_status": "괜찮음",
+      "excerpt": "품질 너무 괜찮네요~~",
+      "opinion": "제품 품질이 매우 괜찮다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "좋음",
+      "excerpt": "퀄리티 따져보면 너무 좋은 가격이라 한 번 더 만족했고요~~^^",
+      "opinion": "품질을 고려하면 가격이 매우 좋아서 한층 더 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "강력 추천",
+      "excerpt": "강추!!",
+      "opinion": "제품을 강력히 추천함",
+      "sentiment": "positive"
+    }
+  ]
+}

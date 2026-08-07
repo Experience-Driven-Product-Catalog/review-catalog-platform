@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "높낮이 조절 기능",
+      "raw_status": "유용함",
+      "excerpt": "높낮이와 좌우회전 틸트조절기능이 있어서 엄청 유용합니다",
+      "opinion": "높낮이 조절 기능이 있어 엄청 유용함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "좌우회전 조절 기능",
+      "raw_status": "유용함",
+      "excerpt": "높낮이와 좌우회전 틸트조절기능이 있어서 엄청 유용합니다",
+      "opinion": "좌우회전 조절 기능이 있어 엄청 유용함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "틸트 조절 기능",
+      "raw_status": "유용함",
+      "excerpt": "높낮이와 좌우회전 틸트조절기능이 있어서 엄청 유용합니다",
+      "opinion": "틸트 조절 기능이 있어 엄청 유용함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "메뉴 버튼 위치",
+      "raw_status": "모니터 아래",
+      "excerpt": "메뉴버튼이 손에 쉽게 닿는 모니터 아래에 있어 엄청 편합니다~",
+      "opinion": "메뉴 버튼이 모니터 아래에 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "메뉴 버튼 접근성",
+      "raw_status": "손에 쉽게 닿음",
+      "excerpt": "메뉴버튼이 손에 쉽게 닿는 모니터 아래에 있어 엄청 편합니다~",
+      "opinion": "메뉴 버튼이 손에 쉽게 닿음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "메뉴 버튼 사용 편의성",
+      "raw_status": "편함",
+      "excerpt": "메뉴버튼이 손에 쉽게 닿는 모니터 아래에 있어 엄청 편합니다~",
+      "opinion": "메뉴 버튼 사용이 엄청 편함",
+      "sentiment": "positive"
+    }
+  ]
+}

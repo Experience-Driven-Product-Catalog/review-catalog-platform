@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "구매 가격",
+      "raw_status": "저렴함",
+      "excerpt": "역대급 찬스로 저렴하게 구입했어요",
+      "opinion": "역대급 찬스로 제품을 저렴하게 구입함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "뛰어남",
+      "excerpt": "최고의 가성비 제품으로 추천해요",
+      "opinion": "최고의 가성비 제품으로 추천함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 흔들림",
+      "raw_status": "발생",
+      "excerpt": "타이핑할때 책상위 모니터가 흔들거리는데 받침대의 지지가 좀 부족한 듯해요",
+      "opinion": "타이핑할 때 책상 위 모니터가 흔들림",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "받침대 지지",
+      "raw_status": "부족함",
+      "excerpt": "타이핑할때 책상위 모니터가 흔들거리는데 받침대의 지지가 좀 부족한 듯해요",
+      "opinion": "타이핑할 때 받침대의 지지가 좀 부족한 듯함",
+      "sentiment": "negative"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "인터넷 시청 용도",
+      "raw_status": "괜찮음",
+      "excerpt": "그냥 인터넷 보는 용도로는 괜찮아요~",
+      "opinion": "인터넷을 보는 용도로는 괜찮음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질·색감",
+      "raw_status": "차이 큼",
+      "excerpt": "노트북과 연결해 모니터용도로 자주 사용하다보니까 화질 색감이 굉장히 달라서 번거롭네요ㅠ",
+      "opinion": "노트북과 연결해 모니터 용도로 자주 사용하면 화질과 색감이 굉장히 달라 번거로움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "색감 조정",
+      "raw_status": "제대로 잡히지 않음",
+      "excerpt": "화질을 조정했는데도 색감이 제대로 잘 잡히지를 않습니다.",
+      "opinion": "화질을 조정해도 색감이 제대로 맞춰지지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

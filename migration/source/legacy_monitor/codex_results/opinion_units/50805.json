@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 사이즈",
+      "raw_status": "넉넉함",
+      "excerpt": "넉넉한 사이즈가 사무용으로 너무 적합해서 만족하며 사용 중입니다!",
+      "opinion": "모니터 사이즈가 넉넉함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사무용 적합성",
+      "raw_status": "매우 적합함",
+      "excerpt": "넉넉한 사이즈가 사무용으로 너무 적합해서 만족하며 사용 중입니다!",
+      "opinion": "넉넉한 사이즈 덕분에 사무용으로 매우 적합해 만족하며 사용 중임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "괜찮음",
+      "excerpt": "퀄리티에 비해 넘 괜찮은 가격으로 나와서 더 좋았고요",
+      "opinion": "퀄리티에 비해 가격이 매우 괜찮아 더 좋았음",
+      "sentiment": "positive"
+    }
+  ]
+}

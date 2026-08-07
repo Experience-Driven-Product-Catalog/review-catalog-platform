@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "얇음",
+      "excerpt": "얇은 베젤이라서 화면이 더 커 보이고",
+      "opinion": "베젤이 얇아서 화면이 더 커 보임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "예쁨",
+      "excerpt": "디자인도 꽤 예쁘네요.",
+      "opinion": "디자인이 꽤 예쁨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "듀얼 모니터 사용",
+      "raw_status": "적합함",
+      "excerpt": "듀얼 모니터로 괜찮습니다.",
+      "opinion": "듀얼 모니터로 사용하기에 괜찮음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "괜찮음",
+      "excerpt": "가성비 괜찮은 제품이에요.",
+      "opinion": "가성비가 괜찮음",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "해상도",
+      "raw_status": "실망스러움",
+      "excerpt": "해상도가 좀 실망스럽네요.",
+      "opinion": "해상도가 기대에 비해 좀 실망스러움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "무거움",
+      "excerpt": "무게도 전에 쓰던것보다 좀 무겁구요.",
+      "opinion": "무게가 전에 쓰던 제품보다 좀 무거움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "사용 적합성",
+      "raw_status": "잘 맞지 않음",
+      "excerpt": "저랑은 잘 안맞는거같네요.",
+      "opinion": "자신의 사용 방식과는 잘 맞지 않는 것 같음",
+      "sentiment": "negative"
+    }
+  ]
+}

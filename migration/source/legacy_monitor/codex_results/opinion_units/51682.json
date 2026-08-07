@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "설치",
+      "raw_status": "쉬움",
+      "excerpt": "제가 혼자 설치했는데, 설치도 쉽네요.",
+      "opinion": "혼자서도 설치하기 쉬움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깨끗하고 선명함",
+      "excerpt": "화질이 깨끗하고 선명하니 괜찮네요~",
+      "opinion": "화질이 깨끗하고 선명해서 괜찮음",
+      "sentiment": "positive"
+    }
+  ]
+}

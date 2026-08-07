@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "넓음",
+      "excerpt": "사이즈가 넓어서 크게 잘 보이니 생생함이 더커서 좋아요",
+      "opinion": "사이즈가 넓어서 화면이 크게 보여 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 가시성",
+      "raw_status": "크게 잘 보임",
+      "excerpt": "사이즈가 넓어서 크게 잘 보이니 생생함이 더커서 좋아요",
+      "opinion": "화면이 크게 잘 보여 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "생생함",
+      "raw_status": "높음",
+      "excerpt": "사이즈가 넓어서 크게 잘 보이니 생생함이 더커서 좋아요",
+      "opinion": "화면이 크게 보여 생생함이 더 커서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "먼지 쌓임",
+      "raw_status": "없음",
+      "excerpt": "모니터에 먼지 쌓이는거 일인데 이제품은 먼지 안쌓이는 재질이라 좋아요",
+      "opinion": "먼지가 쌓이는 것이 일인데 이 제품은 먼지가 쌓이지 않는 재질이라 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

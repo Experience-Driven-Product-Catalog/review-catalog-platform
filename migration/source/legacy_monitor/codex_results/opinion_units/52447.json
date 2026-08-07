@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "나사 구성품",
+      "raw_status": "누락",
+      "excerpt": "나사가 빠진채로 왔습니다.",
+      "opinion": "나사가 빠진 채로 도착함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "조립",
+      "raw_status": "자체 나사 사용",
+      "excerpt": "나사가 빠진채로 왔습니다. 일단 가지고 있는 나사로 조립했습니다.",
+      "opinion": "나사가 누락되어 가지고 있던 나사로 조립함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "발열",
+      "raw_status": "심함",
+      "excerpt": "제품 작동을 시작하면 발열 정말 심합니다.ㅠㅠ",
+      "opinion": "제품 작동을 시작하면 발열이 정말 심함",
+      "sentiment": "negative"
+    }
+  ]
+}

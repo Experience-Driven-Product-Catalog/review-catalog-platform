@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "호평 이유 체감",
+      "excerpt": "노트북만 쓰다가 OOO 모니터 처음 써보는데 와우!! 왜 유명한지 격하게 실감중입니다.",
+      "opinion": "노트북만 사용하다가 처음 써보며 왜 유명한지 격하게 실감할 정도로 감탄함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "빛샘현상",
+      "raw_status": "발생",
+      "excerpt": "딱 한가지 빛샘현상이 심하진 않은데 좀 거슬리네요ㅠ",
+      "opinion": "빛샘현상이 심하지는 않지만 조금 거슬림",
+      "sentiment": "negative"
+    }
+  ]
+}

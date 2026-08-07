@@ -1,0 +1,11 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제조 시기",
+      "raw_status": "오래됨",
+      "excerpt": "새제품인데 제조한지 한참 지난 재고를 보내줘서 기분이 안좋아요",
+      "opinion": "새제품이지만 제조한 지 한참 지난 재고를 받아 기분이 좋지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

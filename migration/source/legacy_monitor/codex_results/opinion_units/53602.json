@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "잡티 있음",
+      "excerpt": "중간중간 잡티가 있어요 ㅜ 별로예요",
+      "opinion": "화질에 중간중간 잡티가 있어 별로임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "케이블 연결",
+      "raw_status": "잘됨",
+      "excerpt": "케이블 연결도 잘되고 기능적으로는 무난해서 만족해요",
+      "opinion": "케이블 연결이 잘됨",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "기능",
+      "raw_status": "무난함",
+      "excerpt": "케이블 연결도 잘되고 기능적으로는 무난해서 만족해요",
+      "opinion": "기능은 무난해서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

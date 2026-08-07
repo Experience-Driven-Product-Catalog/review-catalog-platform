@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "색감",
+      "raw_status": "고급스러움",
+      "excerpt": "모니터 색감이 고급스러워서 좋아요.",
+      "opinion": "모니터 색감이 고급스러워서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "심플함",
+      "excerpt": "디자인도 심플하니 색감과 조화가 잘 되서 맘에 들었습니다.",
+      "opinion": "디자인이 심플해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인과 색감의 조화",
+      "raw_status": "조화로움",
+      "excerpt": "디자인도 심플하니 색감과 조화가 잘 되서 맘에 들었습니다.",
+      "opinion": "디자인과 색감의 조화가 잘 되어 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "성능",
+      "raw_status": "괜찮음",
+      "excerpt": "성능도 괜찮아서 맘에 듭니다.",
+      "opinion": "성능이 괜찮아서 마음에 듦",
+      "sentiment": "positive"
+    }
+  ]
+}

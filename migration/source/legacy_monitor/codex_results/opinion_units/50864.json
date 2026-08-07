@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "모니터 크기",
+      "raw_status": "큼",
+      "excerpt": "큰 모니터가 필요해서 샀는데",
+      "opinion": "큰 모니터가 필요해서 구매함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "만족스러움",
+      "excerpt": "화질도 만족스럽고",
+      "opinion": "화질이 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "엄청 저렴함",
+      "excerpt": "가격도 엄청 저렴합니다.",
+      "opinion": "가격이 엄청 저렴함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "매우 깔끔함",
+      "excerpt": "디자인도 매우 깔끔해요.",
+      "opinion": "디자인이 매우 깔끔함",
+      "sentiment": "positive"
+    }
+  ]
+}

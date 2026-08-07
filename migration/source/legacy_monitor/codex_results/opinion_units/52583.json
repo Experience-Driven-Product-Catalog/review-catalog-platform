@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "어두운 장면 가시성",
+      "raw_status": "낮음",
+      "excerpt": "어두운 장면은 잘 보이지 않지만",
+      "opinion": "어두운 장면이 잘 보이지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "나쁘지 않음",
+      "excerpt": "그래도 전체적으로는 나쁜 화질은 아니라고 생각합니다.",
+      "opinion": "어두운 장면은 잘 보이지 않지만 전체적으로 화질이 나쁘지는 않다고 생각함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격 대비 만족도",
+      "raw_status": "만족",
+      "excerpt": "가격대비 제품은 만족합니다.",
+      "opinion": "가격을 고려하면 제품에 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

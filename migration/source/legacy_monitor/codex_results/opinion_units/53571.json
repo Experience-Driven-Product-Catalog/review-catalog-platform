@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량화소",
+      "raw_status": "없음",
+      "excerpt": "이 제품 화면을 면밀히 살펴보니 불량화소 없는 양품으로 좋아요.",
+      "opinion": "화면에 불량화소가 없어 양품으로 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "빛샘 현상",
+      "raw_status": "한 포인트 발생",
+      "excerpt": "제품 모서리에 빛샘 현상이 한포인트 있는데 화질에 크게 문제없어 괜찮아요.",
+      "opinion": "제품 모서리에 빛샘 현상이 한 포인트 있지만 화질에 크게 문제되지 않아 괜찮음",
+      "sentiment": "mixed"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "큰 문제 없음",
+      "excerpt": "제품 모서리에 빛샘 현상이 한포인트 있는데 화질에 크게 문제없어 괜찮아요.",
+      "opinion": "빛샘 현상이 있어도 화질에는 크게 문제가 없음",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "작동 상태",
+      "raw_status": "이상 작동 없음",
+      "excerpt": "켜 보았는데 이상 작동 사항 없어서 좋구요~~",
+      "opinion": "켜 보았을 때 이상 작동 사항이 없어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "본체와 스탠드 결합 부분",
+      "raw_status": "약간 흔들림",
+      "excerpt": "본체와 스탠드 결합 부분이 튼튼하지 않은 듯 약간 흔들리는 느낌이라 아쉽",
+      "opinion": "본체와 스탠드 결합 부분이 튼튼하지 않은 듯 약간 흔들려 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

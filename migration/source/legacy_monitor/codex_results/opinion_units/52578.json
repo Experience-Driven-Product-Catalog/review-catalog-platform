@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "설치 난이도",
+      "raw_status": "쉬움",
+      "excerpt": "설치가 어렵지 않아",
+      "opinion": "설치가 어렵지 않음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치 소요 시간",
+      "raw_status": "5분",
+      "excerpt": "5분만에 완성했어요",
+      "opinion": "5분 만에 설치를 완성함",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "화면이 커서",
+      "opinion": "화면이 커서 시원하게 느껴짐",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 가독성",
+      "raw_status": "잘 보임",
+      "excerpt": "잘 보이고 좋네요",
+      "opinion": "화면이 잘 보여 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

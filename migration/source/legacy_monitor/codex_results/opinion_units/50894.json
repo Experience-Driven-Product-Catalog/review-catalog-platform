@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "스탠드 장착",
+      "raw_status": "쉬움",
+      "excerpt": "스탠드 장착 매우 쉽고",
+      "opinion": "스탠드 장착이 매우 쉬움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면",
+      "raw_status": "선명함",
+      "excerpt": "화면도 선명해서 마음에 듭니다.",
+      "opinion": "화면이 선명해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사무용 적합성",
+      "raw_status": "최고",
+      "excerpt": "사무용으로 최고입니다.",
+      "opinion": "사무용으로 최고라고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

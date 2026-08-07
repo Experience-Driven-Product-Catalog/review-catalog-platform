@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "크기",
+      "raw_status": "큼",
+      "excerpt": "27인치가 생각보다 사이즈가 커서 크게 잘보여 좋아요",
+      "opinion": "27인치가 생각보다 커서 크게 잘 보여 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질도 선명하지만 보기에 눈도 편안하고 좋아요",
+      "opinion": "화질이 선명함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈의 피로감",
+      "raw_status": "편안함",
+      "excerpt": "화질도 선명하지만 보기에 눈도 편안하고 좋아요",
+      "opinion": "화면을 볼 때 눈이 편안함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "사용 적합성",
+      "raw_status": "무난함",
+      "excerpt": "회사나 가정에서 사용하기에 무난해서 좋아요",
+      "opinion": "회사나 가정에서 사용하기에 무난해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "내장스피커",
+      "raw_status": "없음",
+      "excerpt": "내장스피커가 없어 아쉬워요",
+      "opinion": "내장스피커가 없어 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

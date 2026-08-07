@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "만족하며 사용하고 있어요",
+      "opinion": "제품을 만족하며 사용하고 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "영상 출력",
+      "raw_status": "생생하고 깔끔함",
+      "excerpt": "4k로된 영상을 보며 영화관이 필요없을 정도로 생생하고 깔끔하게 출력되서 만족해요",
+      "opinion": "4K 영상을 영화관이 필요 없을 정도로 생생하고 깔끔하게 출력해 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스마트 모니터 용도",
+      "raw_status": "매우 좋음",
+      "excerpt": "pc 그래픽카드만 좋다면 스마트 모니터 용도로 매우 좋아요",
+      "opinion": "PC 그래픽카드만 좋다면 스마트 모니터 용도로 매우 좋다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "빛샘",
+      "raw_status": "조금 있음",
+      "excerpt": "IPS 패널이라 빛샘과 베젤 유격이 조금 있지만, 튼튼한 스탠드와 깔끔한 화질과 짱짱한 스펙 때문에 만족합니다.",
+      "opinion": "IPS 패널이라 빛샘이 조금 있지만 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "베젤 유격",
+      "raw_status": "조금 있음",
+      "excerpt": "IPS 패널이라 빛샘과 베젤 유격이 조금 있지만, 튼튼한 스탠드와 깔끔한 화질과 짱짱한 스펙 때문에 만족합니다.",
+      "opinion": "IPS 패널이라 베젤 유격이 조금 있지만 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "스탠드",
+      "raw_status": "튼튼함",
+      "excerpt": "IPS 패널이라 빛샘과 베젤 유격이 조금 있지만, 튼튼한 스탠드와 깔끔한 화질과 짱짱한 스펙 때문에 만족합니다.",
+      "opinion": "스탠드가 튼튼해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깔끔함",
+      "excerpt": "IPS 패널이라 빛샘과 베젤 유격이 조금 있지만, 튼튼한 스탠드와 깔끔한 화질과 짱짱한 스펙 때문에 만족합니다.",
+      "opinion": "화질이 깔끔해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "스펙",
+      "raw_status": "짱짱함",
+      "excerpt": "IPS 패널이라 빛샘과 베젤 유격이 조금 있지만, 튼튼한 스탠드와 깔끔한 화질과 짱짱한 스펙 때문에 만족합니다.",
+      "opinion": "스펙이 짱짱해서 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "만족",
+      "excerpt": "IPS 패널이라 빛샘과 베젤 유격이 조금 있지만, 튼튼한 스탠드와 깔끔한 화질과 짱짱한 스펙 때문에 만족합니다.",
+      "opinion": "빛샘과 베젤 유격은 조금 있지만 스탠드, 화질, 스펙 때문에 전반적으로 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

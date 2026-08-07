@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "사이즈",
+      "raw_status": "공간 차지 적음",
+      "excerpt": "사이즈가 공간을 차지하지 않아서 넘 적당해요.",
+      "opinion": "사이즈가 공간을 많이 차지하지 않아 매우 적당함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 디자인",
+      "raw_status": "넓음",
+      "excerpt": "화면은 넓은 디자인이라 넘 만족스럽고요!!",
+      "opinion": "화면 디자인이 넓어서 매우 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

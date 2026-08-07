@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "적당함",
+      "excerpt": "가성비로 쓰기에 가격이 적당하고 좋아요",
+      "opinion": "가성비로 사용하기에 가격이 적당해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "구매 후 가격",
+      "raw_status": "하락",
+      "excerpt": "구매후 가격이 낮아져서 아쉬워요",
+      "opinion": "구매 후 가격이 낮아져서 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "발받침 안정성",
+      "raw_status": "불안정함",
+      "excerpt": "발받침이 안정적이지 않은 디자인이라 작은 충격에도 흔들림이 심해서 마음에 안들어요",
+      "opinion": "발받침 디자인이 안정적이지 않아 작은 충격에도 흔들림이 심해서 마음에 들지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "빛샘",
+      "raw_status": "없음",
+      "excerpt": "빛샘 불량 없는 품질 좋은 제품 받았습니다.",
+      "opinion": "빛샘 불량이 없는 제품을 받음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 품질",
+      "raw_status": "우수함",
+      "excerpt": "빛샘 불량 없는 품질 좋은 제품 받았습니다.",
+      "opinion": "품질이 좋은 제품을 받음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "무게",
+      "raw_status": "무겁지 않음",
+      "excerpt": "무게도 그렇게 무겁지 않아서 좋네요 ㅎㅎ",
+      "opinion": "무게가 그렇게 무겁지 않아서 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

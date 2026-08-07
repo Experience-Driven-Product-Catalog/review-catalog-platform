@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "빛샘",
+      "raw_status": "우수함",
+      "excerpt": "화질의 빛샘이나 선명도가 아주 좋아요",
+      "opinion": "화질의 빛샘이 아주 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "선명도",
+      "raw_status": "우수함",
+      "excerpt": "화질의 빛샘이나 선명도가 아주 좋아요",
+      "opinion": "화질의 선명도가 아주 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "DP 연결 후 작동",
+      "raw_status": "정상 작동",
+      "excerpt": "모니터 DP선으로 연결하니 작동도 잘되고 마음에 들어요",
+      "opinion": "모니터를 DP선으로 연결했을 때 작동이 잘되어 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격도 저렴하게 구매해서 기쁩니다.",
+      "opinion": "가격이 저렴해 기쁨",
+      "sentiment": "positive"
+    }
+  ]
+}

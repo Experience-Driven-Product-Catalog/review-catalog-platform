@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "디자인",
+      "raw_status": "고급스러움",
+      "excerpt": "디자인도 고급스러워요.",
+      "opinion": "디자인이 고급스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깔끔함",
+      "excerpt": "깔끔한 화질 덕분에 눈이 편안합니다.",
+      "opinion": "화질이 깔끔함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈의 편안함",
+      "raw_status": "편안함",
+      "excerpt": "깔끔한 화질 덕분에 눈이 편안합니다.",
+      "opinion": "깔끔한 화질 덕분에 눈이 편안함",
+      "sentiment": "positive"
+    }
+  ]
+}

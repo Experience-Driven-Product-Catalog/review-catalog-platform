@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "어머님 사용 적합성",
+      "raw_status": "적합함",
+      "excerpt": "어머님께서 사용하시기에 본기능에 충실한 제품으로 잘 출력되니 좋아요",
+      "opinion": "어머님께서 사용하시기에 적합함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "기본 기능",
+      "raw_status": "충실함",
+      "excerpt": "어머님께서 사용하시기에 본기능에 충실한 제품으로 잘 출력되니 좋아요",
+      "opinion": "기본 기능에 충실하고 화면이 잘 출력되어 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

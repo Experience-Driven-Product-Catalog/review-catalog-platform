@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 결점",
+      "raw_status": "없음",
+      "excerpt": "제품 사용할때 화면에 결점이 하나도 없고 깨끗해서 매우 좋아요..",
+      "opinion": "제품 사용 시 화면에 결점이 하나도 없어 매우 좋아함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 상태",
+      "raw_status": "깨끗함",
+      "excerpt": "제품 사용할때 화면에 결점이 하나도 없고 깨끗해서 매우 좋아요..",
+      "opinion": "제품 사용 시 화면이 깨끗해서 매우 좋아함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "굿",
+      "excerpt": "화질 굿^^",
+      "opinion": "화질이 좋다고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "프레임 디자인",
+      "raw_status": "최소화됨",
+      "excerpt": "패널을 감싸는 프레임을 최소화한 디자인이라 게임할때 최상의 화면 몰입감을 제공해서 만족해요.",
+      "opinion": "패널을 감싸는 프레임을 최소화한 디자인에 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임 중 화면 몰입감",
+      "raw_status": "최상",
+      "excerpt": "패널을 감싸는 프레임을 최소화한 디자인이라 게임할때 최상의 화면 몰입감을 제공해서 만족해요.",
+      "opinion": "프레임을 최소화한 디자인 덕분에 게임할 때 최상의 화면 몰입감을 제공하여 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

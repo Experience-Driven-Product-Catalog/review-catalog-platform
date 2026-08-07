@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "뛰어나지 않음",
+      "excerpt": "화질이 뛰어나진 않지만",
+      "opinion": "화질이 뛰어나지는 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "색감",
+      "raw_status": "무난함",
+      "excerpt": "색감이 과하지 않고 무난해요",
+      "opinion": "색감이 과하지 않고 무난함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "파워컨트롤 형태",
+      "raw_status": "조이스틱 형태",
+      "excerpt": "파워컨트롤이 조이스틱처럼 되서 편리하네요",
+      "opinion": "파워컨트롤이 조이스틱처럼 되어 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "파워컨트롤 조작 편의성",
+      "raw_status": "편리함",
+      "excerpt": "파워컨트롤이 조이스틱처럼 되서 편리하네요",
+      "opinion": "파워컨트롤 조작이 편리함",
+      "sentiment": "positive"
+    }
+  ]
+}

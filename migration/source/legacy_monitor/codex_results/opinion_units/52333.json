@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 시야",
+      "raw_status": "넓음",
+      "excerpt": "화면 넓게 볼 수 있어 너무 좋네요~",
+      "opinion": "화면을 넓게 볼 수 있어 매우 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "발열",
+      "raw_status": "불가피함",
+      "excerpt": "발열은 어쩔 수가 없는 것 같네요 ㅠㅜ",
+      "opinion": "발열은 어쩔 수 없는 것으로 느껴져 아쉬움",
+      "sentiment": "negative"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 엄청 저렴해서 좋네요~",
+      "opinion": "가격이 엄청 저렴해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "연결 조작법",
+      "raw_status": "간단함",
+      "excerpt": "컴퓨터 본체와 연결할 때 조작법 간단해서 편했어요~",
+      "opinion": "컴퓨터 본체와 연결할 때 조작법이 간단해서 편했음",
+      "sentiment": "positive"
+    }
+  ]
+}

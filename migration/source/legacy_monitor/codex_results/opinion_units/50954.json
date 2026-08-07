@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질 지원 스펙",
+      "raw_status": "미흡",
+      "excerpt": "화질을 지원하는 스펙이  살짝 미흡해서 좀 별론데ㅜㅜ",
+      "opinion": "화질을 지원하는 스펙이 살짝 미흡해서 별로임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "플리커 프리",
+      "raw_status": "눈 보호",
+      "excerpt": "플리커 프리와  블루라이트 차단 성능으로 눈 보호되는건 만족스러워요^^",
+      "opinion": "플리커 프리 기능으로 눈이 보호되어 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "블루라이트 차단 성능",
+      "raw_status": "눈 보호",
+      "excerpt": "플리커 프리와  블루라이트 차단 성능으로 눈 보호되는건 만족스러워요^^",
+      "opinion": "블루라이트 차단 성능으로 눈이 보호되어 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

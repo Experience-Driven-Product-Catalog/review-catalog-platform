@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "가격이 저렴하게 사서 기분 좋아요",
+      "opinion": "가격이 저렴해서 기분이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "27인치 대화면",
+      "excerpt": "27인치 대화면으로 크게 보니 몰입할 수 있어 좋아요",
+      "opinion": "27인치 대화면으로 크게 볼 수 있어 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "몰입감",
+      "raw_status": "높음",
+      "excerpt": "27인치 대화면으로 크게 보니 몰입할 수 있어 좋아요",
+      "opinion": "화면을 크게 볼 수 있어 몰입할 수 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈 보호 기능",
+      "raw_status": "있음",
+      "excerpt": "모니터에 눈을 보호하는 기능이 있어 눈이 편하고 좋아요",
+      "opinion": "모니터에 눈을 보호하는 기능이 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "눈의 편안함",
+      "raw_status": "편안함",
+      "excerpt": "모니터에 눈을 보호하는 기능이 있어 눈이 편하고 좋아요",
+      "opinion": "눈 보호 기능 덕분에 눈이 편하고 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

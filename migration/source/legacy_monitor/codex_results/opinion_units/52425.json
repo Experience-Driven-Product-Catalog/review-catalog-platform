@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "사무실에서 쓰는 용도로 샀는데 사용하시는 분들이 화질이 너무 선명해서 좋다고 만족했어요!",
+      "opinion": "사무실에서 사용하는 사람들이 화질이 매우 선명해서 좋다고 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "틸트 각",
+      "raw_status": "부족함",
+      "excerpt": "틸트 각이 좀더 컸다면.. 하는 아쉬움이 있고요.",
+      "opinion": "틸트 각이 좀 더 컸으면 좋았겠다는 아쉬움이 있음",
+      "sentiment": "negative"
+    }
+  ]
+}

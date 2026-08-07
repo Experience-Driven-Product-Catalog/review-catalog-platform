@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "메뉴버튼 위치",
+      "raw_status": "뒷면",
+      "excerpt": "메뉴버튼이 뒷면에 있는게 마음에 안들고",
+      "opinion": "메뉴버튼이 뒷면에 있어 마음에 들지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "버튼 조작",
+      "raw_status": "불편함",
+      "excerpt": "버튼 누르기가 불편해요",
+      "opinion": "버튼을 누르기가 불편함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "먼지 쌓임",
+      "raw_status": "없음",
+      "excerpt": "제품이 먼지가 잘 끼는 소재가 아니라서 먼지 쌓이지 않아서 좋아요",
+      "opinion": "제품이 먼지가 잘 끼지 않는 소재라 먼지가 쌓이지 않아 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "착함",
+      "excerpt": "이 제품이 착한 가격이여서 구매했어요~^^",
+      "opinion": "가격이 착해서 구매함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈높이 조절",
+      "raw_status": "맞춤형 조절 가능",
+      "excerpt": "눈높이가 맞춤형으로 조절되서 보기 쉬워서 좋아요.",
+      "opinion": "눈높이를 맞춤형으로 조절할 수 있어 보기 쉬워서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "깨끗함",
+      "excerpt": "화질도 깨끗하게 잘 보여서 더 좋습니다!",
+      "opinion": "화질이 깨끗하고 화면이 잘 보여서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

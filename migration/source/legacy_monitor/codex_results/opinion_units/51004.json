@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "게임용 적합성",
+      "raw_status": "아주 적합함",
+      "excerpt": "게임용으로 아주 적합한 품질의 모니터 패널인 것 같아서 맘에 듭니다.",
+      "opinion": "모니터 패널이 게임용으로 아주 적합한 품질인 것 같아 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "주사율",
+      "raw_status": "좋음",
+      "excerpt": "주사율이 좋으니 화면 색감도 좋고 부드럽게 표현되니 너무 만족스러워요.",
+      "opinion": "주사율이 좋아 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 색감",
+      "raw_status": "좋음",
+      "excerpt": "주사율이 좋으니 화면 색감도 좋고 부드럽게 표현되니 너무 만족스러워요.",
+      "opinion": "주사율이 좋아 화면 색감도 좋으며 만족스러움",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 표현",
+      "raw_status": "부드러움",
+      "excerpt": "주사율이 좋으니 화면 색감도 좋고 부드럽게 표현되니 너무 만족스러워요.",
+      "opinion": "화면이 부드럽게 표현되어 매우 만족스러움",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격 대비 성능",
+      "raw_status": "우수함",
+      "excerpt": "검색하다가 가격대비 성능은 이 제품 이상은  없어서 구입했어요.",
+      "opinion": "검색해 본 제품 중 가격 대비 성능이 이 제품보다 나은 제품이 없어 구입함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "마음에 듦",
+      "excerpt": "정말 마음에 들어요!!!",
+      "opinion": "제품이 정말 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시력 보호 기능",
+      "raw_status": "효과 있음",
+      "excerpt": "시력 보호 기능이 있어 눈의 피로감이 덜해서 완전 만족해요",
+      "opinion": "시력 보호 기능으로 눈의 피로감이 덜해 완전히 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "눈의 피로감",
+      "raw_status": "덜함",
+      "excerpt": "시력 보호 기능이 있어 눈의 피로감이 덜해서 완전 만족해요",
+      "opinion": "시력 보호 기능 사용 시 눈의 피로감이 덜함",
+      "sentiment": "positive"
+    }
+  ]
+}

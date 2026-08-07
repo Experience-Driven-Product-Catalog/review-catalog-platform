@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "기대보다 별로함",
+      "excerpt": "기대보다 화질이 별로라 실망했어욤",
+      "opinion": "화질이 기대보다 별로라 실망함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "스탠드봉 분리 구조",
+      "raw_status": "분리 불가",
+      "excerpt": "스탠드봉이 안빠지는 구조라 모니터암을 사용하기도 불편합니다",
+      "opinion": "스탠드봉이 빠지지 않는 구조임",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "모니터암 사용",
+      "raw_status": "불편함",
+      "excerpt": "스탠드봉이 안빠지는 구조라 모니터암을 사용하기도 불편합니다",
+      "opinion": "스탠드봉이 빠지지 않아 모니터암 사용이 불편함",
+      "sentiment": "negative"
+    }
+  ]
+}

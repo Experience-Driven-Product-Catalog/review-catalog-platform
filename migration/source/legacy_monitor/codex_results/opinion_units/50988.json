@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "없음",
+      "excerpt": "불량 화소 없이 선명하고 깨끗한 화질이 제일 맘에 드네요.",
+      "opinion": "불량 화소가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명하고 깨끗함",
+      "excerpt": "불량 화소 없이 선명하고 깨끗한 화질이 제일 맘에 드네요.",
+      "opinion": "화질이 선명하고 깨끗해서 가장 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치 편의성",
+      "raw_status": "편리함",
+      "excerpt": "모니터 암이 없어도 되는게 편했습니다.",
+      "opinion": "모니터 암이 없어도 되어 편리함",
+      "sentiment": "positive"
+    }
+  ]
+}

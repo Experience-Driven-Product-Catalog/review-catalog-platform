@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "사용 경험",
+      "raw_status": "이전 사용",
+      "excerpt": "사용했던 적 있고",
+      "opinion": "이 제품을 이전에 사용해 본 경험이 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "고장 발생",
+      "raw_status": "없음",
+      "excerpt": "고장없는 제품",
+      "opinion": "이전에 사용했을 때 고장이 없었음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 품질",
+      "raw_status": "신뢰함",
+      "excerpt": "고장없는 제품 품질 신뢰해서 구매했어요.",
+      "opinion": "고장이 없었던 경험을 바탕으로 제품 품질을 신뢰해 구매함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "우수함",
+      "excerpt": "사무용으로 쓰기에 가성비가 좋습니다!",
+      "opinion": "사무용으로 사용하기에 가성비가 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "해상도",
+      "raw_status": "높지 않음",
+      "excerpt": "해상도가 높은편은 아니지만 사무용으로는 괜찮아요",
+      "opinion": "해상도가 높은 편은 아님",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "사무용 적합성",
+      "raw_status": "적합함",
+      "excerpt": "해상도가 높은편은 아니지만 사무용으로는 괜찮아요",
+      "opinion": "해상도는 높지 않지만 사무용으로는 괜찮음",
+      "sentiment": "positive"
+    }
+  ]
+}

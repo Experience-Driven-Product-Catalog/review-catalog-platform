@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "적당하고 합리적임",
+      "excerpt": "가격이 적당하고 합리적이라 마음에 들어요",
+      "opinion": "가격이 적당하고 합리적이라 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "좋음",
+      "excerpt": "000브랜드 제품이라 제품이 좋아요",
+      "opinion": "000브랜드 제품이라 제품이 좋다고 평가함",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 불량",
+      "raw_status": "없음",
+      "excerpt": "불량없는 제품으로 잘 와서 만족했어요~~",
+      "opinion": "불량 없는 제품으로 도착해 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "작은 듯함",
+      "excerpt": "사이즈가 어르신들 보기에 좀 작은 듯 하네요...",
+      "opinion": "화면 사이즈가 어르신들이 보기에는 좀 작게 느껴짐",
+      "sentiment": "negative"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "원하던 사이즈",
+      "excerpt": "32인치라 조금 클까 했는데 딱 원하던 사이즈라 좋아요.",
+      "opinion": "32인치라 조금 클까 걱정했지만 딱 원하던 사이즈라 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "초기 세팅",
+      "raw_status": "어려움",
+      "excerpt": "초반 세팅이 잘 안되서 힘들었네요",
+      "opinion": "초반 세팅이 잘 되지 않아 어려움을 겪음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "세팅 후 사용",
+      "raw_status": "좋음",
+      "excerpt": "그런데 세팅하고 나니 좋네요.",
+      "opinion": "세팅을 마치고 나니 사용 경험이 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "케이블 연결",
+      "raw_status": "일부 일반 충전용 케이블 연결 불가",
+      "excerpt": "일반 충전용 케이블로는 연결이 안되는게 있어 아쉽고요.",
+      "opinion": "일반 충전용 케이블 중 연결되지 않는 것이 있어 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "다른 모니터와의 조화",
+      "raw_status": "잘 어울림",
+      "excerpt": "32인치 와이드 커브드 모니터랑 잘 어울리니 만족해요",
+      "opinion": "32인치 와이드 커브드 모니터와 잘 어울려 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

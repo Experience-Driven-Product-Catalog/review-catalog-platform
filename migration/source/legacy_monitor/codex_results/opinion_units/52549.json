@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "얇음",
+      "excerpt": "베젤이 얇아서 화면이 조금더 커져서 마음에 들어요",
+      "opinion": "베젤이 얇아 화면이 조금 더 크게 보여 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "불량 화소",
+      "raw_status": "없음",
+      "excerpt": "불량 화소가 없어 이상없는 제품이라 좋아요",
+      "opinion": "불량 화소가 없어 제품에 이상이 없어서 좋음",
+      "sentiment": "positive"
+    }
+  ]
+}

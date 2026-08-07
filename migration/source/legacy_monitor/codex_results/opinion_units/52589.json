@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "특별한 장점 없음",
+      "excerpt": "특별히 좋다는 느낌없이",
+      "opinion": "특별히 좋다는 느낌이 없음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "브랜드 차이",
+      "raw_status": "판단 불가",
+      "excerpt": "다른 브랜드와 차이는 모르겠어요",
+      "opinion": "다른 브랜드와의 차이를 모르겠음",
+      "sentiment": "unknown"
+    },
+    {
+      "raw_aspect": "발판 공간 차지",
+      "raw_status": "많음",
+      "excerpt": "발판이 공간을 많이 차지하고",
+      "opinion": "발판이 공간을 많이 차지해 마음에 들지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "책상 공간",
+      "raw_status": "비좁아짐",
+      "excerpt": "책상이 비좁아져서 마음에 안들어요",
+      "opinion": "발판 때문에 책상이 비좁아져 마음에 들지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}

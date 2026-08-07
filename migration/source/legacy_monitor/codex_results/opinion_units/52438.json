@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "크기",
+      "raw_status": "원하는 사이즈",
+      "excerpt": "크기도 딱 제가 원하던 사이즈라 만족이구요~",
+      "opinion": "크기가 원하던 사이즈라 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "편안함",
+      "excerpt": "화질이 편안하고 블루라이트 차단이라 눈이 덜 아파요^^",
+      "opinion": "화질이 편안하게 느껴짐",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "블루라이트 차단",
+      "raw_status": "있음",
+      "excerpt": "화질이 편안하고 블루라이트 차단이라 눈이 덜 아파요^^",
+      "opinion": "블루라이트 차단 기능이 있음",
+      "sentiment": "neutral"
+    },
+    {
+      "raw_aspect": "눈 피로",
+      "raw_status": "덜 아픔",
+      "excerpt": "화질이 편안하고 블루라이트 차단이라 눈이 덜 아파요^^",
+      "opinion": "블루라이트 차단으로 눈이 덜 아픔",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "설치",
+      "raw_status": "어렵지 않음",
+      "excerpt": "설치도 어렵지 않아서 좋았어요~~",
+      "opinion": "설치가 어렵지 않아 좋았음",
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "암점",
+      "raw_status": "하나 있음",
+      "excerpt": "딱하나~ 암점 하나가 있어요ㅠ",
+      "opinion": "암점이 하나 있어 아쉬움",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "암점 가시성",
+      "raw_status": "잘 안 보임",
+      "excerpt": "다행히 잘 안보이는 곳이에요.",
+      "opinion": "암점이 다행히 잘 안 보이는 곳에 있음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "최고",
+      "excerpt": "여태 써본 모니터 중에 가성비 원탑입니다!!",
+      "opinion": "여태 사용해 본 모니터 중 가성비가 가장 뛰어남",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "밝기",
+      "raw_status": "뛰어남",
+      "excerpt": "사용중이던 모니터보다도 밝기가 더 훌륭하네요.",
+      "opinion": "사용 중이던 모니터보다 밝기가 더 뛰어남",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "신뢰도",
+      "raw_status": "믿고 사용 가능",
+      "excerpt": "OOO 믿고 쓸수있겠어요!!",
+      "opinion": "OOO를 믿고 사용할 수 있을 것 같음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "매우 만족",
+      "excerpt": "매우 만족입니다",
+      "opinion": "제품에 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

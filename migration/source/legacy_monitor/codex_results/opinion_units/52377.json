@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "작음",
+      "excerpt": "받아보니 24인치가 기대보다는 좀 작아서 후회되요",
+      "opinion": "화면 크기가 기대보다 작아 후회함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "틸트 조절",
+      "raw_status": "뻑뻑함",
+      "excerpt": "틸트가 뻑뻑해서 잘 조절 되지 않아 고생했어요",
+      "opinion": "틸트가 뻑뻑해 잘 조절되지 않아 고생함",
+      "sentiment": "negative"
+    }
+  ]
+}

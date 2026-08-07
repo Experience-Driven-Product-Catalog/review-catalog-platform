@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "최고 수준",
+      "excerpt": "모니터계의 최고 원탑 OOO!",
+      "opinion": "모니터 중 최고 원탑이라고 평가함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 신뢰도",
+      "raw_status": "믿고 사용함",
+      "excerpt": "묻고 따지지도 않고 믿고 씁니다^^.",
+      "opinion": "별다른 검토 없이도 제품을 믿고 사용함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 상태",
+      "raw_status": "정상",
+      "excerpt": "문제없고 이상없는 정상제품이어서 넘 맘에 들어요",
+      "opinion": "문제나 이상이 없는 정상 제품이라 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

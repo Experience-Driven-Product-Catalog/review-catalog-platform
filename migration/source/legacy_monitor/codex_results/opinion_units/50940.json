@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 비율",
+      "raw_status": "와이드",
+      "excerpt": "와이드 비율 화면에 화질도 엄청 선명해서 엄청 맘에 듭니다.",
+      "opinion": "와이드 비율 화면이 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "엄청 선명함",
+      "excerpt": "와이드 비율 화면에 화질도 엄청 선명해서 엄청 맘에 듭니다.",
+      "opinion": "화질이 엄청 선명해서 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "시력보호 기능",
+      "raw_status": "있음",
+      "excerpt": "시력보호 기능도 있어서 이 부분도 엄지 척!!!",
+      "opinion": "시력보호 기능이 있어 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

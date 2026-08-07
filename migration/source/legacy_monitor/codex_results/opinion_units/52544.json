@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질이 나쁘지 않고 선명하니 잘보여서 좋아요",
+      "opinion": "화질이 나쁘지 않고 선명해서 잘 보여 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼",
+      "excerpt": "24인치 사려다 더 큰 27인치로 샀는데 큰게 더 잘보이고 좋네요",
+      "opinion": "24인치 대신 더 큰 27인치를 샀고 큰 화면이 더 잘 보여 만족함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "저렴하게 잘 구입해서 기쁘네요",
+      "opinion": "저렴하게 잘 구입해서 기쁨",
+      "sentiment": "positive"
+    }
+  ]
+}

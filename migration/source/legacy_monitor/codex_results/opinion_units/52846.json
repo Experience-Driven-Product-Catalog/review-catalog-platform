@@ -1,0 +1,60 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "최고 수준",
+      "excerpt": "가성비중 최고의 모니터라 생각해요",
+      "opinion": "가성비가 모니터 중 최고 수준이라고 생각함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "베젤",
+      "raw_status": "얇음",
+      "excerpt": "베젤이 얇아 고급스러운 프레임의 디자인이 마음에 들어요",
+      "opinion": "베젤이 얇음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "프레임 디자인",
+      "raw_status": "고급스러움",
+      "excerpt": "베젤이 얇아 고급스러운 프레임의 디자인이 마음에 들어요",
+      "opinion": "프레임 디자인이 고급스러워 마음에 듦",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "해상도",
+      "raw_status": "높음",
+      "excerpt": "화질도 해상도가 높은편이라 선명하니 좋아요",
+      "opinion": "해상도가 높은 편임",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "선명함",
+      "excerpt": "화질도 해상도가 높은편이라 선명하니 좋아요",
+      "opinion": "화질이 선명해서 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "각도 조절",
+      "raw_status": "잘 됨",
+      "excerpt": "각도 조절도 잘되고 고개도 잘 돌아가서 편리해요",
+      "opinion": "각도 조절이 잘되어 편리함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 회전",
+      "raw_status": "잘 됨",
+      "excerpt": "각도 조절도 잘되고 고개도 잘 돌아가서 편리해요",
+      "opinion": "모니터 고개가 잘 돌아가서 편리함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임 모드",
+      "raw_status": "게임에 최적화됨",
+      "excerpt": "게임모드 기능으로 하고 게임하면 최적화되어 눈이 즐거워요",
+      "opinion": "게임 모드를 사용하면 게임에 최적화되어 눈이 즐거움",
+      "sentiment": "positive"
+    }
+  ]
+}

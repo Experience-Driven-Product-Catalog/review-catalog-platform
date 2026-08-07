@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가격",
+      "raw_status": "저렴함",
+      "excerpt": "저렴하게 샀다고 생각하니 감사!",
+      "opinion": "저렴하게 구매해서 만족스럽고 감사하게 생각함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "화질",
+      "raw_status": "떨어짐",
+      "excerpt": "FHD라 그런지 화질이 좀 떨어짐이 느껴지네요...",
+      "opinion": "FHD라서 화질이 다소 떨어지는 것이 느껴짐",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "해상도 선택",
+      "raw_status": "UHD 구매 고민",
+      "excerpt": "돈 더주고 UHD 샀어야 했나..",
+      "opinion": "화질이 아쉬워 돈을 더 내고 UHD를 샀어야 했는지 고민함",
+      "sentiment": "negative"
+    }
+  ]
+}

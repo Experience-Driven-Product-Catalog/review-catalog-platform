@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "가성비",
+      "raw_status": "좋음",
+      "excerpt": "가성비가 좋은 제품이네요",
+      "opinion": "가성비가 좋음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "게임용 사용",
+      "raw_status": "약간 부족함",
+      "excerpt": "게임용으로는 약간 2% 부족하고",
+      "opinion": "게임용으로는 약간 2% 부족함",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "일반적인 영상 시청",
+      "raw_status": "무난하게 괜찮음",
+      "excerpt": "일반적인 영상 시청으로는 무난하게 괜찮아요",
+      "opinion": "일반적인 영상 시청에는 무난하게 괜찮음",
+      "sentiment": "positive"
+    }
+  ]
+}

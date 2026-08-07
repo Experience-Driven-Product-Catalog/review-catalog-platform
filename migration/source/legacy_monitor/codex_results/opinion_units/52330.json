@@ -1,0 +1,32 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "스마트모니터 가격 대비 활용",
+      "raw_status": "만족스러움",
+      "excerpt": "할인율이 커서 구매했는데 모니터 가격으로 스마트모니터를 사용하니 좋아요",
+      "opinion": "모니터 가격으로 스마트모니터를 사용할 수 있어 좋아함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "모니터 상태",
+      "raw_status": "문제 없음",
+      "excerpt": "모니터에 문제 전혀 없고",
+      "opinion": "모니터에 전혀 문제가 없음",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "제품 검수 상태",
+      "raw_status": "양품",
+      "excerpt": "양품으로 받아 다행이네요",
+      "opinion": "양품으로 받아 다행이라고 느낌",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "리모컨 사용성",
+      "raw_status": "사용할 만함",
+      "excerpt": "리모컨도 크게 불편하지 않고 사용할만해요",
+      "opinion": "리모컨이 크게 불편하지 않고 사용할 만함",
+      "sentiment": "positive"
+    }
+  ]
+}

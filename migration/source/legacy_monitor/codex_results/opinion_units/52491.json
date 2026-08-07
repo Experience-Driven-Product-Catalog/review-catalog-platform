@@ -1,0 +1,11 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "제품 상태",
+      "raw_status": "문제없음",
+      "excerpt": "제품도 문제없는 양품으로 받아 너무 마음에 들어요",
+      "opinion": "제품에 문제가 없는 양품을 받아 매우 만족함",
+      "sentiment": "positive"
+    }
+  ]
+}

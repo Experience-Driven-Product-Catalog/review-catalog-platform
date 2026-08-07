@@ -1,0 +1,154 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: review-catalog-platform-production
+  cancel-in-progress: false
+
+jobs:
+  ci:
+    name: Test and build
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+
+      - name: Scan committed history for secrets
+        uses: gitleaks/gitleaks-action@ff98106e4c7b2bc287b24eaf42907196329070c7
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e
+        with:
+          enable-cache: true
+          python-version: "3.12"
+
+      - name: Validate backend
+        working-directory: backend
+        run: |
+          uv sync --frozen --extra reclustering --dev
+          uv run ruff check src tests
+          uv run pytest -q
+
+      - name: Install Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Build frontend
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run lint
+          npm run build
+
+      - name: Validate deployment contracts
+        run: |
+          docker compose config --quiet
+          bash -n deploy/aws/activate-release.sh deploy/aws/user-data.sh scripts/codedeploy/*.sh
+          grep -F -- '--no-deps --force-recreate frontend' deploy/aws/activate-release.sh
+          grep -F 'CODEDEPLOY' frontend/dist/assets/*.js
+
+  deploy:
+    name: Deploy production with CodeDeploy
+    if: github.ref == 'refs/heads/main'
+    needs: ci
+    runs-on: ubuntu-24.04
+    environment: production
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      AWS_REGION: ap-northeast-2
+      AWS_ROLE_ARN: arn:aws:iam::161088569936:role/review-catalog-platform-github-deploy-role
+      ARTIFACT_BUCKET: review-catalog-platform-deploy-161088569936-20260805
+      CODEDEPLOY_APPLICATION: review-catalog-platform
+      CODEDEPLOY_DEPLOYMENT_GROUP: review-catalog-platform-production
+      CLOUDFRONT_DISTRIBUTION_ID: E22S4ED9XEUTWO
+      HTTPS_ORIGIN: https://d1my2fe0yb8h33.cloudfront.net
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Show non-secret OIDC claims
+        shell: bash
+        run: |
+          token_response="$(curl --fail --silent --show-error \
+            -H "Authorization: bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" \
+            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=sts.amazonaws.com")"
+          token="$(printf '%s' "${token_response}" | jq -r '.value')"
+          payload="$(printf '%s' "${token}" | cut -d. -f2 | tr '_-' '/+')"
+          case $((${#payload} % 4)) in
+            2) payload="${payload}==" ;;
+            3) payload="${payload}=" ;;
+          esac
+          printf '%s' "${payload}" | base64 --decode | \
+            jq '{sub, aud, repository, ref, environment, job_workflow_ref}'
+
+      - name: Configure short-lived AWS credentials
+        uses: aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708
+        with:
+          role-to-assume: ${{ env.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+          role-session-name: github-review-catalog-${{ github.run_id }}
+
+      - name: Create immutable CodeDeploy bundle
+        run: |
+          printf '%s\n' "${GITHUB_SHA}" > REVISION
+          git archive --format=zip --output bundle.zip HEAD
+          zip -q bundle.zip REVISION
+          sha256sum bundle.zip > SHA256SUMS
+
+      - name: Upload private deployment artifact
+        run: |
+          prefix="ci/${GITHUB_SHA}"
+          aws s3 cp bundle.zip "s3://${ARTIFACT_BUCKET}/${prefix}/bundle.zip" --checksum-algorithm SHA256 --only-show-errors
+          aws s3 cp SHA256SUMS "s3://${ARTIFACT_BUCKET}/${prefix}/SHA256SUMS" --only-show-errors
+
+      - name: Create CodeDeploy deployment
+        id: codedeploy
+        run: |
+          deployment_id="$(aws deploy create-deployment \
+            --application-name "${CODEDEPLOY_APPLICATION}" \
+            --deployment-group-name "${CODEDEPLOY_DEPLOYMENT_GROUP}" \
+            --deployment-config-name CodeDeployDefault.OneAtATime \
+            --description "GitHub ${GITHUB_REPOSITORY}@${GITHUB_SHA}" \
+            --s3-location "bucket=${ARTIFACT_BUCKET},key=ci/${GITHUB_SHA}/bundle.zip,bundleType=zip" \
+            --file-exists-behavior OVERWRITE \
+            --query deploymentId --output text)"
+          printf 'deployment_id=%s\n' "${deployment_id}" >> "${GITHUB_OUTPUT}"
+          aws deploy wait deployment-successful --deployment-id "${deployment_id}"
+          aws deploy get-deployment --deployment-id "${deployment_id}" \
+            --query 'deploymentInfo.{deploymentId:deploymentId,status:status,revision:description}'
+
+      - name: Invalidate CloudFront cache
+        run: |
+          invalidation_id="$(aws cloudfront create-invalidation \
+            --distribution-id "${CLOUDFRONT_DISTRIBUTION_ID}" \
+            --paths '/*' \
+            --query 'Invalidation.Id' --output text)"
+          aws cloudfront wait invalidation-completed \
+            --distribution-id "${CLOUDFRONT_DISTRIBUTION_ID}" \
+            --id "${invalidation_id}"
+
+      - name: Verify HTTPS deployment
+        run: |
+          curl --fail --silent --show-error --retry 12 --retry-all-errors --retry-delay 10 \
+            "${HTTPS_ORIGIN}/api/health" | jq .
+          index_html="$(curl --fail --silent --show-error "${HTTPS_ORIGIN}/")"
+          asset_path="$(printf '%s' "${index_html}" | grep -o 'src="/assets/[^"]*\.js"' | head -1 | cut -d '"' -f2)"
+          test -n "${asset_path}"
+          curl --fail --silent --show-error "${HTTPS_ORIGIN}${asset_path}" | grep -F 'CODEDEPLOY' >/dev/null

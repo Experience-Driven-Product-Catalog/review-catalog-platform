@@ -1,0 +1,39 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "적접",
+      "raw_status": "2개 존재",
+      "excerpt": "적접 두개와 흑점 한개가 있는게 아주 화가납니다.",
+      "opinion": "적접이 2개 있어 매우 화가 남",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "흑점",
+      "raw_status": "1개 존재",
+      "excerpt": "적접 두개와 흑점 한개가 있는게 아주 화가납니다.",
+      "opinion": "흑점이 1개 있어 매우 화가 남",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "응답속도",
+      "raw_status": "기대보다 느림",
+      "excerpt": "응답속도나 반응속도도 생각처럼 빠르지 않고 산게 후회되네요",
+      "opinion": "응답속도가 생각처럼 빠르지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "반응속도",
+      "raw_status": "기대보다 느림",
+      "excerpt": "응답속도나 반응속도도 생각처럼 빠르지 않고 산게 후회되네요",
+      "opinion": "반응속도가 생각처럼 빠르지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "전반적 상품 경험",
+      "raw_status": "구매 후회",
+      "excerpt": "산게 후회되네요",
+      "opinion": "제품을 산 것을 후회함",
+      "sentiment": "negative"
+    }
+  ]
+}

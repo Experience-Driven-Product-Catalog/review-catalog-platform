@@ -1,0 +1,18 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "브랜드 신뢰도",
+      "raw_status": "높음",
+      "excerpt": "믿을 수 있는 브랜드 OOO",
+      "opinion": "브랜드를 믿을 수 있어 주문함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "가격",
+      "raw_status": "좋음",
+      "excerpt": "좋은 가격에 구매해서 기쁨~!!",
+      "opinion": "좋은 가격에 구매해 기쁨",
+      "sentiment": "positive"
+    }
+  ]
+}

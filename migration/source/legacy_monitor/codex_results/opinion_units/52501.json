@@ -1,0 +1,25 @@
+{
+  "opinion_units": [
+    {
+      "raw_aspect": "화면 크기",
+      "raw_status": "큼직함",
+      "excerpt": "24인치 쓰다가 27인치로 보니 이것도 큼직해서 볼만하네요",
+      "opinion": "24인치를 쓰다가 27인치로 보니 화면이 큼직해서 볼 만함",
+      "sentiment": "positive"
+    },
+    {
+      "raw_aspect": "받침대 디자인",
+      "raw_status": "볼독함",
+      "excerpt": "받침대 디자인이 볼독해서 뒤에 공간을 많이 차지하니 안좋네요",
+      "opinion": "받침대 디자인이 볼독해서 좋지 않음",
+      "sentiment": "negative"
+    },
+    {
+      "raw_aspect": "받침대 후면 공간 차지",
+      "raw_status": "많음",
+      "excerpt": "받침대 디자인이 볼독해서 뒤에 공간을 많이 차지하니 안좋네요",
+      "opinion": "받침대가 뒤쪽 공간을 많이 차지해서 좋지 않음",
+      "sentiment": "negative"
+    }
+  ]
+}
