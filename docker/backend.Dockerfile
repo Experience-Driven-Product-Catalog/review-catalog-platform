@@ -6,6 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /opt/project
 COPY backend /opt/project/backend
 COPY config /opt/project/config
+COPY assets/resume.md /opt/project/assets/resume.md
 COPY README.md /opt/project/README.md
 RUN pip install --no-cache-dir /opt/project/backend
 

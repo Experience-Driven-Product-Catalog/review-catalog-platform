@@ -161,6 +161,7 @@ services:
       REVIEW_CATALOG_AIRFLOW_USERNAME: ${AIRFLOW_USERNAME:-airflow}
       REVIEW_CATALOG_AIRFLOW_PASSWORD: ${AIRFLOW_PASSWORD:-airflow}
       REVIEW_CATALOG_PROJECT_README_PATH: /opt/project/README.md
+      REVIEW_CATALOG_PROFILE_MARKDOWN_PATH: /opt/project/assets/resume.md
     volumes:
       - catalog_data:/data/catalog
     user: "${AIRFLOW_UID:-50000}:0"

@@ -28,7 +28,7 @@ from review_catalog.reporting.reference_format import (
 )
 
 DYNAMIC_REPORT_SCHEMA_VERSION = "2.0.0"
-DYNAMIC_REPORT_GENERATOR_VERSION = "embedding-clustering-experiment-dynamic-format-v2"
+DYNAMIC_REPORT_GENERATOR_VERSION = "embedding-clustering-experiment-dynamic-format-v3"
 
 
 def _vote_summary(votes: list[dict[str, Any]]) -> dict[str, Any]:

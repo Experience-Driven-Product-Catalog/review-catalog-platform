@@ -4,6 +4,7 @@ import hashlib
 from pathlib import Path
 
 import duckdb
+import httpx
 from fastapi import APIRouter, Depends, HTTPException, Response, status
 from sqlalchemy import select
 from sqlalchemy.orm import Session, selectinload
@@ -29,6 +30,21 @@ from review_catalog.services.airflow import AirflowClient
 from review_catalog.settings import Settings, get_settings
 
 router = APIRouter(prefix="/api")
+
+REMOTE_README_URLS = {
+    "overview": (
+        "https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/"
+        ".github/refs/heads/main/profile/README.md"
+    ),
+    "experiment": (
+        "https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/"
+        "embedding_clustering_experiment/refs/heads/main/README.md"
+    ),
+    "release": (
+        "https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/"
+        "review-catalog-platform/refs/heads/main/README.md"
+    ),
+}
 
 
 def _current_release(session: Session) -> CatalogRelease | None:
@@ -62,6 +78,28 @@ def about(settings: Settings = Depends(get_settings)) -> dict:
     if not path.exists():
         raise HTTPException(status_code=503, detail=f"README not available: {path}")
     return {"markdown": path.read_text(encoding="utf-8")}
+
+
+@router.get("/about/{section}")
+def about_section(section: str, settings: Settings = Depends(get_settings)) -> dict:
+    if section == "about-me":
+        path = settings.profile_markdown_path
+        if not path.exists():
+            raise HTTPException(status_code=503, detail=f"profile not available: {path}")
+        return {"markdown": path.read_text(encoding="utf-8"), "source_url": None}
+    source_url = REMOTE_README_URLS.get(section)
+    if source_url is None:
+        raise HTTPException(status_code=404, detail="about section not found")
+    try:
+        response = httpx.get(
+            source_url,
+            follow_redirects=True,
+            timeout=settings.readme_request_timeout_seconds,
+        )
+        response.raise_for_status()
+    except httpx.HTTPError as exc:
+        raise HTTPException(status_code=503, detail=f"README not available: {section}") from exc
+    return {"markdown": response.text, "source_url": source_url}
 
 
 @router.get("/catalog/releases/current")

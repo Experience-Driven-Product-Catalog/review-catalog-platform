@@ -25,6 +25,22 @@ def markdown_bold(value: Any) -> str:
     return f"**{rendered}**"
 
 
+def _render_opinion_unit_table(lines: list[str], units: list[dict[str, Any]]) -> None:
+    lines.extend(
+        [
+            "| raw_aspect | aspect | raw_status | status | excerpt | opinion | sentiment |",
+            "|---|---|---|---|---|---|---|",
+        ]
+    )
+    for unit in units:
+        lines.append(
+            f"| {markdown_cell(unit['raw_aspect'])} | {markdown_cell(unit['aspect'])} | "
+            f"{markdown_cell(unit['raw_status'])} | {markdown_cell(unit['status'])} | "
+            f"{markdown_cell(unit['excerpt'])} | {markdown_cell(unit['opinion'])} | "
+            f"{markdown_cell(unit['sentiment'])} |"
+        )
+
+
 def _fixed(value: Any, places: int = 3) -> str:
     return "—" if value is None else f"{float(value):.{places}f}"
 
@@ -201,6 +217,16 @@ def render_static_markdown(report: dict[str, Any], *, row_limit: int = 10) -> st
             f"{_rate_percent(pair_reduction['decrease_rate'])} 감소했습니다."
         ),
     ]
+    latest_review = report["latest_review"]
+    lines.extend(["", "## 최근 추가된 리뷰와 속성", ""])
+    if latest_review:
+        lines.extend([f"> {markdown_cell(latest_review['review'])}", ""])
+        if latest_review["opinion_units"]:
+            _render_opinion_unit_table(lines, latest_review["opinion_units"])
+        else:
+            lines.append("배송 상태와 같이 상품과 관련되지 않은 속성은 추출하지 않습니다.")
+    else:
+        lines.append("최근 추가된 리뷰가 없습니다.")
     shown_aspects = report["aspect_summary"][:row_limit]
     top_aspect = shown_aspects[0] if shown_aspects else None
     negative_aspect = _top_negative_row(shown_aspects)
@@ -316,7 +342,7 @@ def render_static_markdown(report: dict[str, Any], *, row_limit: int = 10) -> st
             "상위 10개의 aspect에 긍정 또는 부정 표본이 없어 논쟁적인 aspect를 계산하지 않았습니다."
         )
     lines.extend(["", _render_related_products_markdown(report)])
-    return "\n".join(lines).replace("_", " ") + "\n"
+    return "\n".join(lines) + "\n"
 
 
 def _review_display_blocks(submission: dict[str, Any]) -> list[str]:
@@ -324,19 +350,23 @@ def _review_display_blocks(submission: dict[str, Any]) -> list[str]:
 
 
 def _relationship_heading(relationship: dict[str, Any]) -> str:
-    return " ".join(
-        value
-        for value in (markdown_bold(relationship["aspect"]), relationship["status"])
-        if value is not None
-    )
+    if relationship["status"] is None:
+        return markdown_bold(relationship["aspect"])
+    return _quoted_bold_aspect_status(relationship)
+
+
+def _quoted_bold_aspect_status(relationship: dict[str, Any]) -> str:
+    label = f"{relationship['aspect']} > {relationship['status']}"
+    return f'"{markdown_bold(label)}"'
 
 
 def _render_other_aspect_top_statuses(lines: list[str], relationship: dict[str, Any]) -> None:
     aspect = markdown_bold(relationship["aspect"])
+    aspect_status = _quoted_bold_aspect_status(relationship)
     top_statuses = relationship["other_aspect_top_statuses"]
     lines.extend(
         [
-            f"제출된 리뷰를 제외한 다른 리뷰에는 {aspect} > {relationship['status']} 조합과 완전히 일치하는 aspect-status가 없습니다.",
+            f"제출된 리뷰를 제외한 다른 리뷰에는 {aspect_status} 조합과 완전히 일치하는 aspect-status가 없습니다.",
             "",
         ]
     )
@@ -364,12 +394,13 @@ def _render_relationship(lines: list[str], relationship: dict[str, Any]) -> None
     lines.extend(["", f"### {_relationship_heading(relationship)}", ""])
     aspect = markdown_bold(relationship["aspect"])
     if relationship["comparison_grain"] == "aspect_status":
+        aspect_status = _quoted_bold_aspect_status(relationship)
         lines.extend(
             [
                 (
                     f"전체 리뷰 {relationship['catalog_review_count']}개 중 "
                     f"{aspect} 관련 언급은 {relationship['aspect_review_count']}개 리뷰에서 관찰됐습니다. "
-                    f"이 중 {aspect} > {relationship['status']} 상태는 "
+                    f"이 중 {aspect_status} 상태는 "
                     f"{relationship['same_status_review_count']}개 리뷰에서 관찰됐습니다."
                 ),
                 "",
@@ -385,7 +416,7 @@ def _render_relationship(lines: list[str], relationship: dict[str, Any]) -> None
             )
         else:
             lines.append(
-                f"제출된 리뷰를 제외하고 동일한 {aspect} > {relationship['status']} 조합을 언급한 리뷰 중 "
+                f"제출된 리뷰를 제외하고 동일한 {aspect_status} 조합을 언급한 리뷰 중 "
                 f"{relationship['other_status_sentiment']['counts']['negative']}개는 부정, "
                 f"{relationship['other_status_sentiment']['counts']['positive']}개는 긍정, "
                 f"{relationship['other_status_sentiment']['counts']['mixed']}개는 혼합 평가였습니다. "
@@ -516,19 +547,24 @@ def render_dynamic_review_decision_markdown(proposal: dict[str, Any]) -> str:
         *_review_display_blocks(submission),
         "",
         "를 기반으로 의사결정을 보조하는 제안서입니다.",
-        "",
-        "제출된 리뷰에서 추출 및 정규화된 속성은 다음과 같습니다.",
-        "",
-        "| raw_aspect | aspect | raw_status | status | excerpt | opinion | sentiment |",
-        "|---|---|---|---|---|---|---|",
     ]
-    for unit in proposal["submitted_opinion_units"]:
-        lines.append(
-            f"| {markdown_cell(unit['raw_aspect'])} | {markdown_cell(unit['aspect'])} | "
-            f"{markdown_cell(unit['raw_status'])} | {markdown_cell(unit['status'])} | "
-            f"{markdown_cell(unit['excerpt'])} | {markdown_cell(unit['opinion'])} | "
-            f"{markdown_cell(unit['sentiment'])} |"
+    submitted_units = proposal["submitted_opinion_units"]
+    if not submitted_units:
+        lines.extend(
+            [
+                "",
+                "배송 상태와 같이 상품과 관련되지 않은 속성은 추출하지 않습니다.",
+            ]
         )
+        return "\n".join(lines) + "\n"
+    lines.extend(
+        [
+            "",
+            "제출된 리뷰에서 추출 및 정규화된 속성은 다음과 같습니다.",
+            "",
+        ]
+    )
+    _render_opinion_unit_table(lines, submitted_units)
     lines.extend(
         [
             "",

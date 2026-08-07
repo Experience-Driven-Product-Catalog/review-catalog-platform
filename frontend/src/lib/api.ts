@@ -60,6 +60,10 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 
 export const api = {
   about: () => request<{ markdown: string }>('/api/about'),
+  aboutSection: (section: string) =>
+    request<{ markdown: string; source_url: string | null }>(
+      `/api/about/${encodeURIComponent(section)}`,
+    ),
   products: () => request<Product[]>('/api/products'),
   productReport: (productId: string) =>
     request<string>(`/api/products/${encodeURIComponent(productId)}/report`),

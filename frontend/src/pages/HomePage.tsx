@@ -1,32 +1,107 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { MarkdownView } from '../components/MarkdownView'
 import { api } from '../lib/api'
 
+const chapters = [
+  { id: 'overview', number: '01', label: 'Overview' },
+  { id: 'experiment', number: '02', label: 'Experiment' },
+  { id: 'release', number: '03', label: 'Release' },
+  { id: 'about-me', number: '04', label: 'About me' },
+]
+
+const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
+
 export function HomePage() {
+  const [activeChapter, setActiveChapter] = useState(0)
   const [markdown, setMarkdown] = useState('')
   const [error, setError] = useState('')
+  const panelRef = useRef<HTMLElement>(null)
+  const chapter = chapters[activeChapter]
 
   useEffect(() => {
-    api.about().then((result) => setMarkdown(result.markdown)).catch((reason) => setError(String(reason)))
-  }, [])
+    let cancelled = false
+    api.aboutSection(chapter.id)
+      .then((result) => {
+        if (!cancelled) setMarkdown(result.markdown)
+      })
+      .catch((reason) => {
+        if (!cancelled) setError(String(reason))
+      })
+    return () => { cancelled = true }
+  }, [chapter.id])
+
+  function selectChapter(index: number) {
+    setMarkdown('')
+    setError('')
+    panelRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+    setActiveChapter(index)
+  }
+
+  const nextChapter = chapters[activeChapter + 1]
 
   return (
-    <main className="page home-page">
+    <main className={`page home-page ${activeChapter === 0 ? '' : 'compact-hero'}`}>
       <section className="hero">
-        <p className="eyebrow">HTTPS · GITHUB ACTIONS · CODEDEPLOY</p>
+        <p className="eyebrow">CHAPTER {chapter.number} / 04</p>
         <h1>리뷰 근거가<br />배포 가능한 카탈로그가 되는 과정</h1>
         <p>
           추출, 정규화 후보 판정, immutable snapshot과 규칙 기반 보고서를 하나의 release로 묶고
           검증된 변경만 HTTPS 카탈로그에 배포합니다.
         </p>
-        <div className="hero-metrics">
-          <span><strong>1</strong> DuckDB writer</span>
-          <span><strong>3</strong> product views</span>
-          <span><strong>0</strong> report-time LLM calls</span>
-        </div>
       </section>
-      <section className="readme-panel">
-        {error ? <div className="error-card">{error}</div> : markdown ? <MarkdownView markdown={markdown} /> : <div className="skeleton">README를 불러오는 중…</div>}
+      <section className="readme-panel" ref={panelRef}>
+        <div className="chapter-tabs" role="tablist" aria-label="프로젝트 문서 읽기 순서">
+          {chapters.map((item, index) => (
+            <button
+              key={item.id}
+              type="button"
+              role="tab"
+              aria-selected={activeChapter === index}
+              className={activeChapter === index ? 'selected' : ''}
+              onClick={() => selectChapter(index)}
+            >
+              <span>{item.number}</span>
+              {item.label}
+            </button>
+          ))}
+        </div>
+        <div className="chapter-content">
+          {error ? (
+            <div className="error-card">{error}</div>
+          ) : markdown ? (
+            chapter.id === 'about-me' ? (
+              <div className="profile-page">
+                <header className="profile-cover">
+                  <img src={profileImageUrl} alt="필자 프로필" />
+                  <div>
+                    <p className="eyebrow">ABOUT THE AUTHOR</p>
+                    <h2>About me</h2>
+                  </div>
+                </header>
+                <MarkdownView markdown={markdown} />
+              </div>
+            ) : <MarkdownView markdown={markdown} />
+          ) : <div className="skeleton">문서를 불러오는 중…</div>}
+        </div>
+        {markdown && (
+          <footer className="chapter-footer">
+            {nextChapter ? (
+              <button type="button" className="chapter-next" onClick={() => selectChapter(activeChapter + 1)}>
+                <span><small>NEXT · {nextChapter.number}</small>{nextChapter.label}</span>
+                <svg viewBox="0 0 64 24" aria-hidden="true">
+                  <path d="M1 12h57M49 3l10 9-10 9" />
+                </svg>
+              </button>
+            ) : (
+              <button type="button" className="chapter-next restart" onClick={() => selectChapter(0)}>
+                <span><small>READ AGAIN · 01</small>Overview</span>
+                <svg viewBox="0 0 64 24" aria-hidden="true">
+                  <path d="M63 12H6M15 3l-10 9 10 9" />
+                </svg>
+              </button>
+            )}
+          </footer>
+        )}
       </section>
     </main>
   )

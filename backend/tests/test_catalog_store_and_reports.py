@@ -118,6 +118,18 @@ def test_single_writer_snapshot_and_report_entrypoints(tmp_path, project_root) -
             start=1,
         )
     ]
+    reviews.append(
+        {
+            "review_id": "review-empty",
+            "source": "demo_ui",
+            "source_review_id": "demo-empty",
+            "product_id": "product-empty",
+            "review_text": "배송이 빨라요",
+            "content_sha256": "4" * 64,
+            "ingestion_run_id": run_id,
+            "demo_review_id": "demo-empty",
+        }
+    )
     units = [
         _unit("u1", "review-source", "status-dark", "어두움", "negative", run_id),
         _unit("u2", "review-a2", "status-dark", "어두움", "negative", run_id),
@@ -129,6 +141,11 @@ def test_single_writer_snapshot_and_report_entrypoints(tmp_path, project_root) -
         "products": [
             {"product_id": "product-a", "product_name": "상품 A", "category": "모니터"},
             {"product_id": "product-b", "product_name": "상품 B", "category": "모니터"},
+            {
+                "product_id": "product-empty",
+                "product_name": "속성 없는 상품",
+                "category": "모니터",
+            },
         ],
         "reviews": reviews,
         "opinion_units": units,
@@ -145,9 +162,9 @@ def test_single_writer_snapshot_and_report_entrypoints(tmp_path, project_root) -
         writer_lock_path=tmp_path / "writer.lock",
         writer_identity="airflow",
     )
-    assert counts == {"review_count": 3, "opinion_unit_count": 3, "candidate_count": 0}
+    assert counts == {"review_count": 4, "opinion_unit_count": 3, "candidate_count": 0}
     with duckdb.connect(str(snapshot), read_only=True) as connection:
-        assert connection.execute("SELECT count(*) FROM reviews").fetchone()[0] == 3
+        assert connection.execute("SELECT count(*) FROM reviews").fetchone()[0] == 4
         with pytest.raises(duckdb.Error):
             connection.execute("CREATE TABLE forbidden(value INTEGER)")
 
@@ -160,11 +177,21 @@ def test_single_writer_snapshot_and_report_entrypoints(tmp_path, project_root) -
         versions=versions,
         output_dir=tmp_path / "static",
     )
-    assert static["payload"]["schema_version"] == "1.2.0"
+    assert static["payload"]["schema_version"] == "1.3.0"
+    assert static["payload"]["generator_version"] == (
+        "embedding-clustering-experiment-static-format-v2"
+    )
     assert static["payload"]["report_type"] == "static_catalog_analysis"
     assert static["payload"]["aspect_summary"][0]["supporting_review_count"] == 2
     static_markdown = static["markdown_path"].read_text(encoding="utf-8")
     assert static_markdown.startswith("# **상품 A** 상품에 대한 정적 카탈로그 분석 보고서\n")
+    assert static_markdown.index("## 최근 추가된 리뷰와 속성") < static_markdown.index(
+        "## 속성 감성 행렬 (상위 10개)"
+    )
+    assert (
+        "| raw_aspect | aspect | raw_status | status | excerpt | opinion | sentiment |"
+        in static_markdown
+    )
     assert "## 속성 감성 행렬 (상위 10개)" in static_markdown
     assert "## 속성-상태 행렬 (상위 10개)" in static_markdown
     assert "## 가장 논쟁적인 속성" in static_markdown
@@ -179,6 +206,9 @@ def test_single_writer_snapshot_and_report_entrypoints(tmp_path, project_root) -
         output_dir=tmp_path / "dynamic",
     )
     assert dynamic["payload"]["schema_version"] == "2.0.0"
+    assert dynamic["payload"]["generator_version"] == (
+        "embedding-clustering-experiment-dynamic-format-v3"
+    )
     assert dynamic["payload"]["proposal_type"] == "dynamic_review_decision_proposal"
     assert dynamic["payload"]["alternative_recommendations"]["status"] == "COMPLETED"
     assert (
@@ -194,8 +224,42 @@ def test_single_writer_snapshot_and_report_entrypoints(tmp_path, project_root) -
     )
     assert "- **aspect**:" in dynamic_markdown
     assert "## 다른 리뷰와의 관계" in dynamic_markdown
+    assert '### "**화면 밝기 > 어두움**"' in dynamic_markdown
+    assert '동일한 "**화면 밝기 > 어두움**" 조합' in dynamic_markdown
     assert "### 다른 리뷰에서 언급되지 않은 정확 매핑 aspect-status" not in dynamic_markdown
     assert "## 대안 상품 추천" in dynamic_markdown
+
+    empty_static = generate_static_catalog_report(
+        snapshot_path=snapshot,
+        product_id="product-empty",
+        release_id="release-test",
+        generated_at=generated_at,
+        versions=versions,
+        output_dir=tmp_path / "static-empty",
+    )
+    empty_static_markdown = empty_static["markdown_path"].read_text(encoding="utf-8")
+    latest_section = empty_static_markdown.split("## 속성 감성 행렬", maxsplit=1)[0]
+    assert "> 배송이 빨라요" in latest_section
+    assert "배송 상태와 같이 상품과 관련되지 않은 속성은 추출하지 않습니다." in latest_section
+    assert "| raw_aspect |" not in latest_section
+
+    empty_dynamic = generate_dynamic_decision_proposal(
+        snapshot_path=snapshot,
+        demo_review_id="demo-empty",
+        release_id="release-test",
+        generated_at=generated_at,
+        versions=versions,
+        output_dir=tmp_path / "dynamic-empty",
+    )
+    empty_dynamic_markdown = empty_dynamic["markdown_path"].read_text(encoding="utf-8")
+    assert "배송 상태와 같이 상품과 관련되지 않은 속성은 추출하지 않습니다." in (
+        empty_dynamic_markdown
+    )
+    assert "제출된 리뷰에서 추출 및 정규화된 속성은 다음과 같습니다." not in (
+        empty_dynamic_markdown
+    )
+    assert "| raw_aspect |" not in empty_dynamic_markdown
+    assert "## 다른 리뷰와의 관계" not in empty_dynamic_markdown
 
 
 def test_dynamic_report_keeps_candidate_evidence_out_of_comparison_and_ranking(

@@ -28,8 +28,8 @@ from review_catalog.reporting.common import (
 )
 from review_catalog.reporting.reference_format import render_static_markdown
 
-STATIC_REPORT_SCHEMA_VERSION = "1.2.0"
-STATIC_REPORT_GENERATOR_VERSION = "embedding-clustering-experiment-static-format-v1"
+STATIC_REPORT_SCHEMA_VERSION = "1.3.0"
+STATIC_REPORT_GENERATOR_VERSION = "embedding-clustering-experiment-static-format-v2"
 
 
 def _source_weaknesses(pair_rows: list[dict[str, Any]]) -> tuple[list[dict], list[dict]]:
@@ -87,6 +87,39 @@ def _source_weaknesses(pair_rows: list[dict[str, Any]]) -> tuple[list[dict], lis
         item["requirement_id"] = f"weakness_{number}"
         item["condition_id"] = item["requirement_id"]
     return eligible[:10], excluded
+
+
+def _latest_review(connection: duckdb.DuckDBPyConnection, product_id: str) -> dict[str, Any] | None:
+    reviews = fetch_dicts(
+        connection,
+        """
+        SELECT review_id, review_text, created_at
+        FROM reviews
+        WHERE product_id = ?
+        ORDER BY created_at DESC, rowid DESC
+        LIMIT 1
+        """,
+        [product_id],
+    )
+    if not reviews:
+        return None
+    review = reviews[0]
+    opinion_units = fetch_dicts(
+        connection,
+        """
+        SELECT raw_aspect, aspect, raw_status, status, excerpt, opinion, sentiment
+        FROM opinion_units
+        WHERE review_id = ?
+        ORDER BY unit_position
+        """,
+        [review["review_id"]],
+    )
+    return {
+        "review_id": review["review_id"],
+        "review": review["review_text"],
+        "created_at": review["created_at"].isoformat(),
+        "opinion_units": opinion_units,
+    }
 
 
 def generate_static_catalog_report(
@@ -163,17 +196,13 @@ def generate_static_catalog_report(
         payload = {
             "schema_version": STATIC_REPORT_SCHEMA_VERSION,
             "report_type": "static_catalog_analysis",
-            "report_id": (
-                f"static_catalog_analysis:{run_id}:{canonical_sha256(identity)[:12]}"
-            ),
+            "report_id": (f"static_catalog_analysis:{run_id}:{canonical_sha256(identity)[:12]}"),
             "source": source,
             "human_evaluation": human_evaluation_placeholder(),
             "product": {
                 "product_name": product["product_name"],
                 "catalog_review_count": review_count,
-                "reviews_with_eligible_opinion_units": len(
-                    {row["review_id"] for row in rows}
-                ),
+                "reviews_with_eligible_opinion_units": len({row["review_id"] for row in rows}),
                 "review_coverage_rate": round(
                     len({row["review_id"] for row in rows}) / review_count, 6
                 )
@@ -191,9 +220,7 @@ def generate_static_catalog_report(
                 "excluded_general_experience_opinion_unit_count": int(
                     excluded_general["unit_count"]
                 ),
-                "excluded_general_experience_review_count": int(
-                    excluded_general["review_count"]
-                ),
+                "excluded_general_experience_review_count": int(excluded_general["review_count"]),
                 "mean_opinion_units_per_covered_review": round(
                     len(rows) / len({row["review_id"] for row in rows}), 6
                 )
@@ -201,6 +228,7 @@ def generate_static_catalog_report(
                 else None,
             },
             "normalization_reduction": normalization_reduction(rows),
+            "latest_review": _latest_review(connection, product_id),
             "aggregation_contract": {
                 "aspect_vote_grain": ["product_name", "review_id", "aspect_cluster_id"],
                 "aspect_status_vote_grain": [
@@ -227,9 +255,7 @@ def generate_static_catalog_report(
                 "absence_policy": "NO_EVIDENCE",
             },
             "sentiment_distribution": {
-                "opinion_unit": sentiment_distribution(
-                    [str(row["sentiment"]) for row in rows]
-                ),
+                "opinion_unit": sentiment_distribution([str(row["sentiment"]) for row in rows]),
                 "review_aspect_vote": sentiment_distribution(
                     [str(vote["sentiment"]) for vote in aspect_votes]
                 ),

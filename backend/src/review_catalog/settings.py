@@ -24,6 +24,8 @@ class Settings(BaseSettings):
 
     catalog_data_root: Path = Path("./data")
     project_readme_path: Path = Path("../README.md")
+    profile_markdown_path: Path = Path("../assets/resume.md")
+    readme_request_timeout_seconds: float = 10.0
     taxonomy_manifest_path: Path = Path("../config/taxonomy/20260803-213339.json")
     normalization_config_path: Path = Path("../config/normalization/20260803-213339.yaml")
     legacy_migration_root: Path = Path("../migration/source")
