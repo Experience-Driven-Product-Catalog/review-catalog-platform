@@ -65,7 +65,7 @@ export function DemoPage() {
     setStatus(null)
     setActiveResult(0)
     const trimmed = reviews.map((review) => review.trim()).filter(Boolean)
-    setRemainingSeconds(Math.ceil(trimmed.length / 4) * 50)
+    setRemainingSeconds(Math.ceil(trimmed.length / 4) * 60)
     setTimerRunning(true)
     try {
       const accepted = await api.submitReviews(productId, trimmed)

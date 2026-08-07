@@ -12,18 +12,36 @@ const chapters = [
 const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
 
 function ProfileResume({ markdown }: { markdown: string }) {
-  const [intro, ...sections] = markdown.split(/(?=^## )/gm).filter(Boolean)
+  const profileMarkdown = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '')
+  const [intro, ...sections] = profileMarkdown.split(/(?=^## )/gm).filter(Boolean)
 
   return (
-    <div className="profile-resume">
-      <div className="profile-intro-card">
-        <span className="profile-card-label">PROFILE</span>
-        <MarkdownView markdown={intro} />
-      </div>
+    <div className="profile-page">
+      <header className="profile-cover">
+        <div className="profile-photo-wrap">
+          <span className="profile-tape" aria-hidden="true" />
+          <div className="profile-photo-frame">
+            <img src={profileImageUrl} alt="필자 프로필" />
+          </div>
+          <span className="profile-sticker">HI, THERE!</span>
+        </div>
+        <div className="profile-cover-copy">
+          <p className="eyebrow">04 / ABOUT ME</p>
+          <MarkdownView markdown={intro} />
+          <div className="profile-motto" aria-label="Learn, build, share">
+            <span>LEARN</span><i />
+            <span>BUILD</span><i />
+            <span>SHARE</span>
+          </div>
+        </div>
+      </header>
       <div className="profile-sections">
         {sections.map((section, index) => (
-          <section className="profile-section" key={section.slice(0, 48)}>
-            <span className="profile-section-number">{String(index + 1).padStart(2, '0')}</span>
+          <section
+            className={`profile-section ${index === 0 ? 'profile-facts' : 'profile-achievements'}`}
+            key={section.slice(0, 48)}
+          >
+            <span className="profile-section-number">0{index + 1}</span>
             <MarkdownView markdown={section} />
           </section>
         ))}
@@ -98,24 +116,7 @@ export function HomePage() {
             <div className="error-card">{error}</div>
           ) : markdown ? (
             chapter.id === 'about-me' ? (
-              <div className="profile-page">
-                <header className="profile-cover">
-                  <div className="profile-photo-frame">
-                    <span className="profile-sticker">HELLO!</span>
-                    <img src={profileImageUrl} alt="필자 프로필" />
-                  </div>
-                  <div className="profile-cover-copy">
-                    <p className="eyebrow">04 / ABOUT ME</p>
-                    <h2>안녕하세요,<br /><em>곽재원</em>입니다.</h2>
-                    <span className="profile-squiggle" aria-hidden="true">
-                      <svg viewBox="0 0 128 28">
-                        <path d="M2 17c16-18 25 16 42-3s25 17 43-2 24 9 39-7" />
-                      </svg>
-                    </span>
-                  </div>
-                </header>
-                <ProfileResume markdown={markdown} />
-              </div>
+              <ProfileResume markdown={markdown} />
             ) : <MarkdownView markdown={markdown} sourceUrl={sourceUrl} />
           ) : <div className="skeleton">문서를 불러오는 중…</div>}
         </div>
