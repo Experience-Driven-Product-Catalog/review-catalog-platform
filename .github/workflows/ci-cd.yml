@@ -24,9 +24,17 @@ jobs:
           fetch-depth: 0
 
       - name: Scan committed history for secrets
-        uses: gitleaks/gitleaks-action@ff98106e4c7b2bc287b24eaf42907196329070c7
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gitleaks_version="8.30.0"
+          archive="gitleaks_${gitleaks_version}_linux_x64.tar.gz"
+          expected_sha256="79a3ab579b53f71efd634f3aaf7e04a0fa0cf206b7ed434638d1547a2470a66e"
+          curl --fail --silent --show-error --location \
+            "https://github.com/gitleaks/gitleaks/releases/download/v${gitleaks_version}/${archive}" \
+            --output "${archive}"
+          printf '%s  %s\n' "${expected_sha256}" "${archive}" | sha256sum --check --status
+          tar --extract --gzip --file "${archive}" gitleaks
+          ./gitleaks git --redact=100
 
       - name: Install uv
         uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e
