@@ -11,9 +11,31 @@ const chapters = [
 
 const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
 
+function ProfileResume({ markdown }: { markdown: string }) {
+  const [intro, ...sections] = markdown.split(/(?=^## )/gm).filter(Boolean)
+
+  return (
+    <div className="profile-resume">
+      <div className="profile-intro-card">
+        <span className="profile-card-label">PROFILE</span>
+        <MarkdownView markdown={intro} />
+      </div>
+      <div className="profile-sections">
+        {sections.map((section, index) => (
+          <section className="profile-section" key={section.slice(0, 48)}>
+            <span className="profile-section-number">{String(index + 1).padStart(2, '0')}</span>
+            <MarkdownView markdown={section} />
+          </section>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export function HomePage() {
   const [activeChapter, setActiveChapter] = useState(0)
   const [markdown, setMarkdown] = useState('')
+  const [sourceUrl, setSourceUrl] = useState<string | null>(null)
   const [error, setError] = useState('')
   const panelRef = useRef<HTMLElement>(null)
   const chapter = chapters[activeChapter]
@@ -22,7 +44,10 @@ export function HomePage() {
     let cancelled = false
     api.aboutSection(chapter.id)
       .then((result) => {
-        if (!cancelled) setMarkdown(result.markdown)
+        if (!cancelled) {
+          setMarkdown(result.markdown)
+          setSourceUrl(result.source_url)
+        }
       })
       .catch((reason) => {
         if (!cancelled) setError(String(reason))
@@ -32,6 +57,7 @@ export function HomePage() {
 
   function selectChapter(index: number) {
     setMarkdown('')
+    setSourceUrl(null)
     setError('')
     panelRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
     setActiveChapter(index)
@@ -72,15 +98,23 @@ export function HomePage() {
             chapter.id === 'about-me' ? (
               <div className="profile-page">
                 <header className="profile-cover">
-                  <img src={profileImageUrl} alt="필자 프로필" />
-                  <div>
-                    <p className="eyebrow">ABOUT THE AUTHOR</p>
-                    <h2>About me</h2>
+                  <div className="profile-photo-frame">
+                    <span className="profile-sticker">HELLO!</span>
+                    <img src={profileImageUrl} alt="필자 프로필" />
+                  </div>
+                  <div className="profile-cover-copy">
+                    <p className="eyebrow">04 / ABOUT ME</p>
+                    <h2>안녕하세요,<br /><em>곽재원</em>입니다.</h2>
+                    <span className="profile-squiggle" aria-hidden="true">
+                      <svg viewBox="0 0 128 28">
+                        <path d="M2 17c16-18 25 16 42-3s25 17 43-2 24 9 39-7" />
+                      </svg>
+                    </span>
                   </div>
                 </header>
-                <MarkdownView markdown={markdown} />
+                <ProfileResume markdown={markdown} />
               </div>
-            ) : <MarkdownView markdown={markdown} />
+            ) : <MarkdownView markdown={markdown} sourceUrl={sourceUrl} />
           ) : <div className="skeleton">문서를 불러오는 중…</div>}
         </div>
         {markdown && (

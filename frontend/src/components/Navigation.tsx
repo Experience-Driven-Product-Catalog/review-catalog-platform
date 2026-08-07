@@ -1,7 +1,7 @@
 const links = [
-  ['/', '프로젝트'],
-  ['/catalog', '상품 보고서'],
-  ['/demo', '리뷰 데모'],
+  { to: '/', number: '01', label: '프로젝트' },
+  { to: '/catalog', number: '02', label: '상품 보고서' },
+  { to: '/demo', number: '03', label: '리뷰 데모' },
 ]
 
 export function Navigation() {
@@ -16,9 +16,15 @@ export function Navigation() {
         </span>
       </a>
       <nav aria-label="주요 페이지">
-        {links.map(([to, label]) => (
-          <a key={to} href={to} className={currentPath === to ? 'active' : ''}>
-            {label}
+        {links.map(({ to, number, label }) => (
+          <a
+            key={to}
+            href={to}
+            className={currentPath === to ? 'active' : ''}
+            aria-current={currentPath === to ? 'page' : undefined}
+          >
+            <span className="nav-number">{number}</span>
+            <span>{label}</span>
           </a>
         ))}
       </nav>
