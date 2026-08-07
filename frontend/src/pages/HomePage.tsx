@@ -42,7 +42,7 @@ export function HomePage() {
   return (
     <main className={`page home-page ${activeChapter === 0 ? '' : 'compact-hero'}`}>
       <section className="hero">
-        <p className="eyebrow">CHAPTER {chapter.number} / 04</p>
+        <p className="eyebrow">HTTPS · GITHUB ACTIONS · CODEDEPLOY</p>
         <h1>리뷰 근거가<br />배포 가능한 카탈로그가 되는 과정</h1>
         <p>
           추출, 정규화 후보 판정, immutable snapshot과 규칙 기반 보고서를 하나의 release로 묶고
