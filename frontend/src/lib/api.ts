@@ -66,7 +66,7 @@ export const api = {
     ),
   products: () => request<Product[]>('/api/products'),
   productReport: (productId: string) =>
-    request<string>(`/api/products/${encodeURIComponent(productId)}/report`),
+    request<string>(`/api/products/${encodeURIComponent(productId)}/report`, { cache: 'no-store' }),
   submitReviews: (productId: string, reviews: string[]) =>
     request<{ submission_id: string; pipeline_run_id: string; state: string }>(
       '/api/demo/submissions',
