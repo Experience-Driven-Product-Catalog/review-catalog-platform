@@ -145,7 +145,7 @@ a {
 }
 
 .eyebrow {
-  font: 500 11px 'IBM Plex Mono';
+  font: 500 14px 'IBM Plex Mono';
   letter-spacing: .16em;
   color: var(--blue);
 }
@@ -315,7 +315,7 @@ a {
 
 .chapter-content {
   min-height: 70vh;
-  padding: 5vw;
+  padding: 1vh 5vw 5vh 5vw;
 }
 
 .chapter-footer {
@@ -456,7 +456,7 @@ a {
   color: var(--ink);
   border: 2px solid var(--ink);
   border-radius: 999px;
-  font: 600 9px 'IBM Plex Mono';
+  font: 600 10px 'IBM Plex Mono';
   letter-spacing: .08em;
   transform: rotate(8deg);
   box-shadow: 3px 3px 0 var(--ink);
@@ -486,7 +486,7 @@ a {
 .profile-cover-copy .markdown-view p {
   margin: 10px 0 24px;
   color: var(--profile-purple);
-  font: 600 15px 'IBM Plex Mono';
+  font: 600 17px 'IBM Plex Mono';
 }
 
 .profile-cover-copy .markdown-view ul {
@@ -503,7 +503,7 @@ a {
   background: white;
   border: 1px solid var(--ink);
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 13px;
   box-shadow: 3px 3px 0 rgba(7, 17, 31, .14);
 }
 
@@ -519,7 +519,7 @@ a {
   gap: 9px;
   margin-top: 32px;
   color: #5f6875;
-  font: 600 9px 'IBM Plex Mono';
+  font: 600 11px 'IBM Plex Mono';
   letter-spacing: .16em;
 }
 
@@ -596,7 +596,7 @@ a {
 .profile-facts .markdown-view>ul>li {
   padding: 13px 0;
   border-bottom: 1px solid rgba(7, 17, 31, .11);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -662,7 +662,7 @@ a {
 .profile-achievements .markdown-view>ul>li>strong {
   display: block;
   margin: 2px 0 11px;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.45;
   letter-spacing: -.02em;
 }
@@ -675,12 +675,11 @@ a {
 
 .profile-achievements .markdown-view ul ul li {
   margin: 7px 0;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.65;
 }
 
 .markdown-view {
-  max-width: 980px;
   line-height: 1.75;
   font-size: 16px;
 }

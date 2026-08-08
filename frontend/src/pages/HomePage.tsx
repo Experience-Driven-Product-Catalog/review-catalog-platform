@@ -12,7 +12,7 @@ const chapters = [
 const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
 
 function ProfileResume({ markdown }: { markdown: string }) {
-  const profileMarkdown = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '')
+  const profileMarkdown = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '').replaceAll('>[!warning]', '>')
   const [intro, ...sections] = profileMarkdown.split(/(?=^## )/gm).filter(Boolean)
 
   return (
@@ -86,11 +86,10 @@ export function HomePage() {
   return (
     <main className={`page home-page ${activeChapter === 0 ? '' : 'compact-hero'}`}>
       <section className="hero">
-        <p className="eyebrow">HTTPS · GITHUB ACTIONS · CODEDEPLOY</p>
-        <h1>리뷰 근거가<br />배포 가능한 카탈로그가 되는 과정</h1>
+        <p className="eyebrow">Problem · Validate · Productize</p>
+        <h1>리뷰 근거가<br />체감 속성 실험을 카탈로그 시스템으로</h1>
         <p>
-          추출, 정규화 후보 판정, immutable snapshot과 규칙 기반 보고서를 하나의 release로 묶고
-          검증된 변경만 HTTPS 카탈로그에 배포합니다.
+          고객의 합리적 선택을 위해 리뷰의 체감 속성을 구조화하는 가설을 세우고 실험으로 검증한 뒤, 운영 가능한 카탈로그 시스템을 구현하였습니다.
         </p>
       </section>
       <section className="readme-panel" ref={panelRef}>
