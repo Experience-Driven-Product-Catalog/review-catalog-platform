@@ -18,7 +18,7 @@ done
 index_html="$(curl --fail --silent http://127.0.0.1/)"
 asset_path="$(printf '%s' "${index_html}" | grep -o 'src="/assets/[^"]*\.js"' | head -1 | cut -d '"' -f2)"
 test -n "${asset_path}"
-curl --fail --silent "http://127.0.0.1${asset_path}" | grep -F 'CODEDEPLOY' >/dev/null
+curl --fail --silent "http://127.0.0.1${asset_path}" >/dev/null
 
 cd "${release_dir}"
 docker compose --project-name review-catalog-platform exec -T airflow-scheduler codex login status

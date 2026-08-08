@@ -114,7 +114,7 @@ workflow는 다음 순서로 실행된다.
 3. GitHub OIDC로 `review-catalog-platform-github-deploy-role`을 단기 assume한다.
 4. tracked file과 `REVISION`만 포함한 CodeDeploy ZIP을 private versioned S3 `ci/<git-sha>/`에 업로드한다.
 5. `review-catalog-platform-production` deployment를 생성하고 성공까지 기다린다.
-6. CloudFront cache를 무효화하고 HTTPS API와 frontend의 `CODEDEPLOY` marker를 검증한다.
+6. CloudFront cache를 무효화하고 HTTPS API와 index가 가리키는 frontend JavaScript asset을 검증한다.
 
 `.env`, `.env.*`, `.aws/`, `.codex/`, private key 형식, runtime `data/`, 447MiB model binary는 `.gitignore`에서 제외한다. 실제 EC2 secret은 `/opt/review-catalog-platform/shared/.env`에 mode 600으로만 존재한다. GitHub repository secret은 사용하지 않는다.
 
@@ -124,7 +124,7 @@ workflow는 다음 순서로 실행된다.
 2. private S3 bucket의 immutable Git SHA prefix에 CodeDeploy bundle과 SHA-256을 올린다.
 3. CodeDeploy Agent가 `appspec.yml` lifecycle hook을 실행한다.
 4. `releases/git-<sha>`에서 Docker images를 build하고 기존 named volumes로 services를 재생성한다.
-5. localhost API, frontend marker, Codex 인증, container health를 검증한다.
+5. localhost API, index가 가리키는 frontend JavaScript asset, Codex 인증, container health를 검증한다.
 6. 성공한 directory만 `current` symlink로 전환한다. 실패 시 deployment group이 이전 정상 revision을 자동 재배포한다.
 7. GitHub Actions가 CloudFront cache를 무효화하고 HTTPS 반영까지 확인한다.
 

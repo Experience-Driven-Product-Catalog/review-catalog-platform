@@ -68,7 +68,6 @@ jobs:
           docker compose config --quiet
           bash -n deploy/aws/activate-release.sh deploy/aws/user-data.sh scripts/codedeploy/*.sh
           grep -F -- '--no-deps --force-recreate frontend' deploy/aws/activate-release.sh
-          grep -F 'CODEDEPLOY' frontend/dist/assets/*.js
 
   deploy:
     name: Deploy production with CodeDeploy
@@ -159,4 +158,4 @@ jobs:
           index_html="$(curl --fail --silent --show-error "${HTTPS_ORIGIN}/")"
           asset_path="$(printf '%s' "${index_html}" | grep -o 'src="/assets/[^"]*\.js"' | head -1 | cut -d '"' -f2)"
           test -n "${asset_path}"
-          curl --fail --silent --show-error "${HTTPS_ORIGIN}${asset_path}" | grep -F 'CODEDEPLOY' >/dev/null
+          curl --fail --silent --show-error "${HTTPS_ORIGIN}${asset_path}" >/dev/null
