@@ -74,6 +74,8 @@ export function HomePage() {
   }, [chapter.id])
 
   function selectChapter(index: number) {
+    if (index === activeChapter) return
+
     setMarkdown('')
     setSourceUrl(null)
     setError('')
