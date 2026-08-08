@@ -12,7 +12,7 @@ export function Navigation() {
         <span className="brand-mark">RC</span>
         <span>
           <strong>Review Catalog</strong>
-          <small>evidence release lab</small>
+          <small>Experience-Driven Product Catalog</small>
         </span>
       </a>
       <nav aria-label="주요 페이지">

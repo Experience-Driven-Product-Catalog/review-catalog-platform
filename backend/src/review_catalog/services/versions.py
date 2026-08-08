@@ -24,8 +24,10 @@ def _config_version(component: str, config: dict[str, str]) -> tuple[str, str, s
     return f"{component}-{content_sha256[:16]}", version, content_sha256
 
 
-def _report_generator_identity(settings: Settings) -> tuple[str, str, str]:
-    reporting_root = Path(__file__).parents[1] / "reporting"
+def _report_generator_identity(
+    settings: Settings, reporting_root: Path | None = None
+) -> tuple[str, str, str]:
+    reporting_root = reporting_root or Path(__file__).parents[1] / "reporting"
     digest = hashlib.sha256()
     for path in sorted(reporting_root.glob("*.py")):
         digest.update(path.name.encode())
@@ -35,10 +37,13 @@ def _report_generator_identity(settings: Settings) -> tuple[str, str, str]:
     content_sha256 = digest.hexdigest()
     revision = settings.deployment_revision.strip()
     if revision and revision != "local":
-        revision_label = revision[:12]
-        version = f"{__version__}+git.{revision_label}"
+        version_label = f"{__version__}+git.{revision[:12]}"
     else:
-        version = __version__
+        version_label = __version__
+    # ``component_type`` and ``version`` are unique in Postgres. Report code
+    # can change without a package-version bump during local development, so
+    # retain the code digest in the immutable version label as well as the ID.
+    version = f"{version_label}{'.' if '+' in version_label else '+'}report.{content_sha256[:12]}"
     identity_sha = hashlib.sha256(f"{content_sha256}:{version}".encode()).hexdigest()
     return f"report-generator-{identity_sha[:16]}", version, content_sha256
 

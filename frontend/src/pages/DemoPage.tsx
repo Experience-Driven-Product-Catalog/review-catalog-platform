@@ -81,8 +81,8 @@ export function DemoPage() {
     <main className="page demo-page">
       <section className="demo-intro">
         <p className="eyebrow">LIVE PIPELINE DEMO</p>
-        <h1>한 문장의 경험을<br />검증 가능한 속성으로</h1>
-        <p>React는 FastAPI에만 요청합니다. Airflow가 단일 DuckDB writer로 반영하고, 완성된 release만 화면에 나타납니다.</p>
+        <h1>한 문장의 경험을<br />검증 가능한<br />속성으로</h1>
+        <p>직접 리뷰를 작성하여 속성 추출 및 정규화 파이프라인을 테스트 할 수 있습니다.</p>
       </section>
       <section className="demo-card">
         <form onSubmit={submit}>

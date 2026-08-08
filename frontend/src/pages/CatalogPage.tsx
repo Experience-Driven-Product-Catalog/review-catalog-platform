@@ -64,7 +64,7 @@ export function CatalogPage() {
       <aside className="product-rail">
         <p className="eyebrow">CATALOG INDEX</p>
         <h1>상품 평가 보고서</h1>
-        <p className="muted">현재 release에 포함된 정적 보고서를 선택하세요.</p>
+        <p className="muted">카탈로그 보고서를 확인할 상품을 선택하세요.</p>
         <div className="product-list">
           {products.map((product) => (
             <button
