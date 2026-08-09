@@ -411,6 +411,8 @@ a {
 .profile-photo-wrap {
   position: relative;
   z-index: 2;
+  transform: scale(.8);
+  transform-origin: center;
 }
 
 .profile-photo-frame {

@@ -11,6 +11,15 @@ const chapters = [
 
 const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
 
+function chapterIndexFromLocation() {
+  const hash = window.location.hash.slice(1)
+  const tab = new URLSearchParams(window.location.search).get('tab')
+  const requestedChapter = (hash || tab || '').toLowerCase()
+  const chapterIndex = chapters.findIndex((chapter) => chapter.id === requestedChapter)
+
+  return chapterIndex === -1 ? 0 : chapterIndex
+}
+
 function ProfileResume({ markdown }: { markdown: string }) {
   const profileMarkdown = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '').replaceAll('>[!warning]', '>')
   const [intro, ...sections] = profileMarkdown.split(/(?=^## )/gm).filter(Boolean)
@@ -51,12 +60,42 @@ function ProfileResume({ markdown }: { markdown: string }) {
 }
 
 export function HomePage() {
-  const [activeChapter, setActiveChapter] = useState(0)
+  const [activeChapter, setActiveChapter] = useState(chapterIndexFromLocation)
   const [markdown, setMarkdown] = useState('')
   const [sourceUrl, setSourceUrl] = useState<string | null>(null)
   const [error, setError] = useState('')
   const panelRef = useRef<HTMLElement>(null)
+  const activeChapterRef = useRef(activeChapter)
   const chapter = chapters[activeChapter]
+
+  function resetChapterPanel() {
+    setMarkdown('')
+    setSourceUrl(null)
+    setError('')
+    panelRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  useEffect(() => {
+    activeChapterRef.current = activeChapter
+  }, [activeChapter])
+
+  useEffect(() => {
+    function syncChapterWithLocation() {
+      const chapterIndex = chapterIndexFromLocation()
+      if (chapterIndex === activeChapterRef.current) return
+
+      resetChapterPanel()
+      setActiveChapter(chapterIndex)
+    }
+
+    window.addEventListener('hashchange', syncChapterWithLocation)
+    window.addEventListener('popstate', syncChapterWithLocation)
+
+    return () => {
+      window.removeEventListener('hashchange', syncChapterWithLocation)
+      window.removeEventListener('popstate', syncChapterWithLocation)
+    }
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -76,10 +115,12 @@ export function HomePage() {
   function selectChapter(index: number) {
     if (index === activeChapter) return
 
-    setMarkdown('')
-    setSourceUrl(null)
-    setError('')
-    panelRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+    const url = new URL(window.location.href)
+    url.searchParams.delete('tab')
+    url.hash = chapters[index].id
+    window.history.pushState(null, '', url)
+
+    resetChapterPanel()
     setActiveChapter(index)
   }
 
