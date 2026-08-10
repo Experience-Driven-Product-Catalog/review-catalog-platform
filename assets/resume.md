@@ -28,7 +28,7 @@ up:
 
 - **2021 학생 창업유망팀 300 우수상 수상**  
 	- 2021년 9월~11월 · 과학기술정보통신부 주최
-	- 팀의 개발 총괄을 담당하여 ‘현지인 주도 여행상품 플랫폼 TripU’ 서비스를 개발함. 고객 중심 디자인, 높은 상품 완성도를 통해 우수상을 수상함. ([Youtube](https://www.youtube.com/live/25X-uut-fV4?si=oO0pJuG3Z5qEsb9e&t=3847))
+	- 팀의 개발 총괄을 담당하여 ‘현지인 주도 여행상품 플랫폼 TripU’ 서비스를 개발함. 고객 중심 디자인, 높은 상품 완성도를 통해 우수상(6/300등)을 수상함. ([Youtube](https://www.youtube.com/live/25X-uut-fV4?si=oO0pJuG3Z5qEsb9e&t=3847))
 	- 팀장, Web 담당: React, Express(Typescript)
 - **2023 데이터청년캠퍼스 대상 수상** 
 	- 2023년 7월~12월 · 한국데이터산업진흥원 주최

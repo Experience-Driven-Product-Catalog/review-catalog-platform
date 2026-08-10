@@ -130,7 +130,7 @@ export function HomePage() {
     <main className={`page home-page ${activeChapter === 0 ? '' : 'compact-hero'}`}>
       <section className="hero">
         <p className="eyebrow">Problem · Validate · Productize</p>
-        <h1>리뷰 근거가<br />체감 속성 실험을 카탈로그 시스템으로</h1>
+        <h1>리뷰 속<br />근거 있는<br />체감 속성을<br />비교·검색 가능한<br />카탈로그 시스템</h1>
         <p>
           고객의 합리적 선택을 위해 리뷰의 체감 속성을 구조화하는 가설을 세우고 실험으로 검증한 뒤, 운영 가능한 카탈로그 시스템을 구현하였습니다.
         </p>
