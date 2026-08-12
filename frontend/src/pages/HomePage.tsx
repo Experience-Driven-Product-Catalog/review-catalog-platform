@@ -11,6 +11,18 @@ const chapters = [
 
 const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
 
+const projectRepositories = [
+  {
+    label: 'Experience-Driven Product Catalog',
+    url: 'https://github.com/Experience-Driven-Product-Catalog',
+    repositories: [
+      { label: 'Extract_attribute', url: 'https://github.com/Experience-Driven-Product-Catalog/extract_attribute' },
+      { label: 'embedding_clustering_experiment', url: 'https://github.com/Experience-Driven-Product-Catalog/embedding_clustering_experiment' },
+      { label: 'review-catalog-platform', url: 'https://github.com/Experience-Driven-Product-Catalog/review-catalog-platform' },
+    ],
+  },
+]
+
 const hardSkills = [
   {
     level: '01',
@@ -19,7 +31,7 @@ const hardSkills = [
   },
   {
     level: '02',
-    tools: 'Pandas, Pytorch, PostgreSQL, Airflow를 다룰 수 있습니다.',
+    tools: 'ML/AI에 대한 기초적인 이해가 있으며 Pandas, Pytorch, PostgreSQL, Airflow를 다룰 수 있습니다.',
     detail: '직접 구현하고 디버깅하며 문제를 해결할 수 있으나, 세부 문법 및 API에 대한 레퍼런스 참고가 필요합니다.',
   },
   {
@@ -43,6 +55,14 @@ function chapterIndexFromLocation() {
   const chapterIndex = chapters.findIndex((chapter) => chapter.id === requestedChapter)
 
   return chapterIndex === -1 ? 0 : chapterIndex
+}
+
+function GitHubIcon() {
+  return (
+    <svg className="github-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 .5C5.73.5.65 5.58.65 11.85c0 5.02 3.25 9.27 7.76 10.78.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.16.69-3.83-1.34-3.83-1.34-.52-1.32-1.26-1.67-1.26-1.67-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.61 0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.44.11-3 0 0 .95-.31 3.11 1.16.9-.25 1.85-.38 2.8-.38.95 0 1.9.13 2.8.38 2.16-1.47 3.11-1.16 3.11-1.16.62 1.56.23 2.71.11 3 .73.8 1.17 1.81 1.17 3.05 0 4.36-2.65 5.31-5.18 5.6.41.35.77 1.02.77 2.07 0 1.5-.01 2.7-.01 3.07 0 .3.21.66.78.55 4.5-1.51 7.75-5.76 7.75-10.78C23.35 5.58 18.27.5 12 .5Z" />
+    </svg>
+  )
 }
 
 function ProfileResume({ markdown }: { markdown: string }) {
@@ -181,6 +201,26 @@ export function HomePage() {
         <p>
           고객의 합리적 선택을 위해 리뷰의 체감 속성을 구조화하는 가설을 세우고 실험으로 검증한 뒤, 운영 가능한 카탈로그 시스템을 구현하였습니다.
         </p>
+        <nav className="project-repositories" aria-label="GitHub 프로젝트 저장소">
+          {projectRepositories.map((organization) => (
+            <div key={organization.url}>
+              <a className="github-project-link" href={organization.url} target="_blank" rel="noreferrer">
+                <GitHubIcon />
+                <span>{organization.label}</span>
+              </a>
+              <ul>
+                {organization.repositories.map((repository) => (
+                  <li key={repository.url}>
+                    <a className="github-project-link" href={repository.url} target="_blank" rel="noreferrer">
+                      <GitHubIcon />
+                      <span>{repository.label}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </nav>
       </section>
       <section className="readme-panel" ref={panelRef}>
         <div className="chapter-tabs-bar">

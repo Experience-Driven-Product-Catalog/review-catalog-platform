@@ -230,6 +230,53 @@ a {
   z-index: 1;
 }
 
+.project-repositories {
+  position: relative;
+  z-index: 1;
+  margin-top: 28px;
+  font: 12px/1.45 'IBM Plex Mono', monospace;
+}
+
+.project-repositories ul {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 0 12px;
+  padding: 0 0 0 13px;
+  border-left: 1px solid #405069;
+  list-style: none;
+}
+
+.github-project-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  color: #dce4ef;
+  text-decoration: none;
+  transition: color .2s ease, transform .2s ease;
+}
+
+.github-project-link:hover {
+  color: var(--acid);
+  transform: translateX(3px);
+}
+
+.github-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  fill: currentColor;
+}
+
+.project-repositories ul .github-project-link {
+  color: #a7b1c0;
+  font-size: 11px;
+}
+
+.project-repositories ul .github-project-link:hover {
+  color: var(--acid);
+}
+
 .compact-hero .hero {
   padding: 9vh 2.8vw;
 }
@@ -682,7 +729,7 @@ a {
 
 .hard-skills strong {
   display: block;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.45;
   letter-spacing: -.02em;
 }
@@ -764,7 +811,7 @@ a {
 
 .profile-achievements .markdown-view ul ul li {
   margin: 7px 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.65;
 }
 

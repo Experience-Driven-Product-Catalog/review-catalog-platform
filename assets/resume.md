@@ -1,10 +1,3 @@
----
-created: 2026-08-07
-aliases: []
-tags:
-source:
-up:
----
 # 곽재원
 
 **JaeWon Kwak**
@@ -28,7 +21,7 @@ up:
 - **2021 학생 창업유망팀 300 우수상 수상**  
 	- 2021년 9월~11월 · 과학기술정보통신부 주최
 	- 팀의 개발 총괄을 담당하여 ‘현지인 주도 여행상품 플랫폼 TripU’ 서비스를 개발함. 고객 중심 디자인, 높은 상품 완성도를 통해 우수상(6/300등)을 수상함. ([Youtube](https://www.youtube.com/live/25X-uut-fV4?si=oO0pJuG3Z5qEsb9e&t=3847))
-	- 팀장, Web 담당: React, Express(Typescript)
+	- 팀원, Web 담당: React, Express(Typescript)
 - **2023 데이터청년캠퍼스 대상 수상** 
 	- 2023년 7월~12월 · 한국데이터산업진흥원 주최
 	- 청각장애 부모를 위해 아기 울음을 감지하는 On Device AI 모델이 탑재된 앱과 원인을 파악하는 시스템을 개발하여 대상(1등)을 수상하고 직접 발표함. ([Youtube](https://www.youtube.com/watch?v=GGXuIrd-7jE), [Github](https://github.com/Hear-is-Hear-ease))
