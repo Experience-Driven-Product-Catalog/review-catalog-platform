@@ -234,6 +234,7 @@ a {
   position: relative;
   z-index: 1;
   margin-top: 28px;
+  min-width: 0;
   font: 12px/1.45 'IBM Plex Mono', monospace;
 }
 
@@ -244,16 +245,27 @@ a {
   padding: 0 0 0 13px;
   border-left: 1px solid #405069;
   list-style: none;
+  min-width: 0;
+}
+
+.project-repositories li {
+  min-width: 0;
 }
 
 .github-project-link {
   display: flex;
   align-items: center;
   gap: 8px;
-  width: fit-content;
+  width: 100%;
+  min-width: 0;
   color: #dce4ef;
   text-decoration: none;
   transition: color .2s ease, transform .2s ease;
+}
+
+.github-project-link span {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .github-project-link:hover {
