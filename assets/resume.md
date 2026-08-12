@@ -19,9 +19,8 @@ up:
 	- 교내 성적 4.41/4.50 (공과대학 수석 졸업)
 	- 인공지능학부 정/부 조교 활동(2년)
 	- EAI LAB 학부 연구 팀장(1.5년)
-- 나이: 27세(2000년생)
+- 나이: 27세(2000년생, 병장 만기 전역)
 - 공인영어성적: TOEIC 795.
-- 병역 필: 25사단 70보병여단 수색중대
 - 자격증: SQLD
 
 ## 주요 교내외 수상
@@ -47,4 +46,3 @@ up:
 	- 졸업 평가 · 강남대학교 주최
 	- RAG를 활용한 AI Doctor(LLM)와 아기 울음 분석 AI 기능이 포함된 육아 보조 커뮤니티 앱을 개발하여 우수상(2등) 수상함. ([Poster](https://github.com/jaewonE/babystory/blob/main/Poster.pdf), [Github](https://github.com/BabyStory-App))
 	- 팀장, 기획, 앱 및 모델링 담당: Flutter, Figma, FastAPI, Tensorflow-lite, RAG
-

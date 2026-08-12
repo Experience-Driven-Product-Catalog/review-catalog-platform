@@ -14,18 +14,26 @@ const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Pro
 const hardSkills = [
   {
     level: '01',
-    tools: '언어는 Python, SQL, Typescript, 도구는 React, FastAPI, Flutter를 주력합니다.',
+    tools: '언어는 Python, SQL, Typescript, 도구는 React, FastAPI, Flutter를 주력으로 사용합니다.',
     detail: '관련된 프로젝트가 다수 있으며 실무에서 바로 이해하고 사용할 수 있습니다.',
+    noWrap: true,
   },
   {
     level: '02',
-    tools: 'C/C++, Pandas, Pytorch, PostgreSQL, Airflow, Figma를 다룰 수 있습니다.',
+    tools: 'Pandas, Pytorch, PostgreSQL, Airflow를 다룰 수 있습니다.',
     detail: '직접 구현하고 디버깅하며 문제를 해결할 수 있으나, 세부 문법 및 API에 대한 레퍼런스 참고가 필요합니다.',
   },
   {
     level: '03',
-    tools: 'Spark, Kafka, Flink, DBT, Docker, AWS(devops)는 코드를 이해할 수 있습니다.',
+    tools: 'Spark, Kafka, Flink, DBT, Docker는 코드를 이해할 수 있습니다.',
     detail: '작성된 코드를 보고 이해할 수 있으나 실질적 경험이 부족하여 숙지에 시간이 필요합니다.',
+  },
+  {
+    level: '04',
+    tools: '특정 언어와 도구에 얽매이지 않습니다.',
+    detail: '문제에 맞는 기술을 선택하고, 필요하면 빠르게 학습해 적용합니다.',
+    detailPrefix: '익숙함보다 ',
+    accent: true,
   },
 ]
 
@@ -74,14 +82,14 @@ function ProfileResume({ markdown }: { markdown: string }) {
         <section className="profile-section profile-skills" aria-labelledby="hard-skills-heading">
           <span className="profile-section-number">02</span>
           <div className="hard-skills">
-            <h2 id="hard-skills-heading">다룰 수 있는 언어와 도구</h2>
+            <h2 id="hard-skills-heading">문제 해결을 위한 기술 역량</h2>
             <ol>
               {hardSkills.map((skill) => (
                 <li key={skill.level}>
                   <span className="hard-skill-level">{skill.level}</span>
                   <div>
-                    <strong>{skill.tools}</strong>
-                    <p>{skill.detail}</p>
+                    <strong className={`${skill.accent ? 'hard-skill-title-accent ' : ''}${skill.noWrap ? 'hard-skill-title-nowrap' : ''}`}>{skill.tools}</strong>
+                    <p>{skill.detailPrefix}{skill.accent ? <b>{skill.detail}</b> : skill.detail}</p>
                   </div>
                 </li>
               ))}

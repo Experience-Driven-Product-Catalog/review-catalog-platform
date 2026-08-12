@@ -682,11 +682,26 @@ a {
   letter-spacing: -.02em;
 }
 
+.hard-skills .hard-skill-title-accent {
+  color: #d75047;
+}
+
+.hard-skills .hard-skill-title-nowrap {
+  font-size: 15px;
+  letter-spacing: -.04em;
+  white-space: nowrap;
+}
+
 .hard-skills p {
   margin: 7px 0 0;
   color: #4c5866;
   font-size: 15px;
   line-height: 1.6;
+}
+
+.hard-skills p b {
+  color: var(--ink);
+  font-weight: 700;
 }
 
 .profile-achievements .markdown-view>ul {
@@ -1385,6 +1400,11 @@ a {
 
   .profile-facts {
     position: static;
+  }
+
+  .hard-skills .hard-skill-title-nowrap {
+    font-size: 17px;
+    white-space: normal;
   }
 
   .product-rail {
