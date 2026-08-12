@@ -16,7 +16,6 @@ const hardSkills = [
     level: '01',
     tools: '언어는 Python, SQL, Typescript, 도구는 React, FastAPI, Flutter를 주력으로 사용합니다.',
     detail: '관련된 프로젝트가 다수 있으며 실무에서 바로 이해하고 사용할 수 있습니다.',
-    noWrap: true,
   },
   {
     level: '02',
@@ -88,7 +87,7 @@ function ProfileResume({ markdown }: { markdown: string }) {
                 <li key={skill.level}>
                   <span className="hard-skill-level">{skill.level}</span>
                   <div>
-                    <strong className={`${skill.accent ? 'hard-skill-title-accent ' : ''}${skill.noWrap ? 'hard-skill-title-nowrap' : ''}`}>{skill.tools}</strong>
+                    <strong className={skill.accent ? 'hard-skill-title-accent' : undefined}>{skill.tools}</strong>
                     <p>{skill.detailPrefix}{skill.accent ? <b>{skill.detail}</b> : skill.detail}</p>
                   </div>
                 </li>
