@@ -11,6 +11,27 @@ const chapters = [
 
 const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
 
+const hardSkills = [
+  {
+    level: '01',
+    tools: 'Python, SQL, Typescript · React, FastAPI, Flutter',
+    description: '언어와 도구를 주력으로 다룹니다.',
+    detail: '관련된 프로젝트가 다수 있어 실무에서 바로 이해하고 사용할 수 있습니다.',
+  },
+  {
+    level: '02',
+    tools: 'C/C++, Pandas, Pytorch, PostgreSQL, Airflow, Figma',
+    description: '구현과 디버깅을 통해 문제를 해결할 수 있습니다.',
+    detail: '세부 문법 및 API는 레퍼런스를 참고하며 작업합니다.',
+  },
+  {
+    level: '03',
+    tools: 'Spark, Kafka, Flink, DBT, Docker, AWS(devops)',
+    description: '작성된 코드를 보고 흐름을 이해할 수 있습니다.',
+    detail: '실질적인 경험은 더 쌓아야 하므로 숙지에 시간이 필요합니다.',
+  },
+]
+
 function chapterIndexFromLocation() {
   const hash = window.location.hash.slice(1)
   const tab = new URLSearchParams(window.location.search).get('tab')
@@ -23,6 +44,8 @@ function chapterIndexFromLocation() {
 function ProfileResume({ markdown }: { markdown: string }) {
   const profileMarkdown = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '').replaceAll('>[!warning]', '>')
   const [intro, ...sections] = profileMarkdown.split(/(?=^## )/gm).filter(Boolean)
+  const [facts, ...achievementSections] = sections
+  const achievements = achievementSections.join('\n\n')
 
   return (
     <div className="profile-page">
@@ -45,15 +68,36 @@ function ProfileResume({ markdown }: { markdown: string }) {
         </div>
       </header>
       <div className="profile-sections">
-        {sections.map((section, index) => (
-          <section
-            className={`profile-section ${index === 0 ? 'profile-facts' : 'profile-achievements'}`}
-            key={section.slice(0, 48)}
-          >
-            <span className="profile-section-number">0{index + 1}</span>
-            <MarkdownView markdown={section} />
+        {facts && (
+          <section className="profile-section profile-facts">
+            <span className="profile-section-number">01</span>
+            <MarkdownView markdown={facts} />
           </section>
-        ))}
+        )}
+        <section className="profile-section profile-skills" aria-labelledby="hard-skills-heading">
+          <span className="profile-section-number">02</span>
+          <div className="hard-skills">
+            <h2 id="hard-skills-heading">언어 · 하드 스킬</h2>
+            <ol>
+              {hardSkills.map((skill) => (
+                <li key={skill.level}>
+                  <span className="hard-skill-level">{skill.level}</span>
+                  <div>
+                    <strong>{skill.tools}</strong>
+                    <p>{skill.description}</p>
+                    <small>{skill.detail}</small>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </section>
+        {achievements && (
+          <section className="profile-section profile-achievements">
+            <span className="profile-section-number">03</span>
+            <MarkdownView markdown={achievements} />
+          </section>
+        )}
       </div>
     </div>
   )

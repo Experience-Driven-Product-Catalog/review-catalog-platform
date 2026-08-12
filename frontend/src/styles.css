@@ -550,12 +550,15 @@ a {
 }
 
 .profile-facts {
-  position: sticky;
-  top: 154px;
   background: #e8ffd1;
 }
 
+.profile-skills {
+  background: #eef0ff;
+}
+
 .profile-achievements {
+  grid-column: 1 / -1;
   background: white;
 }
 
@@ -614,6 +617,74 @@ a {
 
 .profile-facts .markdown-view ul ul li {
   margin: 7px 0;
+}
+
+.hard-skills {
+  position: relative;
+  z-index: 1;
+}
+
+.hard-skills h2 {
+  width: calc(100% - 58px);
+  margin: 0 0 9px;
+  padding: 0 0 17px;
+  border-bottom: 2px solid rgba(7, 17, 31, .12);
+  font-size: clamp(21px, 2.2vw, 26px);
+  letter-spacing: -.045em;
+}
+
+.hard-skills ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hard-skills li {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 14px;
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(7, 17, 31, .11);
+}
+
+.hard-skills li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.hard-skill-level {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  margin-top: 2px;
+  background: var(--profile-yellow);
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  color: var(--ink);
+  font: 600 9px 'IBM Plex Mono';
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.hard-skills strong {
+  display: block;
+  font-size: 17px;
+  line-height: 1.45;
+  letter-spacing: -.02em;
+}
+
+.hard-skills p,
+.hard-skills small {
+  display: block;
+  margin: 7px 0 0;
+  color: #4c5866;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.hard-skills small {
+  margin-top: 2px;
+  color: #687586;
 }
 
 .profile-achievements .markdown-view>ul {
