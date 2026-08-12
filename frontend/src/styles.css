@@ -536,7 +536,7 @@ a {
   display: grid;
   grid-template-columns: minmax(230px, .72fr) minmax(0, 1.6fr);
   gap: 24px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .profile-section {
@@ -554,6 +554,7 @@ a {
 }
 
 .profile-skills {
+  display: flex;
   background: #eef0ff;
 }
 
@@ -622,6 +623,9 @@ a {
 .hard-skills {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .hard-skills h2 {
@@ -634,6 +638,9 @@ a {
 }
 
 .hard-skills ol {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -641,9 +648,11 @@ a {
 
 .hard-skills li {
   display: grid;
+  flex: 1;
   grid-template-columns: 42px minmax(0, 1fr);
   gap: 14px;
-  padding: 22px 0;
+  align-content: start;
+  padding: 18px 0;
   border-bottom: 1px solid rgba(7, 17, 31, .11);
 }
 
@@ -673,18 +682,11 @@ a {
   letter-spacing: -.02em;
 }
 
-.hard-skills p,
-.hard-skills small {
-  display: block;
+.hard-skills p {
   margin: 7px 0 0;
   color: #4c5866;
   font-size: 15px;
   line-height: 1.6;
-}
-
-.hard-skills small {
-  margin-top: 2px;
-  color: #687586;
 }
 
 .profile-achievements .markdown-view>ul {

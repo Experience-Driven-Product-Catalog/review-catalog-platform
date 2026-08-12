@@ -14,21 +14,18 @@ const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Pro
 const hardSkills = [
   {
     level: '01',
-    tools: 'Python, SQL, Typescript · React, FastAPI, Flutter',
-    description: '언어와 도구를 주력으로 다룹니다.',
-    detail: '관련된 프로젝트가 다수 있어 실무에서 바로 이해하고 사용할 수 있습니다.',
+    tools: '언어는 Python, SQL, Typescript, 도구는 React, FastAPI, Flutter를 주력합니다.',
+    detail: '관련된 프로젝트가 다수 있으며 실무에서 바로 이해하고 사용할 수 있습니다.',
   },
   {
     level: '02',
-    tools: 'C/C++, Pandas, Pytorch, PostgreSQL, Airflow, Figma',
-    description: '구현과 디버깅을 통해 문제를 해결할 수 있습니다.',
-    detail: '세부 문법 및 API는 레퍼런스를 참고하며 작업합니다.',
+    tools: 'C/C++, Pandas, Pytorch, PostgreSQL, Airflow, Figma를 다룰 수 있습니다.',
+    detail: '직접 구현하고 디버깅하며 문제를 해결할 수 있으나, 세부 문법 및 API에 대한 레퍼런스 참고가 필요합니다.',
   },
   {
     level: '03',
-    tools: 'Spark, Kafka, Flink, DBT, Docker, AWS(devops)',
-    description: '작성된 코드를 보고 흐름을 이해할 수 있습니다.',
-    detail: '실질적인 경험은 더 쌓아야 하므로 숙지에 시간이 필요합니다.',
+    tools: 'Spark, Kafka, Flink, DBT, Docker, AWS(devops)는 코드를 이해할 수 있습니다.',
+    detail: '작성된 코드를 보고 이해할 수 있으나 실질적 경험이 부족하여 숙지에 시간이 필요합니다.',
   },
 ]
 
@@ -77,15 +74,14 @@ function ProfileResume({ markdown }: { markdown: string }) {
         <section className="profile-section profile-skills" aria-labelledby="hard-skills-heading">
           <span className="profile-section-number">02</span>
           <div className="hard-skills">
-            <h2 id="hard-skills-heading">언어 · 하드 스킬</h2>
+            <h2 id="hard-skills-heading">다룰 수 있는 언어와 도구</h2>
             <ol>
               {hardSkills.map((skill) => (
                 <li key={skill.level}>
                   <span className="hard-skill-level">{skill.level}</span>
                   <div>
                     <strong>{skill.tools}</strong>
-                    <p>{skill.description}</p>
-                    <small>{skill.detail}</small>
+                    <p>{skill.detail}</p>
                   </div>
                 </li>
               ))}
