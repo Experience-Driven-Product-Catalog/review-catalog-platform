@@ -10,7 +10,6 @@ const chapters = [
 ]
 
 const profileImageUrl = 'https://raw.githubusercontent.com/Experience-Driven-Product-Catalog/review-catalog-platform/refs/heads/main/assets/profile.jpg'
-const overviewPresentationUrl = 'https://docs.google.com/presentation/d/1hJUKJpNZVN-P-Qb7x7zTJNhMTZn31s8L/embed?start=false&loop=false&delayms=3000'
 
 const projectRepositories = [
   {
@@ -124,18 +123,6 @@ function ProfileResume({ markdown }: { markdown: string }) {
         )}
       </div>
     </div>
-  )
-}
-
-function OverviewPresentation() {
-  return (
-    <section className="overview-presentation" aria-label="프로젝트 프리젠테이션">
-      <iframe
-        src={overviewPresentationUrl}
-        title="리뷰 카탈로그 프로젝트 프리젠테이션"
-        allowFullScreen
-      />
-    </section>
   )
 }
 
@@ -254,7 +241,6 @@ export function HomePage() {
           </div>
         </div>
         <div className="chapter-content">
-          {chapter.id === 'overview' && <OverviewPresentation />}
           {error ? (
             <div className="error-card">{error}</div>
           ) : markdown ? (
