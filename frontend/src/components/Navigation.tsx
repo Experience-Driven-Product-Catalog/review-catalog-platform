@@ -9,7 +9,7 @@ export function Navigation() {
   return (
     <header className="topbar">
       <a href="/" className="brand">
-        <span className="brand-mark">RC</span>
+        <img className="brand-mark" src="/review-catalog-icon.png" alt="Review Catalog" />
         <span>
           <strong>Review Catalog</strong>
           <small>Experience-Driven Product Catalog</small>
