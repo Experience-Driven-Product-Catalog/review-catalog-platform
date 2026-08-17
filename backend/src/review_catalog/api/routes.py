@@ -46,6 +46,11 @@ REMOTE_README_URLS = {
     ),
 }
 
+README_UNAVAILABLE_MESSAGE = (
+    "현재 EC2 서버 자체에는 문제가 없지만, 설명 문서를 불러올 수 없습니다. "
+    "GitHub 관련 일시적인 문제일 수 있으니 잠시 후 다시 시도해 주세요."
+)
+
 
 def _current_release(session: Session) -> CatalogRelease | None:
     return session.scalar(
@@ -98,7 +103,7 @@ def about_section(section: str, settings: Settings = Depends(get_settings)) -> d
         )
         response.raise_for_status()
     except httpx.HTTPError as exc:
-        raise HTTPException(status_code=503, detail=f"README not available: {section}") from exc
+        raise HTTPException(status_code=503, detail=README_UNAVAILABLE_MESSAGE) from exc
     return {"markdown": response.text, "source_url": source_url}
 
 

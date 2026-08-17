@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import httpx
 import pytest
 from fastapi import HTTPException
 
@@ -12,6 +13,19 @@ class _ReadmeResponse:
 
     def raise_for_status(self) -> None:
         return None
+
+
+def test_about_sections_explain_remote_readme_failures(monkeypatch) -> None:
+    def fake_get(*_args, **_kwargs):
+        raise httpx.ConnectError("GitHub unavailable")
+
+    monkeypatch.setattr(routes.httpx, "get", fake_get)
+
+    with pytest.raises(HTTPException) as exc_info:
+        routes.about_section("overview", Settings())
+
+    assert exc_info.value.status_code == 503
+    assert exc_info.value.detail == routes.README_UNAVAILABLE_MESSAGE
 
 
 def test_about_sections_use_github_readmes_and_exact_local_profile(tmp_path, monkeypatch) -> None:

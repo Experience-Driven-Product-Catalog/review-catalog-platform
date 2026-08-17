@@ -66,7 +66,7 @@ function GitHubIcon() {
 }
 
 function ProfileResume({ markdown }: { markdown: string }) {
-  const profileMarkdown = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '').replaceAll('>[!warning]', '>')
+  const profileMarkdown = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '').replaceAll('[!warning]', '')
   const [intro, ...sections] = profileMarkdown.split(/(?=^## )/gm).filter(Boolean)
   const [facts, ...achievementSections] = sections
   const achievements = achievementSections.join('\n\n')
